@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1730930919858
+  login: 1730930094556
+money: '0'
+last-account-name: CommanderWolffe
+logoutlocation:
+  world: 2c00b3f1-3efb-4681-9e21-a5d4c7530aa9
+  world-name: world
+  x: 241.11242766977315
+  y: 36.0
+  z: -278.528743862976
+  yaw: 84.90032958984375
+  pitch: 38.24999237060547

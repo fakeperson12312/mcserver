@@ -1,0 +1,23 @@
+[2024/11/05 13:27:31]: §9          __             _       
+[2024/11/05 13:27:31]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/11/05 13:27:31]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/11/05 13:27:31]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/11/05 13:27:31]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/11/05 13:27:31]: §9                  |___/            
+[2024/11/05 13:27:31]: §9 By: www.nickuc.com - V 10.4.13 DEVELOPMENT
+[2024/11/05 13:27:31]: §9 
+[2024/11/05 13:27:31]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[2024/11/05 13:27:35]: §3[nLogin] [DEBUG] All settings were loaded in 3639 ms.
+[2024/11/05 13:27:35]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/11/05 13:27:35]: §3[nLogin] [DEBUG] All plugin messages were loaded in 105 ms (languageByClient=false).
+[2024/11/05 13:27:35]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2024/11/05 13:27:35]: §3[nLogin] [DEBUG] Loading database...
+[2024/11/05 13:27:35]: [nLogin] Generating RSA keypair... (this may take a while)
+[2024/11/05 13:27:37]: [nLogin] The RSA key pair was successfully generated. Took 2.23s
+[2024/11/05 13:27:37]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/11/05 13:27:37]: [nLogin] Downloading ProtocolLib...
+[2024/11/05 13:27:38]: [nLogin] *-----------------------------------------------*
+[2024/11/05 13:27:38]: [nLogin]   ProtocolLib has been successfully downloaded.
+[2024/11/05 13:27:38]: [nLogin]   Restarting server to apply changes...
+[2024/11/05 13:27:38]: [nLogin] *-----------------------------------------------*
+[2024/11/05 13:27:45]: [nLogin] Successful plugin core shutdown (took 0.00s)

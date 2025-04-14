@@ -1,0 +1,52 @@
+2025-04-14T00:13:55.309907276Z main WARN Advanced terminal features are not available in this environment
+[00:13:55 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[00:13:55 INFO]: Loading localizations...
+[00:13:55 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[00:13:56 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[00:13:56 INFO]: Loading plugins...
+[00:13:56 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[00:13:56 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[00:13:56 INFO]: Loaded 3 plugins
+[00:13:56 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[00:13:56 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[00:13:56 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[00:13:56 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[00:13:56 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[00:13:56 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[00:13:56 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[00:13:57 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[00:13:57 INFO]: Done (2.45s)!
+[00:13:57 ERROR] [TerminalConsole]: Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+[00:13:57 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:13:57 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[00:13:57 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[00:13:57 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[00:13:57 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:13:57 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[00:13:57 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[00:13:57 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[00:13:57 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[00:13:57 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:13:57 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[00:13:57 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[00:13:58 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[00:13:58 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[00:15:28 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8

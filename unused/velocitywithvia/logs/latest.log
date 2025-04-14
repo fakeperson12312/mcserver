@@ -1,0 +1,4 @@
+[00:01:15] [Thread-5/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[00:01:15] [Thread-5/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[00:01:15] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
+[00:01:15] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'

@@ -1,0 +1,106 @@
+[2025/04/10 19:54:30]: §9          __             _       
+[2025/04/10 19:54:30]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/04/10 19:54:30]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/04/10 19:54:30]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/04/10 19:54:30]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/04/10 19:54:30]: §9                  |___/            
+[2025/04/10 19:54:30]: §9 By: www.nickuc.com - V 10.4.21
+[2025/04/10 19:54:30]: §9 
+[2025/04/10 19:54:30]: §3[nLogin] [DEBUG] All settings were loaded in 124 ms.
+[2025/04/10 19:54:30]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/04/10 19:54:30]: §3[nLogin] [DEBUG] All plugin messages were loaded in 54 ms (languageByClient=false).
+[2025/04/10 19:54:30]: §3[nLogin] [DEBUG] All proxy settings were loaded in 9 ms.
+[2025/04/10 19:54:30]: §3[nLogin] [DEBUG] Loading database...
+[2025/04/10 19:54:30]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/04/10 19:54:35]: 
+[2025/04/10 19:54:35]:  §bThank you so much for choosing nLogin! §4<3
+[2025/04/10 19:54:35]: 
+[2025/04/10 19:54:35]:  §4For your safety, please read the message below:
+[2025/04/10 19:54:35]:   §cNever download nLogin from unknown sources.
+[2025/04/10 19:54:35]:   §cA modified version may contain malicious software.
+[2025/04/10 19:54:35]: 
+[2025/04/10 19:54:35]:  §3Trusted sources:
+[2025/04/10 19:54:35]:   §bwww.nickuc.com
+[2025/04/10 19:54:35]:   §bwww.github.com/nickuc
+[2025/04/10 19:54:35]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/04/10 19:54:35]: 
+[2025/04/10 19:54:35]:  §3Official support channels:
+[2025/04/10 19:54:35]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/04/10 19:54:35]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/04/10 19:54:35]:   §bEmail: §fsupport@nickuc.com
+[2025/04/10 19:54:35]:   §bYouTube: §fyoutube.com/nickuc
+[2025/04/10 19:54:35]: 
+[2025/04/10 19:54:35]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/04/10 19:54:35]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/04/10 19:54:35]: 
+[2025/04/10 19:55:00]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:55:04]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 19:55:04.81, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:55:04]: [nLogin] The user imasdf has successfully logged in.
+[2025/04/10 19:55:46]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:55:48]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:55:48.982, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:55:48]: [nLogin] The user Yuvrajxd has successfully logged in.
+[2025/04/10 19:55:55]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:56:06]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:56:19]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 19:56:19.214, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_seen, settings] columns)
+[2025/04/10 19:56:21]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:56:21]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:56:27]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Ath818', `unique_id` = 8ac22ffc0a763497b5efe7bac171b9b2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$fOOtdpkGnXes5crDeQN1nOZ7tLzgthMANA/x9eOkjw9bNnAmvQfuK', `last_ip` = '64.150.2.27', `creation_date` = 2024-11-06 01:48:17.712, `last_seen` = 2025-04-10 19:56:27.892, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:56:27]: [nLogin] The user Ath818 has successfully logged in.
+[2025/04/10 19:56:31]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:56:34]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 19:56:34.072, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:56:34]: [nLogin] The user imasdf has successfully logged in.
+[2025/04/10 19:57:22]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:57:22.956, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_seen, settings] columns)
+[2025/04/10 19:57:22]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Ath818', `unique_id` = 8ac22ffc0a763497b5efe7bac171b9b2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$fOOtdpkGnXes5crDeQN1nOZ7tLzgthMANA/x9eOkjw9bNnAmvQfuK', `last_ip` = '64.150.2.27', `creation_date` = 2024-11-06 01:48:17.712, `last_seen` = 2025-04-10 19:57:22.98, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/04/10 19:57:23]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 19:57:22.995, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_seen, settings] columns)
+[2025/04/10 19:57:58]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:57:58]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:01]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:02]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 19:58:02.115, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:58:02]: [nLogin] The user imasdf has successfully logged in.
+[2025/04/10 19:58:03]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:07]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:11]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:58:10.991, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:58:11]: [nLogin] The user Yuvrajxd has successfully logged in.
+[2025/04/10 19:58:19]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:33]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:36]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:41]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Ath818', `unique_id` = 8ac22ffc0a763497b5efe7bac171b9b2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$fOOtdpkGnXes5crDeQN1nOZ7tLzgthMANA/x9eOkjw9bNnAmvQfuK', `last_ip` = '64.150.2.27', `creation_date` = 2024-11-06 01:48:17.712, `last_seen` = 2025-04-10 19:58:41.8, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:58:41]: [nLogin] The user Ath818 has successfully logged in.
+[2025/04/10 19:58:47]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:58:47]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:59:04]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:59:05]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:59:23]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:59:30]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:59:58]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:00:08]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:00:21]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:00:25]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('mundoispluh', f3d500015a5f381bae5d981c0d9d0f1f, null, null, '$2a$10$aWoJ77egFVqeYySLAV6wUeT9lWAemnIC8Nv4TcGJdcLh6Y7Pd8Saq', '64.150.2.24', '2025-04-10 20:00:24.993', '2025-04-10 20:00:24.993', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/04/10 20:00:25]: [nLogin] The user mundoispluh has successfully registered.
+[2025/04/10 20:00:43]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:00:55]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:01:25]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:01:39]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:01:57]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:02:09]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:02:13]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Ath818', `unique_id` = 8ac22ffc0a763497b5efe7bac171b9b2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$fOOtdpkGnXes5crDeQN1nOZ7tLzgthMANA/x9eOkjw9bNnAmvQfuK', `last_ip` = '64.150.2.27', `creation_date` = 2024-11-06 01:48:17.712, `last_seen` = 2025-04-10 20:02:13.491, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 20:02:13]: [nLogin] The user Ath818 has successfully logged in.
+[2025/04/10 20:26:27]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 20:26:27.005, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_seen, settings] columns)
+[2025/04/10 20:26:36]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:26:38]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 20:26:38.774, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 20:26:38]: [nLogin] The user imasdf has successfully logged in.
+[2025/04/10 20:29:13]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 20:29:13.74, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_seen, settings] columns)
+[2025/04/10 20:29:25]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:29:29]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 20:29:29.501, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 20:29:29]: [nLogin] The user Yuvrajxd has successfully logged in.
+[2025/04/10 20:35:29]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 20:35:29.114, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_seen, settings] columns)
+[2025/04/10 20:36:39]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 20:36:43]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 20:36:43.651, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 20:36:43]: [nLogin] The user imasdf has successfully logged in.
+[2025/04/10 20:59:37]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Ath818', `unique_id` = 8ac22ffc0a763497b5efe7bac171b9b2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$fOOtdpkGnXes5crDeQN1nOZ7tLzgthMANA/x9eOkjw9bNnAmvQfuK', `last_ip` = '64.150.2.27', `creation_date` = 2024-11-06 01:48:17.712, `last_seen` = 2025-04-10 20:59:37.266, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/04/10 21:00:12]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 21:00:24]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 21:01:38]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 21:01:38.675, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_seen, settings] columns)
+[2025/04/10 21:01:54]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 21:01:54.603, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_seen, settings] columns)
+[2025/04/10 21:02:12]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'mundoispluh', `unique_id` = f3d500015a5f381bae5d981c0d9d0f1f,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$aWoJ77egFVqeYySLAV6wUeT9lWAemnIC8Nv4TcGJdcLh6Y7Pd8Saq', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-10 20:00:24.993, `last_seen` = 2025-04-10 21:02:12.836, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 10" (applied to [last_seen, settings] columns)
+[2025/04/11 00:06:49]: [nLogin] Successful plugin core shutdown (took 0.00s)
