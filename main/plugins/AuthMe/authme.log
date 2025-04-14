@@ -500,3 +500,16 @@
 [04-14 00:09:18]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/1.21.1-Eaglercraft-Server/main/plugins/Essentials/spawn.yml'
 [04-14 00:09:18]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
 [04-14 00:09:22]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-14 00:48:01]: [INFO] SQLite Setup finished
+[04-14 00:48:01]: [INFO] Hooked into LuckPerms!
+[04-14 00:48:01]: [INFO] Hooked successfully into Essentials
+[04-14 00:48:01]: [INFO] Hooked successfully into Multiverse-Core
+[04-14 00:48:01]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-14 00:48:02]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-14 01:03:40]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-14 01:06:49]: [INFO] SQLite Setup finished
+[04-14 01:06:49]: [INFO] Hooked into LuckPerms!
+[04-14 01:06:49]: [INFO] Hooked successfully into Essentials
+[04-14 01:06:49]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-14 01:06:49]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-14 01:12:24]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!

@@ -50,3 +50,11 @@ java.io.IOException: Bad file descriptor
 [00:13:58 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
 [00:13:58 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
 [00:15:28 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[00:19:59 INFO]: [initial connection] /45.135.194.8:41372 is pinging the server with version 1.8
+[00:30:49 INFO]: [initial connection] /156.146.63.199:21714 is pinging the server with version Unknown
+[00:37:37 INFO]: [initial connection] /45.135.194.8:47502 is pinging the server with version 1.8
+[00:47:07 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[00:50:09 INFO]: [initial connection] /156.146.63.199:41494 is pinging the server with version 1.21
+[00:55:08 INFO]: [initial connection] /45.135.194.8:47174 is pinging the server with version 1.8
+[01:04:55 INFO]: [initial connection] /146.70.196.21:42068 is pinging the server with version 1.20.3
+[01:12:41 INFO]: [initial connection] /45.135.194.8:44578 is pinging the server with version 1.8

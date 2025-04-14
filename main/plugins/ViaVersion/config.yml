@@ -9,7 +9,7 @@
 #----------------------------------------------------------#
 #
 # Should ViaVersion check for updates?
-check-for-updates: true
+check-for-updates: false
 # Send the supported versions with the Status (Ping) response packet
 send-supported-versions: false
 # Easier to configure alternative to 'block-protocols'. Uses readable version strings with possible '<' and '>' prefixes.
@@ -38,7 +38,7 @@ suppress-conversion-warnings: false
 #
 # What is the maximum per second a client can send (Use %pps to display their pps)
 # Use -1 to disable.
-max-pps: 800
+max-pps: 75
 max-pps-kick-msg: You are sending too many packets!
 #
 # We can also kick them if over a period they send over a threshold a certain amount of times.
@@ -156,7 +156,7 @@ fix-1_21-placement-rotation: true
 # Do you want us to prevent collision?
 prevent-collision: true
 # If the above is true, should we automatically team players until you do?
-auto-team: true
+auto-team: false
 # When enabled if certain entity data can't be read, we won't tell you about it
 suppress-metadata-errors: false
 # When enabled, 1.9+ will be able to block by using shields
@@ -168,7 +168,7 @@ no-delay-shield-blocking: false
 # If this setting is active, the shield will appear immediately for 1.9+ when you hold a sword in your main hand.
 # The shield disappears when you switch to another item.
 # (Requires "shield-blocking" to be enabled)
-show-shield-when-sword-in-hand: false
+show-shield-when-sword-in-hand: true
 # Enable player tick simulation, this fixes eating, drinking, nether portals.
 simulate-pt: true
 # Should we use nms player to simulate packets, (may fix anti-cheat issues)
@@ -188,7 +188,7 @@ replace-pistons: false
 # What id should we replace with, default is air. (careful of players getting stuck standing on them)
 replacement-piston-id: 0
 # Fix 1.9+ clients not rendering the far away chunks and improve chunk rendering when moving fast (Increases network usage and decreases client fps slightly)
-chunk-border-fix: false
+chunk-border-fix: true
 # Allows 1.9+ left-handedness (main hand) on 1.8 servers
 left-handed-handling: true
 # Tries to cancel block break/place sounds sent by 1.8 servers to 1.9+ clients to prevent them from playing twice
