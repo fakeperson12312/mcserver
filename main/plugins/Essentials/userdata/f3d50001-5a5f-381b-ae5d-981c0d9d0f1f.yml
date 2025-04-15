@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 64.150.2.24
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1744664061936
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744666969694
+  login: 1744662118491
+money: '0'
+last-account-name: mundoispluh
+lastlocation:
+  world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+  world-name: world
+  x: 532.4362207236765
+  y: -1.0
+  z: -1588.699999988079
+  yaw: -160.6337890625
+  pitch: -60.14991760253906
+logoutlocation:
+  world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+  world-name: world
+  x: 1104.4373357233967
+  y: 9.0
+  z: -2234.699999988079
+  yaw: 177.56103515625
+  pitch: 40.64999008178711

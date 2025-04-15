@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 64.150.2.26
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1744666659070
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744666948845
+  login: 1744664610491
+money: '0'
+last-account-name: Semiboi
+logoutlocation:
+  world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+  world-name: world
+  x: 1097.003321213654
+  y: -20.0
+  z: -2178.5529414134894
+  yaw: 86.66986083984375
+  pitch: 23.249969482421875
+lastlocation:
+  world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+  world-name: world
+  x: 125.5
+  y: 72.0
+  z: -338.5
+  yaw: 0.0
+  pitch: 0.0

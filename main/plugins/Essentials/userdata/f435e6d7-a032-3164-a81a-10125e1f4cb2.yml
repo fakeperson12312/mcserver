@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 204.14.36.11
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1744687399651
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744687408195
+  login: 1744687361802
+money: '0'
+last-account-name: Yuvrajxd
+logoutlocation:
+  world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+  world-name: world
+  x: -2574.4443908834437
+  y: 45.0
+  z: 43.92594498958604
+  yaw: -173.20144653320312
+  pitch: 7.649948596954346
+homes:
+  home:
+    world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+    world-name: world
+    x: -2574.3594370428877
+    y: 47.0
+    z: 45.69999998807907
+    yaw: 102.79846954345703
+    pitch: 28.799951553344727
+lastlocation:
+  world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+  world-name: world
+  x: -2536.8601672420773
+  y: 69.0
+  z: 98.46345120059388
+  yaw: 83.32803344726562
+  pitch: 1.0499563217163086

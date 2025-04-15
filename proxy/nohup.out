@@ -1,22 +1,22 @@
-2025-04-14T00:13:55.309907276Z main WARN Advanced terminal features are not available in this environment
-[00:13:55 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
-[00:13:55 INFO]: Loading localizations...
-[00:13:55 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
-[00:13:56 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[00:13:56 INFO]: Loading plugins...
-[00:13:56 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
-[00:13:56 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
-[00:13:56 INFO]: Loaded 3 plugins
-[00:13:56 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
-[00:13:56 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
-[00:13:56 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
-[00:13:56 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
-[00:13:56 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[00:13:56 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[00:13:56 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[00:13:57 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[00:13:57 INFO]: Done (2.45s)!
-[00:13:57 ERROR] [TerminalConsole]: Failed to read console input
+2025-04-14T13:09:31.486087973Z main WARN Advanced terminal features are not available in this environment
+[13:09:31 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[13:09:32 INFO]: Loading localizations...
+[13:09:32 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[13:09:32 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[13:09:32 INFO]: Loading plugins...
+[13:09:32 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[13:09:32 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[13:09:32 INFO]: Loaded 3 plugins
+[13:09:32 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[13:09:32 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[13:09:32 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[13:09:32 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[13:09:32 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[13:09:32 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[13:09:33 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[13:09:33 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[13:09:33 INFO]: Done (2.32s)!
+[13:09:33 ERROR] [TerminalConsole]: Failed to read console input
 java.io.IOException: Bad file descriptor
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -35,26 +35,754 @@ java.io.IOException: Bad file descriptor
 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
-[00:13:57 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
-[00:13:57 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
-[00:13:57 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
-[00:13:57 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
-[00:13:57 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
-[00:13:57 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
-[00:13:57 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
-[00:13:57 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
-[00:13:57 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
-[00:13:57 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
-[00:13:57 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[00:13:57 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[00:13:58 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
-[00:13:58 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
-[00:15:28 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
-[00:19:59 INFO]: [initial connection] /45.135.194.8:41372 is pinging the server with version 1.8
-[00:30:49 INFO]: [initial connection] /156.146.63.199:21714 is pinging the server with version Unknown
-[00:37:37 INFO]: [initial connection] /45.135.194.8:47502 is pinging the server with version 1.8
-[00:47:07 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
-[00:50:09 INFO]: [initial connection] /156.146.63.199:41494 is pinging the server with version 1.21
-[00:55:08 INFO]: [initial connection] /45.135.194.8:47174 is pinging the server with version 1.8
-[01:04:55 INFO]: [initial connection] /146.70.196.21:42068 is pinging the server with version 1.20.3
-[01:12:41 INFO]: [initial connection] /45.135.194.8:44578 is pinging the server with version 1.8
+[13:09:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:09:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[13:09:33 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[13:09:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[13:09:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:09:33 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[13:09:33 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[13:09:33 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[13:09:33 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[13:09:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:09:33 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[13:09:33 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[13:09:34 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[13:09:34 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[13:09:40 INFO] [eaglerxvelocity]: [/64.150.15.14:51153]: Connected via websocket
+[13:09:40 INFO] [eaglerxvelocity]: [/64.150.15.14:51153]: Origin header is http://34.173.135.58
+[13:09:41 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:51153) has connected
+[13:09:41 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:10:26 INFO]: [initial connection] /155.248.209.22:61000 is pinging the server with version 1.8
+[13:15:16 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:51153): kicked from server main: An internal server connection error occurred.
+[13:15:16 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:15:16 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:51153) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[13:17:24 INFO]: [initial connection] /45.135.194.8:34070 is pinging the server with version 1.8
+[13:18:11 INFO]: [initial connection] /156.146.63.199:28364 is pinging the server with version 1.21
+[13:25:37 INFO] [eaglerxvelocity]: [/64.150.15.14:22796]: Connected via websocket
+[13:25:37 INFO] [eaglerxvelocity]: [/64.150.15.14:22796]: Origin header is http://34.173.135.58
+[13:25:39 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:22796) has connected
+[13:25:39 ERROR]: [connected player] asdfasdfasdf1234 (/64.150.15.14:22796): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[13:25:39 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:22796) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[13:27:54 INFO] [eaglerxvelocity]: [/64.150.15.14:12871]: Connected via websocket
+[13:27:54 INFO] [eaglerxvelocity]: [/64.150.15.14:12871]: Origin header is http://34.173.135.58
+[13:27:55 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:12871) has connected
+[13:27:55 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:28:09 WARN] [eaglerxvelocity]: Server icon is not a file: /home/ubuntu/server/mc/proxy/server-icon.png
+[13:28:13 INFO] [eaglerxvelocity]: [/64.150.15.14:2560]: Connected via websocket
+[13:28:13 INFO] [eaglerxvelocity]: [/64.150.15.14:2560]: Origin header is http://149.130.209.12:8081
+[13:28:17 INFO] [eaglerxvelocity]: [/64.150.15.14:38670]: Connected via websocket
+[13:28:17 INFO] [eaglerxvelocity]: [/64.150.15.14:38670]: Origin header is http://149.130.209.12:8081
+[13:28:27 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:12871): kicked from server main: Login timeout exceeded, you have been kicked from the server, please try again!
+[13:28:27 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:28:27 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:12871) has disconnected: [38;2;255;85;85mYou were kicked from main: [38;2;170;0;0mLogin timeout exceeded, you have been kicked from the server, please try again![0m
+[13:28:45 INFO] [eaglerxvelocity]: [/64.150.15.14:18366]: Connected via websocket
+[13:28:45 INFO] [eaglerxvelocity]: [/64.150.15.14:18366]: Origin header is http://34.173.135.58
+[13:28:45 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:18366) has connected
+[13:28:45 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:34:57 INFO]: [initial connection] /45.135.194.8:39294 is pinging the server with version 1.8
+[13:38:27 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:18366) has disconnected
+[13:38:27 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:42:57 INFO] [eaglerxvelocity]: [/64.150.15.14:48106]: Connected via websocket
+[13:42:57 INFO] [eaglerxvelocity]: [/64.150.15.14:48106]: Origin header is http://34.173.135.58
+[13:42:58 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:48106) has connected
+[13:42:58 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:43:29 INFO]: [initial connection] /185.213.155.143:48394 is pinging the server with version 1.20.3
+[13:45:33 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:48106) has disconnected
+[13:45:33 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:46:02 INFO] [eaglerxvelocity]: [/64.150.15.14:56852]: Connected via websocket
+[13:46:02 INFO] [eaglerxvelocity]: [/64.150.15.14:56852]: Origin header is http://34.173.135.58
+[13:46:03 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:56852) has connected
+[13:46:03 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:51:38 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:56852): kicked from server main: An internal server connection error occurred.
+[13:51:38 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:51:38 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:56852) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[13:51:44 INFO] [eaglerxvelocity]: [/64.150.15.14:43716]: Connected via websocket
+[13:51:44 INFO] [eaglerxvelocity]: [/64.150.15.14:43716]: Origin header is http://34.173.135.58
+[13:51:45 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:43716) has connected
+[13:51:45 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:52:30 INFO]: [initial connection] /45.135.194.8:54328 is pinging the server with version 1.8
+[13:53:32 INFO]: [initial connection] /156.146.63.199:38572 is pinging the server with version Unknown
+[13:53:38 INFO]: [initial connection] /95.111.227.12:52558 is pinging the server with version 1.20.3
+[14:03:41 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:43716) has disconnected
+[14:03:41 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[14:03:56 INFO] [eaglerxvelocity]: [/64.150.15.14:12557]: Connected via websocket
+[14:03:56 INFO] [eaglerxvelocity]: [/64.150.15.14:12557]: Origin header is http://34.173.135.58
+[14:03:57 INFO] [eaglerxvelocity]: [connected player] asdfasdf (/64.150.15.14:12557) has connected
+[14:03:57 INFO]: [server connection] asdfasdf -> main has connected
+[14:04:25 INFO]: [connected player] asdfasdf (/64.150.15.14:12557) has disconnected
+[14:04:25 INFO]: [server connection] asdfasdf -> main has disconnected
+[14:04:36 INFO] [eaglerxvelocity]: [/64.150.15.14:11147]: Connected via websocket
+[14:04:36 INFO] [eaglerxvelocity]: [/64.150.15.14:11147]: Origin header is http://34.173.135.58
+[14:04:37 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:11147) has connected
+[14:04:37 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[14:05:07 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:11147): kicked from server main: Login timeout exceeded, you have been kicked from the server, please try again!
+[14:05:07 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[14:05:07 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:11147) has disconnected: [38;2;255;85;85mYou were kicked from main: [38;2;170;0;0mLogin timeout exceeded, you have been kicked from the server, please try again![0m
+[14:05:10 INFO] [eaglerxvelocity]: [/64.150.15.14:28675]: Connected via websocket
+[14:05:10 INFO] [eaglerxvelocity]: [/64.150.15.14:28675]: Origin header is http://34.173.135.58
+[14:05:10 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:28675) has connected
+[14:05:10 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[14:05:12 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:28675): kicked from server main: Wrong password!
+[14:05:12 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[14:05:12 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:28675) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[14:05:14 INFO] [eaglerxvelocity]: [/64.150.15.14:52696]: Connected via websocket
+[14:05:14 INFO] [eaglerxvelocity]: [/64.150.15.14:52696]: Origin header is http://34.173.135.58
+[14:05:14 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:52696) has connected
+[14:05:14 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[14:08:10 INFO] [eaglerxvelocity]: [/64.150.15.14:24031]: Connected via websocket
+[14:08:10 INFO] [eaglerxvelocity]: [/64.150.15.14:24031]: Origin header is http://34.173.135.58
+[14:08:11 INFO] [eaglerxvelocity]: [connected player] asdfasdf (/64.150.15.14:24031) has connected
+[14:08:11 INFO]: [server connection] asdfasdf -> main has connected
+[14:09:34 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[14:10:07 INFO]: [initial connection] /45.135.194.8:46504 is pinging the server with version 1.8
+[14:10:28 INFO]: [connected player] asdfasdf (/64.150.15.14:24031): kicked from server main: An internal server connection error occurred.
+[14:10:28 INFO]: [server connection] asdfasdf -> main has disconnected
+[14:10:28 INFO]: [connected player] asdfasdf (/64.150.15.14:24031) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[14:10:54 INFO] [eaglerxvelocity]: [/64.150.15.14:42078]: Connected via websocket
+[14:10:54 INFO] [eaglerxvelocity]: [/64.150.15.14:42078]: Origin header is http://34.173.135.58
+[14:10:55 INFO] [eaglerxvelocity]: [connected player] asdfasdf (/64.150.15.14:42078) has connected
+[14:10:55 INFO]: [server connection] asdfasdf -> main has connected
+[14:12:44 INFO]: [connected player] asdfasdf (/64.150.15.14:42078): kicked from server main: An internal server connection error occurred.
+[14:12:44 INFO]: [server connection] asdfasdf -> main has disconnected
+[14:12:44 INFO]: [connected player] asdfasdf (/64.150.15.14:42078) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[14:14:36 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:52696): kicked from server main: An internal server connection error occurred.
+[14:14:36 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[14:14:36 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:52696) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[14:15:16 INFO] [eaglerxvelocity]: [/64.150.15.14:24381]: Connected via websocket
+[14:15:16 INFO] [eaglerxvelocity]: [/64.150.15.14:24381]: Origin header is http://34.173.135.58
+[14:15:17 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:24381) has connected
+[14:15:17 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[14:17:04 INFO]: [initial connection] /156.253.227.23:44672 is pinging the server with version 1.20.2
+[14:19:07 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[14:25:26 INFO]: [initial connection] /156.146.63.199:29802 is pinging the server with version 1.21
+[14:27:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[14:27:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[14:27:33 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[14:27:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[14:27:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[14:27:33 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[14:27:33 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[14:27:33 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[14:27:33 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[14:27:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[14:27:33 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[14:27:33 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[14:27:41 INFO]: [initial connection] /45.135.194.8:56424 is pinging the server with version 1.8
+[14:29:41 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:24381) has disconnected
+[14:29:41 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[14:45:14 INFO]: [initial connection] /45.135.194.8:55896 is pinging the server with version 1.8
+[14:45:17 INFO]: [initial connection] /156.146.63.199:27930 is pinging the server with version Unknown
+[14:57:56 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[15:01:14 INFO]: [initial connection] /156.146.63.199:48168 is pinging the server with version Unknown
+[15:02:48 INFO]: [initial connection] /45.135.194.8:53420 is pinging the server with version 1.8
+[15:17:04 INFO]: [initial connection] /156.253.227.141:49570 is pinging the server with version 1.20.2
+[15:18:21 INFO]: [initial connection] /193.138.218.162:41166 is pinging the server with version 1.20.3
+[15:20:22 INFO]: [initial connection] /45.135.194.8:58664 is pinging the server with version 1.8
+[15:31:52 INFO]: [initial connection] /156.146.63.199:38044 is pinging the server with version 1.21
+[15:35:02 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[15:39:06 INFO]: [initial connection] /45.135.194.8:44436 is pinging the server with version 1.8
+[15:45:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[15:45:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[15:45:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[15:45:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[15:45:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[15:45:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[15:45:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[15:45:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[15:45:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[15:45:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[15:45:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[15:45:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[15:48:22 INFO]: [initial connection] /156.146.63.199:33546 is pinging the server with version Unknown
+[15:56:40 INFO]: [initial connection] /45.135.194.8:51504 is pinging the server with version 1.8
+[15:58:18 INFO]: [initial connection] /95.111.227.12:52336 is pinging the server with version 1.20.3
+[16:04:07 INFO]: [initial connection] /156.146.63.199:28000 is pinging the server with version Unknown
+[16:12:46 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[16:14:09 INFO]: [initial connection] /45.135.194.8:45092 is pinging the server with version 1.8
+[16:17:05 INFO]: [initial connection] /156.253.227.23:59838 is pinging the server with version 1.20.2
+[16:27:38 INFO]: [initial connection] /156.146.63.199:44316 is pinging the server with version Unknown
+[16:31:31 INFO]: [initial connection] /45.135.194.8:50566 is pinging the server with version 1.8
+[16:37:07 INFO]: [initial connection] /156.146.63.199:59150 is pinging the server with version 1.21
+[16:48:51 INFO]: [initial connection] /45.135.194.8:58532 is pinging the server with version 1.8
+[16:53:56 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[16:57:06 INFO]: [legacy connection] /62.171.145.17:61000 is pinging the server with version Legacy
+[16:58:30 INFO]: [initial connection] /146.70.225.149:43802 is pinging the server with version 1.20.3
+[17:03:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[17:03:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[17:03:33 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[17:03:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[17:03:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[17:03:33 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[17:03:33 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[17:03:33 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[17:03:33 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[17:03:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[17:03:33 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[17:03:33 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[17:06:14 INFO]: [initial connection] /45.135.194.8:48630 is pinging the server with version 1.8
+[17:06:29 INFO]: [initial connection] /156.146.63.199:26022 is pinging the server with version Unknown
+[17:17:20 INFO]: [initial connection] /156.253.227.141:34684 is pinging the server with version 1.20.2
+[17:23:35 INFO]: [initial connection] /45.135.194.8:38838 is pinging the server with version 1.8
+[17:24:37 INFO]: [initial connection] /156.146.63.199:29720 is pinging the server with version Unknown
+[17:30:04 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[17:40:55 INFO]: [initial connection] /45.135.194.8:46474 is pinging the server with version 1.8
+[17:46:52 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[17:50:57 INFO]: [initial connection] /156.146.63.199:15154 is pinging the server with version 1.21
+[17:58:14 INFO]: [initial connection] /45.135.194.8:40030 is pinging the server with version 1.8
+[18:03:26 INFO]: [initial connection] /64.150.2.26:39360 is pinging the server with version 1.21
+[18:03:27 INFO]: [connected player] Semiboi (/64.150.2.26:53951) has connected
+[18:03:27 INFO]: [server connection] Semiboi -> main has connected
+[18:05:33 INFO]: [initial connection] /95.111.227.12:54460 is pinging the server with version 1.20.3
+[18:08:48 WARN] [eaglerxvelocity]: [Pre][/74.82.62.136:40496]: Exception Caught: io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[18:13:49 INFO]: [initial connection] /156.146.63.199:15502 is pinging the server with version Unknown
+[18:14:10 INFO]: [initial connection] /64.150.2.25:8138 is pinging the server with version 1.21
+[18:14:13 INFO]: [connected player] Yuvrajxd (/64.150.2.25:43574) has connected
+[18:14:13 INFO]: [server connection] Yuvrajxd -> main has connected
+[18:15:36 INFO]: [initial connection] /45.135.194.8:57608 is pinging the server with version 1.8
+[18:17:10 INFO]: [initial connection] /156.253.227.23:36382 is pinging the server with version 1.20.2
+[18:17:40 INFO]: [initial connection] /156.146.63.199:58852 is pinging the server with version Unknown
+[18:21:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[18:21:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[18:21:33 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[18:21:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[18:21:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[18:21:33 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[18:21:33 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[18:21:33 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[18:21:33 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[18:21:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[18:21:33 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[18:21:33 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[18:25:01 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[18:30:06 INFO]: [connected player] Yuvrajxd (/64.150.2.25:43574) has disconnected
+[18:30:06 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[18:30:07 INFO]: [initial connection] /64.150.2.25:9368 is pinging the server with version 1.21
+[18:30:52 INFO]: [connected player] Iwontgrief (/64.150.2.24:53881) has connected
+[18:30:52 INFO]: [server connection] Iwontgrief -> main has connected
+[18:31:00 INFO]: [initial connection] /146.70.134.140:45140 is pinging the server with version 1.20.3
+[18:31:01 INFO]: [connected player] Yuvrajxd (/64.150.2.25:43911) has connected
+[18:31:01 INFO]: [server connection] Yuvrajxd -> main has connected
+[18:31:06 INFO]: [connected player] Yuvrajxd (/64.150.2.25:43911): kicked from server main: Wrong password!
+[18:31:06 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[18:31:06 INFO]: [connected player] Yuvrajxd (/64.150.2.25:43911) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[18:31:09 INFO]: [connected player] Yuvrajxd (/64.150.2.25:31377) has connected
+[18:31:09 INFO]: [server connection] Yuvrajxd -> main has connected
+[18:32:59 INFO]: [initial connection] /45.135.194.8:43730 is pinging the server with version 1.8
+[18:40:45 INFO]: [initial connection] /156.146.63.199:44054 is pinging the server with version Unknown
+[18:42:01 INFO]: [connected player] Iwontgrief (/64.150.2.24:53881) has disconnected
+[18:42:01 INFO]: [server connection] Iwontgrief -> main has disconnected
+[18:42:01 INFO]: [initial connection] /64.150.2.24:46062 is pinging the server with version 1.21
+[18:42:41 INFO]: [connected player] Yuvrajxd (/64.150.2.25:31377) has disconnected
+[18:42:41 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[18:42:41 INFO]: [initial connection] /64.150.2.25:10379 is pinging the server with version 1.21
+[18:43:19 INFO]: [connected player] Semiboi (/64.150.2.26:53951) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[18:43:19 ERROR]: [connected player] Semiboi (/64.150.2.26:53951): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@4ba31a5
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[18:43:19 INFO]: [server connection] Semiboi -> main has disconnected
+[18:50:17 INFO]: [initial connection] /45.135.194.8:58524 is pinging the server with version 1.8
+[19:00:26 INFO]: [initial connection] /156.146.63.199:37034 is pinging the server with version 1.21
+[19:02:48 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[19:07:36 INFO]: [initial connection] /45.135.194.8:45720 is pinging the server with version 1.8
+[19:17:14 INFO]: [initial connection] /156.253.227.23:55908 is pinging the server with version 1.20.2
+[19:24:54 INFO]: [initial connection] /45.135.194.8:38474 is pinging the server with version 1.8
+[19:29:20 INFO]: [initial connection] /156.146.63.199:36620 is pinging the server with version Unknown
+[19:39:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[19:39:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[19:39:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[19:39:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[19:39:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[19:39:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[19:39:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[19:39:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[19:39:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[19:39:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[19:39:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[19:39:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[19:40:13 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[19:42:14 INFO]: [initial connection] /45.135.194.8:45512 is pinging the server with version 1.8
+[19:46:38 INFO]: [initial connection] /156.146.63.199:41632 is pinging the server with version Unknown
+[19:59:34 INFO]: [initial connection] /45.135.194.8:40224 is pinging the server with version 1.8
+[20:03:49 INFO]: [initial connection] /146.70.128.186:57796 is pinging the server with version 1.20.3
+[20:06:19 INFO]: [initial connection] /193.25.217.28:33210 is pinging the server with version 1.21.2
+[20:15:23 INFO]: [initial connection] /95.111.227.12:59792 is pinging the server with version 1.20.3
+[20:15:26 INFO]: [initial connection] /156.146.63.199:53206 is pinging the server with version 1.21
+[20:16:55 INFO]: [initial connection] /45.135.194.8:37664 is pinging the server with version 1.8
+[20:17:16 INFO]: [initial connection] /156.253.227.141:34482 is pinging the server with version 1.20.2
+[20:18:30 INFO]: [legacy connection] /135.119.88.212:49284 is pinging the server with version Legacy
+[20:19:06 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[20:20:56 INFO] [eaglerxvelocity]: [/64.150.15.14:48722]: Connected via websocket
+[20:20:56 INFO] [eaglerxvelocity]: [/64.150.15.14:48722]: Origin header is http://34.173.135.58
+[20:20:57 INFO] [eaglerxvelocity]: [connected player] imasdf (/64.150.15.14:48722) has connected
+[20:20:57 INFO]: [server connection] imasdf -> main has connected
+[20:21:56 INFO]: [initial connection] /64.150.2.24:21323 is pinging the server with version 1.21
+[20:21:56 INFO]: [connected player] mundoispluh (/64.150.2.24:39484) has connected
+[20:21:56 INFO]: [server connection] mundoispluh -> main has connected
+[20:23:31 INFO]: [initial connection] /64.150.2.24:58385 is pinging the server with version 1.21
+[20:23:32 INFO]: [connected player] Ath818 (/64.150.2.24:28271) has connected
+[20:23:33 INFO]: [server connection] Ath818 -> main has connected
+[20:26:54 INFO]: [connected player] imasdf (/64.150.15.14:48722) has disconnected
+[20:26:54 INFO]: [server connection] imasdf -> main has disconnected
+[20:27:04 INFO] [eaglerxvelocity]: [/64.150.15.14:47682]: Connected via websocket
+[20:27:04 INFO] [eaglerxvelocity]: [/64.150.15.14:47682]: Origin header is http://34.173.135.58
+[20:27:06 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:47682) has connected
+[20:27:06 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[20:30:21 INFO]: [initial connection] /64.150.2.26:54661 is pinging the server with version 1.21
+[20:30:25 INFO]: [connected player] Semiboi (/64.150.2.26:48063) has connected
+[20:30:25 INFO]: [server connection] Semiboi -> main has connected
+[20:34:11 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:47682) has disconnected
+[20:34:11 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[20:34:15 INFO]: [initial connection] /45.135.194.8:45178 is pinging the server with version 1.8
+[20:35:15 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[20:37:02 INFO]: [connected player] Ath818 (/64.150.2.24:28271) has disconnected
+[20:37:02 INFO]: [server connection] Ath818 -> main has disconnected
+[20:37:02 INFO]: [initial connection] /64.150.2.24:48423 is pinging the server with version 1.21
+[20:40:02 INFO]: [initial connection] /64.150.2.24:37016 is pinging the server with version 1.21
+[20:41:49 INFO]: [initial connection] /64.150.2.24:6754 is pinging the server with version 1.21
+[20:41:50 INFO]: [connected player] Ath818 (/64.150.2.24:44364) has connected
+[20:41:50 INFO]: [server connection] Ath818 -> main has connected
+[20:50:54 INFO]: [initial connection] /156.146.63.199:39878 is pinging the server with version Unknown
+[20:51:36 INFO]: [initial connection] /45.135.194.8:33660 is pinging the server with version 1.8
+[20:54:33 INFO]: [connected player] Semiboi (/64.150.2.26:48063) has disconnected
+[20:54:33 INFO]: [server connection] Semiboi -> main has disconnected
+[20:54:33 INFO]: [initial connection] /64.150.2.26:5489 is pinging the server with version 1.21
+[20:57:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:57:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:57:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[20:57:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:57:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:57:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[20:57:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[20:57:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[20:57:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[20:57:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:57:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[20:57:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[20:58:14 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:00:33 INFO]: [initial connection] /64.150.2.26:39306 is pinging the server with version 1.21
+[21:03:28 INFO]: [initial connection] /64.150.2.26:41606 is pinging the server with version 1.21
+[21:03:29 INFO]: [connected player] Semiboi (/64.150.2.26:7411) has connected
+[21:03:29 INFO]: [server connection] Semiboi -> main has connected
+[21:04:55 INFO]: [initial connection] /156.146.63.199:43770 is pinging the server with version Unknown
+[21:09:09 INFO]: [initial connection] /45.135.194.8:43922 is pinging the server with version 1.8
+[21:17:19 INFO]: [initial connection] /156.253.227.141:32980 is pinging the server with version 1.20.2
+[21:26:32 INFO]: [initial connection] /45.135.194.8:33712 is pinging the server with version 1.8
+[21:31:30 INFO]: [initial connection] /156.146.63.199:26884 is pinging the server with version 1.21
+[21:36:52 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:41:22 INFO]: [connected player] Ath818 (/64.150.2.24:44364) has disconnected
+[21:41:22 INFO]: [server connection] Ath818 -> main has disconnected
+[21:41:23 INFO]: [initial connection] /64.150.2.24:15659 is pinging the server with version 1.21
+[21:42:28 INFO]: [connected player] Semiboi (/64.150.2.26:7411) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:42:28 ERROR]: [connected player] Semiboi (/64.150.2.26:7411): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@16d999cf
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:42:28 INFO]: [server connection] Semiboi -> main has disconnected
+[21:42:49 INFO]: [connected player] mundoispluh (/64.150.2.24:39484) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:42:49 ERROR]: [connected player] mundoispluh (/64.150.2.24:39484): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@3529fb1a
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:42:49 INFO]: [server connection] mundoispluh -> main has disconnected
+[21:43:54 INFO]: [initial connection] /45.135.194.8:45350 is pinging the server with version 1.8
+[21:50:32 INFO]: [initial connection] /185.204.1.181:34368 is pinging the server with version 1.20.3
+[22:00:26 INFO]: [initial connection] /156.146.63.199:15264 is pinging the server with version Unknown
+[22:01:20 INFO]: [initial connection] /45.135.194.8:55952 is pinging the server with version 1.8
+[22:11:27 INFO]: [initial connection] /156.146.63.199:39474 is pinging the server with version Unknown
+[22:13:30 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[22:15:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[22:15:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[22:15:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[22:15:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[22:15:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[22:15:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[22:15:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[22:15:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[22:15:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[22:15:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[22:15:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[22:15:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[22:17:12 INFO]: [initial connection] /156.253.227.23:43648 is pinging the server with version 1.20.2
+[22:18:44 INFO]: [initial connection] /45.135.194.8:37084 is pinging the server with version 1.8
+[22:23:34 INFO]: [initial connection] /95.111.227.12:37110 is pinging the server with version 1.20.3
+[22:36:10 INFO]: [initial connection] /45.135.194.8:38286 is pinging the server with version 1.8
+[22:36:37 INFO]: [initial connection] /167.94.138.44:33138 is pinging the server with version 1.20.3
+[22:36:39 INFO]: [legacy connection] /167.94.138.44:38388 is pinging the server with version Legacy
+[22:39:04 INFO]: [initial connection] /156.146.63.199:38972 is pinging the server with version 1.21
+[22:53:36 INFO]: [initial connection] /45.135.194.8:42332 is pinging the server with version 1.8
+[23:03:43 INFO]: [initial connection] /156.146.63.199:40276 is pinging the server with version Unknown
+[23:09:11 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[23:11:05 INFO]: [initial connection] /45.135.194.8:37262 is pinging the server with version 1.8
+[23:17:15 INFO]: [initial connection] /156.253.227.23:48598 is pinging the server with version 1.20.2
+[23:28:12 INFO]: [initial connection] /156.146.63.199:53604 is pinging the server with version Unknown
+[23:28:33 INFO]: [initial connection] /45.135.194.8:36778 is pinging the server with version 1.8
+[23:30:58 INFO]: [initial connection] /141.98.252.143:43834 is pinging the server with version 1.20.3
+[23:33:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[23:33:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[23:33:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[23:33:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[23:33:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[23:33:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[23:33:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[23:33:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[23:33:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[23:33:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[23:33:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[23:33:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[23:38:06 INFO]: [initial connection] /156.146.63.199:14734 is pinging the server with version Unknown
+[23:44:37 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[23:46:03 INFO]: [initial connection] /45.135.194.8:53254 is pinging the server with version 1.8
+[23:46:48 INFO]: [initial connection] /172.104.152.224:59300 is pinging the server with version Unknown
+[00:03:32 INFO]: [initial connection] /45.135.194.8:38772 is pinging the server with version 1.8
+[00:04:06 INFO]: [initial connection] /156.146.63.199:36160 is pinging the server with version 1.21
+[00:10:03 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[00:13:25 INFO]: [initial connection] /151.115.75.240:61000 is pinging the server with version Unknown
+[00:17:09 INFO]: [initial connection] /156.253.227.141:53180 is pinging the server with version 1.20.2
+[00:21:01 INFO]: [initial connection] /45.135.194.8:45346 is pinging the server with version 1.8
+[00:21:38 INFO]: [initial connection] /95.111.227.12:47808 is pinging the server with version 1.20.3
+[00:31:35 INFO]: [initial connection] /156.146.63.199:58532 is pinging the server with version Unknown
+[00:35:11 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[00:37:45 INFO]: [initial connection] /204.14.36.11:53016 is pinging the server with version 1.21
+[00:37:46 INFO]: [initial connection] /204.14.36.11:53017 is pinging the server with version 1.21
+[00:38:01 INFO]: [initial connection] /204.14.36.11:53025 is pinging the server with version 1.21
+[00:38:03 INFO]: [initial connection] /204.14.36.11:53026 is pinging the server with version 1.21
+[00:38:13 INFO]: [initial connection] /204.14.36.11:53028 has disconnected
+[00:38:19 INFO]: [initial connection] /204.14.36.11:53037 is pinging the server with version 1.21
+[00:38:20 INFO]: [initial connection] /204.14.36.11:53038 is pinging the server with version 1.21
+[00:38:20 INFO]: [initial connection] /204.14.36.11:53040 is pinging the server with version 1.21
+[00:38:21 INFO]: [connected player] Yuvrajxd (/204.14.36.11:53041) has connected
+[00:38:21 INFO]: [server connection] Yuvrajxd -> main has connected
+[00:38:27 INFO]: [connected player] Yuvrajxd (/204.14.36.11:53041) has disconnected
+[00:38:27 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[00:38:32 INFO]: [initial connection] /204.14.36.11:53051 is pinging the server with version 1.21
+[00:38:33 INFO]: [initial connection] /45.135.194.8:39040 is pinging the server with version 1.8
+[00:40:00 INFO]: [connected player] Yuvrajxd (/204.14.36.11:53774) has connected
+[00:40:00 INFO]: [server connection] Yuvrajxd -> main has connected
+[00:40:16 INFO]: [connected player] Yuvrajxd (/204.14.36.11:53774) has disconnected
+[00:40:16 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[00:41:20 INFO]: [connected player] Yuvrajxd (/204.14.36.11:53796) has connected
+[00:41:20 INFO]: [server connection] Yuvrajxd -> main has connected
+[00:45:00 INFO]: [initial connection] /146.70.196.21:60758 is pinging the server with version 1.20.3
+[00:51:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:51:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[00:51:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[00:51:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[00:51:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:51:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[00:51:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[00:51:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[00:51:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[00:51:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:51:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[00:51:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[00:53:33 INFO]: [initial connection] /156.146.63.199:9186 is pinging the server with version Unknown
+[00:56:00 INFO]: [initial connection] /45.135.194.8:41618 is pinging the server with version 1.8
+[01:03:37 INFO]: [initial connection] /82.102.19.76:35178 is pinging the server with version 1.20.2
+[01:11:50 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[01:13:28 INFO]: [initial connection] /45.135.194.8:43216 is pinging the server with version 1.8
+[01:17:17 INFO]: [initial connection] /156.253.227.23:46692 is pinging the server with version 1.20.2
+[01:26:47 INFO]: [initial connection] /156.146.63.199:14182 is pinging the server with version 1.21
+[01:30:58 INFO]: [initial connection] /45.135.194.8:46818 is pinging the server with version 1.8
+[01:42:27 INFO]: [connected player] Yuvrajxd (/204.14.36.11:53796) has disconnected
+[01:42:27 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[01:42:27 INFO]: [initial connection] /156.146.63.199:47330 is pinging the server with version Unknown
+[01:48:25 INFO]: [initial connection] /45.135.194.8:51208 is pinging the server with version 1.8
+[01:54:49 INFO]: [initial connection] /151.115.75.240:61000 is pinging the server with version Unknown
+[01:59:57 INFO]: [initial connection] /156.146.63.199:35298 is pinging the server with version Unknown
+[02:05:07 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[02:05:52 INFO]: [initial connection] /45.135.194.8:59012 is pinging the server with version 1.8
+[02:09:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[02:09:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[02:09:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[02:09:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[02:09:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[02:09:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[02:09:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[02:09:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[02:09:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[02:09:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[02:09:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[02:09:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[02:11:57 INFO]: [initial connection] /146.70.189.149:41296 is pinging the server with version 1.20.3
+[02:17:15 INFO]: [initial connection] /156.253.227.23:57186 is pinging the server with version 1.20.2
+[02:19:34 INFO]: [connected player] Yuvrajxd (/204.14.36.11:54192) has connected
+[02:19:35 INFO]: [server connection] Yuvrajxd -> main has connected
+[02:21:09 INFO]: [initial connection] /95.111.227.12:56884 is pinging the server with version 1.20.3
+[02:23:22 INFO]: [initial connection] /45.135.194.8:39440 is pinging the server with version 1.8
+[02:26:03 INFO]: [initial connection] /156.146.63.199:58816 is pinging the server with version Unknown
+[02:39:40 INFO]: [initial connection] /156.146.63.199:39736 is pinging the server with version 1.21
+[02:40:52 INFO]: [initial connection] /45.135.194.8:43508 is pinging the server with version 1.8
+[02:41:08 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[02:47:22 INFO]: [connected player] Yuvrajxd (/204.14.36.11:54192) has disconnected
+[02:47:22 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[02:47:27 INFO]: [initial connection] /204.14.36.11:54362 is pinging the server with version 1.21
+[02:47:32 INFO]: [initial connection] /204.14.36.11:54372 is pinging the server with version 1.21
+[02:47:35 INFO]: [initial connection] /204.14.36.11:54374 is pinging the server with version 1.21
+[02:47:35 INFO]: [initial connection] /204.14.36.11:54375 is pinging the server with version 1.21
+[02:47:35 INFO]: [initial connection] /204.14.36.11:54376 is pinging the server with version 1.21
+[02:49:56 INFO]: [initial connection] /45.156.128.62:45309 is pinging the server with version 1.8
+[02:54:30 INFO]: [initial connection] /204.14.36.11:54869 is pinging the server with version 1.21
+[02:54:42 INFO]: [initial connection] /156.146.63.199:19138 is pinging the server with version Unknown
+[02:55:31 INFO]: [connected player] Yuvrajxd (/204.14.36.11:54909) has connected
+[02:55:31 INFO]: [server connection] Yuvrajxd -> main has connected
+[02:55:52 INFO]: [connected player] Yuvrajxd (/204.14.36.11:54909) has disconnected
+[02:55:52 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[02:55:57 INFO]: [initial connection] /204.14.36.11:54922 is pinging the server with version 1.21
+[02:58:21 INFO]: [initial connection] /45.135.194.8:41104 is pinging the server with version 1.8
+[03:05:47 INFO]: [initial connection] /156.146.63.199:28372 is pinging the server with version Unknown
+[03:07:27 INFO]: [initial connection] /146.70.144.87:35486 is pinging the server with version 1.20.3
+[03:07:27 INFO]: [initial connection] /204.14.36.11:55138 is pinging the server with version 1.21
+[03:07:30 INFO]: [connected player] Yuvrajxd (/204.14.36.11:55139) has connected
+[03:07:30 INFO]: [server connection] Yuvrajxd -> main has connected
+[03:09:03 INFO]: [initial connection] /151.115.75.240:61000 is pinging the server with version Unknown
+[03:15:51 INFO]: [initial connection] /45.135.194.8:33276 is pinging the server with version 1.8
+[03:17:19 INFO]: [initial connection] /156.253.227.23:57660 is pinging the server with version 1.20.2
+[03:22:34 INFO]: [connected player] Yuvrajxd (/204.14.36.11:55139) has disconnected
+[03:22:34 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[03:22:39 INFO]: [initial connection] /204.14.36.11:55197 is pinging the server with version 1.21
+[03:22:40 INFO]: [connected player] Yuvrajxd (/204.14.36.11:55198) has connected
+[03:22:40 INFO]: [server connection] Yuvrajxd -> main has connected
+[03:23:28 INFO]: [connected player] Yuvrajxd (/204.14.36.11:55198) has disconnected
+[03:23:28 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[03:27:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[03:27:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[03:27:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[03:27:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[03:27:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[03:27:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[03:27:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[03:27:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[03:27:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[03:27:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[03:27:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[03:27:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[03:33:21 INFO]: [initial connection] /45.135.194.8:52590 is pinging the server with version 1.8
+[03:39:01 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[03:43:21 INFO]: [initial connection] /156.146.63.199:38270 is pinging the server with version 1.21
+[03:50:50 INFO]: [initial connection] /45.135.194.8:49664 is pinging the server with version 1.8
+[03:58:09 INFO]: [initial connection] /156.146.63.199:8898 is pinging the server with version Unknown
+[04:05:38 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[04:08:22 INFO]: [initial connection] /45.135.194.8:51646 is pinging the server with version 1.8
+[04:10:11 INFO]: [initial connection] /151.115.75.240:61000 is pinging the server with version Unknown
+[04:15:13 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[04:16:02 INFO]: [initial connection] /95.111.227.12:47276 is pinging the server with version 1.20.3
+[04:16:04 INFO]: [initial connection] /156.146.63.199:59334 is pinging the server with version Unknown
+[04:17:17 INFO]: [initial connection] /156.253.227.141:33506 is pinging the server with version 1.20.2
+[04:23:41 INFO]: [initial connection] /95.214.55.23:55102 is pinging the server with version Unknown
+[04:25:53 INFO]: [initial connection] /45.135.194.8:40638 is pinging the server with version 1.8
+[04:28:33 INFO]: [initial connection] /156.146.63.199:20766 is pinging the server with version Unknown
+[04:42:34 INFO]: [initial connection] /198.54.132.76:43004 is pinging the server with version 1.20.3
+[04:43:25 INFO]: [initial connection] /45.135.194.8:36896 is pinging the server with version 1.8
+[04:45:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[04:45:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[04:45:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[04:45:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[04:45:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[04:45:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[04:45:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[04:45:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[04:45:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[04:45:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[04:45:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[04:45:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[04:51:01 INFO]: [initial connection] /156.146.63.199:23750 is pinging the server with version 1.21
+[04:54:41 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[05:00:56 INFO]: [initial connection] /45.135.194.8:39856 is pinging the server with version 1.8
+[05:05:18 INFO]: [initial connection] /156.146.63.199:24430 is pinging the server with version Unknown
+[05:11:15 INFO]: [initial connection] /151.115.75.240:61000 is pinging the server with version Unknown
+[05:17:06 INFO]: [initial connection] /156.253.227.141:47488 is pinging the server with version 1.20.2
+[05:18:25 INFO]: [initial connection] /45.135.194.8:53880 is pinging the server with version 1.8
+[05:36:00 INFO]: [initial connection] /45.135.194.8:39424 is pinging the server with version 1.8
+[05:39:58 INFO]: [initial connection] /156.146.63.199:52594 is pinging the server with version Unknown
+[05:50:09 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[05:53:32 INFO]: [initial connection] /45.135.194.8:34726 is pinging the server with version 1.8
+[05:58:21 INFO]: [initial connection] /156.146.63.199:19942 is pinging the server with version 1.21
+[06:02:14 INFO]: [initial connection] /95.111.227.12:44744 is pinging the server with version 1.20.3
+[06:03:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[06:03:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[06:03:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[06:03:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[06:03:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[06:03:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[06:03:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[06:03:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[06:03:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[06:03:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[06:03:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[06:03:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[06:11:06 INFO]: [initial connection] /45.135.194.8:51900 is pinging the server with version 1.8
+[06:12:56 INFO]: [initial connection] /151.115.75.240:61000 is pinging the server with version Unknown
+[06:15:05 INFO]: [initial connection] /185.65.134.162:37598 is pinging the server with version 1.20.3
+[06:20:32 INFO]: [initial connection] /156.146.63.199:28568 is pinging the server with version Unknown
+[06:23:54 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[06:28:42 INFO]: [initial connection] /45.135.194.8:41750 is pinging the server with version 1.8
+[06:32:07 INFO]: [initial connection] /156.146.63.199:39476 is pinging the server with version Unknown
+[06:46:16 INFO]: [initial connection] /45.135.194.8:53668 is pinging the server with version 1.8
+[06:52:18 INFO]: [initial connection] /156.146.63.199:36034 is pinging the server with version Unknown
+[07:00:01 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[07:03:53 INFO]: [initial connection] /45.135.194.8:39864 is pinging the server with version 1.8
+[07:06:59 INFO]: [initial connection] /156.146.63.199:43402 is pinging the server with version 1.21
+[07:17:23 INFO]: [initial connection] /156.253.227.23:51578 is pinging the server with version 1.20.2
+[07:21:27 INFO]: [initial connection] /45.135.194.8:45940 is pinging the server with version 1.8
+[07:21:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[07:21:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[07:21:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[07:21:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[07:21:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[07:21:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[07:21:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[07:21:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[07:21:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[07:21:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[07:21:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[07:21:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[07:26:28 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[07:39:05 INFO]: [initial connection] /45.135.194.8:46934 is pinging the server with version 1.8
+[07:43:07 INFO]: [initial connection] /193.32.126.149:46020 is pinging the server with version 1.20.3
+[07:53:22 INFO]: [initial connection] /156.146.63.199:26752 is pinging the server with version Unknown
+[07:53:58 INFO]: [initial connection] /95.111.227.12:57358 is pinging the server with version 1.20.3
+[07:54:01 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[07:56:43 INFO]: [initial connection] /45.135.194.8:59624 is pinging the server with version 1.8
+[08:06:36 INFO]: [initial connection] /156.146.63.199:59892 is pinging the server with version Unknown
+[08:14:20 INFO]: [initial connection] /45.135.194.8:39716 is pinging the server with version 1.8
+[08:25:48 INFO]: [initial connection] /156.146.63.199:35856 is pinging the server with version 1.21
+[08:31:47 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[08:31:54 INFO]: [initial connection] /45.135.194.8:58678 is pinging the server with version 1.8
+[08:39:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[08:39:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[08:39:33 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[08:39:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[08:39:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[08:39:33 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[08:39:33 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[08:39:33 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[08:39:33 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[08:39:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[08:39:33 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[08:39:33 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[08:46:27 INFO]: [initial connection] /156.146.63.199:58312 is pinging the server with version Unknown
+[08:49:32 INFO]: [initial connection] /45.135.194.8:37136 is pinging the server with version 1.8
+[08:53:17 INFO]: [initial connection] /91.207.57.154:59762 is pinging the server with version 1.20.3
+[08:56:15 INFO]: [initial connection] /156.146.63.199:53424 is pinging the server with version Unknown
+[09:07:13 INFO]: [initial connection] /45.135.194.8:41632 is pinging the server with version 1.8
+[09:17:11 INFO]: [initial connection] /156.253.227.23:37062 is pinging the server with version 1.20.2
+[09:24:51 INFO]: [initial connection] /45.135.194.8:35318 is pinging the server with version 1.8
+[09:28:41 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[09:31:46 INFO]: [initial connection] /156.146.63.199:27612 is pinging the server with version 1.21
+[09:42:29 INFO]: [initial connection] /45.135.194.8:38066 is pinging the server with version 1.8
+[09:42:40 INFO]: [initial connection] /156.146.63.199:24120 is pinging the server with version Unknown
+[09:56:52 INFO]: [initial connection] /156.146.63.199:25628 is pinging the server with version Unknown
+[09:57:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[09:57:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[09:57:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[09:57:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[09:57:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[09:57:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[09:57:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[09:57:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[09:57:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[09:57:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[09:57:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[09:57:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[09:57:51 INFO]: [initial connection] /95.111.227.12:45076 is pinging the server with version 1.20.3
+[10:00:07 INFO]: [initial connection] /45.135.194.8:41640 is pinging the server with version 1.8
+[10:06:46 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[10:17:10 INFO]: [initial connection] /156.253.227.141:42108 is pinging the server with version 1.20.2
+[10:17:47 INFO]: [initial connection] /45.135.194.8:45520 is pinging the server with version 1.8
+[10:20:16 INFO]: [initial connection] /146.70.197.116:44558 is pinging the server with version 1.20.3
+[10:20:51 INFO]: [initial connection] /45.135.194.65:42944 is pinging the server with version Unknown
+[10:20:52 INFO]: [connected player] ServerSeekerV2 (/45.135.194.65:55056) has connected
+[10:20:52 INFO]: [connected player] ServerSeekerV2 (/45.135.194.65:55056) has disconnected
+[10:26:23 INFO]: [initial connection] /156.146.63.199:37028 is pinging the server with version Unknown
+[10:35:22 INFO]: [initial connection] /45.135.194.8:55302 is pinging the server with version 1.8
+[10:43:36 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[10:46:54 INFO]: [initial connection] /156.146.63.199:41464 is pinging the server with version 1.21
+[10:52:58 INFO]: [initial connection] /45.135.194.8:54430 is pinging the server with version 1.8
+[11:00:44 INFO]: [initial connection] /185.213.155.153:41590 is pinging the server with version 1.20.3
+[11:09:20 INFO]: [initial connection] /156.146.63.199:45618 is pinging the server with version Unknown
+[11:10:35 INFO]: [initial connection] /45.135.194.8:38894 is pinging the server with version 1.8
+[11:15:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[11:15:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[11:15:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[11:15:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[11:15:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[11:15:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[11:15:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[11:15:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[11:15:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[11:15:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[11:15:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[11:15:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[11:17:14 INFO]: [initial connection] /156.253.227.23:40474 is pinging the server with version 1.20.2
+[11:19:47 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[11:25:16 INFO]: [initial connection] /156.146.63.199:49028 is pinging the server with version Unknown
+[11:25:34 WARN] [eaglerxvelocity]: [Pre][/167.94.145.100:39536]: Exception Caught: io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[11:28:08 INFO]: [initial connection] /45.135.194.8:44290 is pinging the server with version 1.8
+[11:34:25 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[11:45:41 INFO]: [initial connection] /45.135.194.8:60888 is pinging the server with version 1.8
+[11:53:48 INFO]: [initial connection] /95.111.227.12:51456 is pinging the server with version 1.20.3
+[11:55:18 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[12:03:11 INFO]: [initial connection] /45.135.194.8:51508 is pinging the server with version 1.8
+[12:03:23 INFO]: [initial connection] /141.98.255.146:33664 is pinging the server with version 1.20.3
+[12:03:51 INFO]: [initial connection] /156.146.63.199:22826 is pinging the server with version 1.21
+[12:20:43 INFO]: [initial connection] /45.135.194.8:46006 is pinging the server with version 1.8
+[12:25:04 INFO]: [initial connection] /156.146.63.199:15614 is pinging the server with version Unknown
+[12:33:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[12:33:33 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[12:33:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[12:33:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[12:33:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[12:33:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[12:33:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[12:33:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[12:33:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[12:33:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[12:33:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[12:33:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[12:38:19 INFO]: [initial connection] /45.135.194.8:49322 is pinging the server with version 1.8
+[12:50:12 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[12:50:39 INFO]: [initial connection] /156.146.63.199:42720 is pinging the server with version Unknown
+[12:56:16 INFO]: [initial connection] /45.135.194.8:43106 is pinging the server with version 1.8
+[13:01:25 INFO]: [initial connection] /167.94.146.58:40904 is pinging the server with version 1.20.3
+[13:01:25 INFO]: [legacy connection] /167.94.146.58:40924 is pinging the server with version Legacy
+[13:02:33 INFO]: [initial connection] /156.146.63.199:53152 is pinging the server with version Unknown
+[13:12:04 INFO]: [initial connection] /156.146.63.199:38482 is pinging the server with version 1.21
+[13:13:57 INFO]: [initial connection] /45.135.194.8:50970 is pinging the server with version 1.8
+[13:17:34 INFO]: [initial connection] /156.253.227.23:35282 is pinging the server with version 1.20.2
+[13:23:20 INFO]: [initial connection] /146.70.225.213:36216 is pinging the server with version 1.20.3
+[13:27:10 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[13:31:38 INFO]: [initial connection] /45.135.194.8:42212 is pinging the server with version 1.8
+[13:44:32 INFO]: [initial connection] /156.146.63.199:36310 is pinging the server with version Unknown
+[13:49:08 INFO]: [initial connection] /45.135.194.8:58708 is pinging the server with version 1.8
+[13:51:33 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:51:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[13:51:34 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[13:51:34 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[13:51:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:51:34 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[13:51:34 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[13:51:34 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[13:51:34 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[13:51:34 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:51:34 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[13:51:34 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[13:51:48 INFO]: [initial connection] /95.111.227.12:48576 is pinging the server with version 1.20.3
+[14:03:17 INFO]: [initial connection] /156.146.63.199:50788 is pinging the server with version Unknown
+[14:06:40 INFO]: [initial connection] /45.135.194.8:43946 is pinging the server with version 1.8
+[14:17:28 INFO]: [initial connection] /156.253.227.23:57254 is pinging the server with version 1.20.2
+[14:19:38 INFO]: [initial connection] /156.146.63.199:30432 is pinging the server with version 1.21
+[14:22:32 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[14:24:14 INFO]: [initial connection] /45.135.194.8:58204 is pinging the server with version 1.8
+[14:39:17 INFO]: [initial connection] /156.146.63.199:41904 is pinging the server with version Unknown

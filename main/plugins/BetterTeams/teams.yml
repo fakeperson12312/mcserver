@@ -1,4 +1,7 @@
 storageType: YAML
-teamNameLookup: []
-playerLookup: []
+teamNameLookup:
+- knights:d6e88ee0-a769-4901-bc67-5070bbd9df9c
+playerLookup:
+- f3d50001-5a5f-381b-ae5d-981c0d9d0f1f:d6e88ee0-a769-4901-bc67-5070bbd9df9c
+- 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2:d6e88ee0-a769-4901-bc67-5070bbd9df9c
 chestClaims: []

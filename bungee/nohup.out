@@ -3,85 +3,74 @@ WARNING: Using incubator modules: jdk.incubator.vector
 *** Please check for a new build from https://papermc.io/downloads ***
 *** Should this build be outdated, you will get NO support for it. ***
 WARN StatusConsoleListener Advanced terminal features are not available in this environment
-[18:09:19 INFO]: Using standard Java JCE cipher.
-[18:09:19 INFO]: Using standard Java compressor.
-[18:09:19 INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
-[18:09:19 WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
-[18:09:19 INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[18:09:19 INFO]: Epoll is working, utilising it!
-[18:09:19 INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[18:09:19 INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[18:09:19 INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[18:09:19 INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[18:09:19 INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[18:09:19 INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[18:09:19 INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:19 INFO]: Loaded plugin nLogin version 10.4.21 by NickUC
-[18:09:19 INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:19 INFO]: Loaded plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[18:09:19 INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:19 INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:19 INFO]: Loaded plugin BungeeGuard version 1.4.5 by Luck
-[18:09:19 INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:19 INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:19 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:09:19 WARN]: :>  
-[18:09:19 WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[18:09:19 WARN]: :>  
-[18:09:19 WARN]: :>  This plugin wasn't tested to be 'working'
-[18:09:19 WARN]: :>  with ANY version of BungeeCord (and forks)
-[18:09:19 WARN]: :>  apart from the versions listed below:
-[18:09:19 WARN]: :>  
-[18:09:19 WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:acb85e3:1871
-[18:09:19 WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
-[18:09:19 WARN]: :>  
-[18:09:19 WARN]: :>  This is not a Bukkit/Spigot plugin!
-[18:09:19 WARN]: :>  
-[18:09:19 WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[18:09:19 WARN]: :>  
-[18:09:19 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:09:19 INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[18:09:20 INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[18:09:20 INFO]: Loaded plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[18:09:20 WARN]: Forced host server pvp is not defined
-[18:09:20 INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:20 INFO] [nLogin]: Successful plugin core start (took 0.55s)
-[18:09:20 INFO]:           __             _       
-[18:09:20 INFO]:   _ __   / /  ___   __ _(_)_ __  
-[18:09:20 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[18:09:20 INFO]:  | | | / /__| (_) | (_| | | | | |
-[18:09:20 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[18:09:20 INFO]:                   |___/            
-[18:09:20 INFO]:  By: www.nickuc.com - V 10.4.21
-[18:09:20 INFO]:  
-[18:09:21 INFO]: Enabled plugin nLogin version 10.4.21 by NickUC
-[18:09:21 INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:21 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mEnforcing default permissions plugin-side due to platform limitations.[0;39m
-[18:09:21 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[18:09:22 INFO]: Enabled plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[18:09:22 INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:22 INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:22 INFO]: Enabled plugin BungeeGuard version 1.4.5 by Luck
-[18:09:22 INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:22 INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:09:22 ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[18:09:22 INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8082
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.1[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m8687003[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[18:09:22 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[18:09:22 INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[18:09:22 INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[18:09:22 INFO]: Enabled plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[18:09:22 INFO]: Listening on /127.0.0.1:25577
-[18:09:22 ERROR] [TerminalConsole]: Failed to read console input
+[13:14:25 INFO]: Using standard Java JCE cipher.
+[13:14:25 INFO]: Using standard Java compressor.
+[13:14:25 INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
+[13:14:25 WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[13:14:25 INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[13:14:25 INFO]: Epoll is working, utilising it!
+[13:14:25 INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[13:14:25 INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[13:14:25 INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[13:14:25 INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[13:14:25 INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[13:14:25 INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[13:14:25 INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:25 INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:25 INFO]: Loaded plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+[13:14:25 INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:25 INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:25 INFO]: Loaded plugin BungeeGuard version 1.4.5 by Luck
+[13:14:25 INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:25 INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:25 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[13:14:25 WARN]: :>  
+[13:14:25 WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[13:14:25 WARN]: :>  
+[13:14:25 WARN]: :>  This plugin wasn't tested to be 'working'
+[13:14:25 WARN]: :>  with ANY version of BungeeCord (and forks)
+[13:14:25 WARN]: :>  apart from the versions listed below:
+[13:14:25 WARN]: :>  
+[13:14:25 WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:acb85e3:1871
+[13:14:25 WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+[13:14:25 WARN]: :>  
+[13:14:25 WARN]: :>  This is not a Bukkit/Spigot plugin!
+[13:14:25 WARN]: :>  
+[13:14:25 WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[13:14:25 WARN]: :>  
+[13:14:25 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[13:14:25 INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[13:14:26 INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[13:14:26 INFO]: Loaded plugin EaglercraftXBungee version 1.3.1 by lax1dude
+[13:14:26 WARN]: Forced host server pvp is not defined
+[13:14:26 INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:26 INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:26 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mEnforcing default permissions plugin-side due to platform limitations.[0;39m
+[13:14:26 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[13:14:27 INFO]: Enabled plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
+[13:14:27 INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:27 INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:27 INFO]: Enabled plugin BungeeGuard version 1.4.5 by Luck
+[13:14:27 INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:27 INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[13:14:27 ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[13:14:27 INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8082
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.1[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m8687003[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[13:14:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[13:14:27 INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[13:14:27 INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[13:14:27 INFO]: Enabled plugin EaglercraftXBungee version 1.3.1 by lax1dude
+[13:14:27 INFO]: Listening on /127.0.0.1:25577
+[13:14:27 ERROR] [TerminalConsole]: Failed to read console input
 java.io.IOException: Bad file descriptor
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -101,328 +90,10 @@ java.io.IOException: Bad file descriptor
 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:73) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-[18:09:23 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/1.21.1-Eaglercraft-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
-[18:09:23 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/1.21.1-Eaglercraft-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
-[18:09:26 INFO]: 
-[18:09:26 INFO]:  Thank you so much for choosing nLogin! <3
-[18:09:26 INFO]: 
-[18:09:26 INFO]:  For your safety, please read the message below:
-[18:09:26 INFO]:   Never download nLogin from unknown sources.
-[18:09:26 INFO]:   A modified version may contain malicious software.
-[18:09:26 INFO]: 
-[18:09:26 INFO]:  Trusted sources:
-[18:09:26 INFO]:   www.nickuc.com
-[18:09:26 INFO]:   www.github.com/nickuc
-[18:09:26 INFO]:   OpeNLogin installer (from Spigot or GitHub)
-[18:09:26 INFO]: 
-[18:09:26 INFO]:  Official support channels:
-[18:09:26 INFO]:   Discord group: www.nickuc.com/discord
-[18:09:26 INFO]:   Documentation: docs.nickuc.com/nlogin/
-[18:09:26 INFO]:   Email: support@nickuc.com
-[18:09:26 INFO]:   YouTube: youtube.com/nickuc
-[18:09:26 INFO]: 
-[18:09:26 INFO]:  To remove this warning, log in with "nlogin.admin" permission on the server
-[18:09:26 INFO]:  and click the "Setup plugin" button to configure your plugin.
-[18:09:26 INFO]: 
-[18:11:37 WARN] [EaglercraftXBungee]: Server icon is not a file: /home/ubuntu/server/1.21.1-Eaglercraft-Server/bungee/server-icon.png
-[18:14:43 INFO] [EaglercraftXBungee]: [/172.58.166.29:24934]: Connected via websocket
-[18:14:43 INFO] [EaglercraftXBungee]: [/172.58.166.29:24934]: Origin header is http://149.130.209.12:8082
-[18:14:44 INFO] [EaglercraftXBungee]: [/172.58.166.29:24934]: Logged in as 'asdfasdfasdf1234'
-[18:14:44 INFO]: [/172.58.166.29:24934|asdfasdfasdf1234] -> UpstreamBridge has connected
-[18:14:44 INFO]: [asdfasdfasdf1234|/172.58.166.29:24934] <-> ServerConnector [lobby] has connected
-[18:14:50 INFO] [nLogin]: The user asdfasdfasdf1234 has successfully logged in.
-[18:15:39 INFO]: [/172.58.166.29:24934|asdfasdfasdf1234] -> UpstreamBridge has disconnected
-[18:15:39 INFO]: [asdfasdfasdf1234] disconnected with: Proxy lost connection to server.
-[18:15:39 INFO]: [/172.58.166.29:24934|asdfasdfasdf1234] <-> DownstreamBridge <-> [lobby] has disconnected
-[18:19:06 INFO] [EaglercraftXBungee]: [/172.58.166.29:7858]: Connected via websocket
-[18:19:06 INFO] [EaglercraftXBungee]: [/172.58.166.29:7858]: Origin header is http://149.130.209.12:8082
-[18:19:07 INFO] [EaglercraftXBungee]: [/172.58.166.29:7858]: Logged in as 'asdfasdfasdf1234'
-[18:19:07 INFO]: [/172.58.166.29:7858|asdfasdfasdf1234] -> UpstreamBridge has connected
-[18:19:07 INFO]: [asdfasdfasdf1234|/172.58.166.29:7858] <-> ServerConnector [lobby] has connected
-[18:19:07 INFO]: [/172.58.166.29:7858|asdfasdfasdf1234] -> UpstreamBridge has disconnected
-[18:19:07 INFO]: [asdfasdfasdf1234] disconnected with: Proxy lost connection to server.
-[18:19:07 INFO]: [/172.58.166.29:7858|asdfasdfasdf1234] <-> DownstreamBridge <-> [lobby] has disconnected
-[18:35:17 INFO]: Closing listener [id: 0x7859cb3c, L:/127.0.0.1:25577]
-WARNING: Using incubator modules: jdk.incubator.vector
-*** Hey! This build is potentially outdated :( ***
-*** Please check for a new build from https://papermc.io/downloads ***
-*** Should this build be outdated, you will get NO support for it. ***
-WARN StatusConsoleListener Advanced terminal features are not available in this environment
-[18:39:36 INFO]: Using standard Java JCE cipher.
-[18:39:36 INFO]: Using standard Java compressor.
-[18:39:36 INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
-[18:39:36 WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
-[18:39:36 INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[18:39:36 INFO]: Epoll is working, utilising it!
-[18:39:36 INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[18:39:36 INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[18:39:36 INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[18:39:36 INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[18:39:36 INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[18:39:36 INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[18:39:36 INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:36 INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:36 INFO]: Loaded plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[18:39:36 INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:36 INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:36 INFO]: Loaded plugin BungeeGuard version 1.4.5 by Luck
-[18:39:36 INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:36 INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:36 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:39:36 WARN]: :>  
-[18:39:36 WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[18:39:36 WARN]: :>  
-[18:39:36 WARN]: :>  This plugin wasn't tested to be 'working'
-[18:39:36 WARN]: :>  with ANY version of BungeeCord (and forks)
-[18:39:36 WARN]: :>  apart from the versions listed below:
-[18:39:36 WARN]: :>  
-[18:39:36 WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:acb85e3:1871
-[18:39:36 WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
-[18:39:36 WARN]: :>  
-[18:39:36 WARN]: :>  This is not a Bukkit/Spigot plugin!
-[18:39:36 WARN]: :>  
-[18:39:36 WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[18:39:36 WARN]: :>  
-[18:39:36 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:39:36 INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[18:39:37 INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[18:39:37 INFO]: Loaded plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[18:39:37 WARN]: Forced host server pvp is not defined
-[18:39:37 INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:37 INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:37 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mEnforcing default permissions plugin-side due to platform limitations.[0;39m
-[18:39:37 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[18:39:38 INFO]: Enabled plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[18:39:38 INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:38 INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:38 INFO]: Enabled plugin BungeeGuard version 1.4.5 by Luck
-[18:39:38 INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:38 INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[18:39:38 ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[18:39:38 INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8082
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.1[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m8687003[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[18:39:38 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[18:39:38 INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[18:39:38 INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[18:39:38 INFO]: Enabled plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[18:39:38 INFO]: Listening on /127.0.0.1:25577
-[18:39:38 ERROR] [TerminalConsole]: Failed to read console input
-java.io.IOException: Bad file descriptor
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:73) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-[18:39:38 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/1.21.1-Eaglercraft-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
-[18:39:38 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/1.21.1-Eaglercraft-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
-[23:54:57 INFO]: Closing listener [id: 0xbebcd31b, L:/127.0.0.1:25577]
-WARNING: Using incubator modules: jdk.incubator.vector
-*** Hey! This build is potentially outdated :( ***
-*** Please check for a new build from https://papermc.io/downloads ***
-*** Should this build be outdated, you will get NO support for it. ***
-WARN StatusConsoleListener Advanced terminal features are not available in this environment
-[00:09:23 INFO]: Using standard Java JCE cipher.
-[00:09:23 INFO]: Using standard Java compressor.
-[00:09:23 INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
-[00:09:23 WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
-[00:09:23 INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[00:09:23 INFO]: Epoll is working, utilising it!
-[00:09:23 INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[00:09:23 INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[00:09:23 INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[00:09:23 INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[00:09:23 INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[00:09:23 INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[00:09:23 INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:23 INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:23 INFO]: Loaded plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[00:09:23 INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:23 INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:23 INFO]: Loaded plugin BungeeGuard version 1.4.5 by Luck
-[00:09:23 INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:23 INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:23 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[00:09:23 WARN]: :>  
-[00:09:23 WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[00:09:23 WARN]: :>  
-[00:09:23 WARN]: :>  This plugin wasn't tested to be 'working'
-[00:09:23 WARN]: :>  with ANY version of BungeeCord (and forks)
-[00:09:23 WARN]: :>  apart from the versions listed below:
-[00:09:23 WARN]: :>  
-[00:09:23 WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:acb85e3:1871
-[00:09:23 WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
-[00:09:23 WARN]: :>  
-[00:09:23 WARN]: :>  This is not a Bukkit/Spigot plugin!
-[00:09:23 WARN]: :>  
-[00:09:23 WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[00:09:23 WARN]: :>  
-[00:09:23 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[00:09:23 INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[00:09:24 INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[00:09:24 INFO]: Loaded plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[00:09:24 WARN]: Forced host server pvp is not defined
-[00:09:24 INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:24 INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:24 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mEnforcing default permissions plugin-side due to platform limitations.[0;39m
-[00:09:24 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[00:09:25 INFO]: Enabled plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[00:09:25 INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:25 INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:25 INFO]: Enabled plugin BungeeGuard version 1.4.5 by Luck
-[00:09:25 INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:25 INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:09:25 ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[00:09:25 INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8082
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.1[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m8687003[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[00:09:25 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[00:09:25 INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[00:09:25 INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[00:09:25 INFO]: Enabled plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[00:09:25 INFO]: Listening on /127.0.0.1:25577
-[00:09:25 ERROR] [TerminalConsole]: Failed to read console input
-java.io.IOException: Bad file descriptor
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:73) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-[00:09:25 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/1.21.1-Eaglercraft-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
-[00:09:25 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/1.21.1-Eaglercraft-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
-WARNING: Using incubator modules: jdk.incubator.vector
-*** Hey! This build is potentially outdated :( ***
-*** Please check for a new build from https://papermc.io/downloads ***
-*** Should this build be outdated, you will get NO support for it. ***
-WARN StatusConsoleListener Advanced terminal features are not available in this environment
-[00:14:04 INFO]: Using standard Java JCE cipher.
-[00:14:04 INFO]: Using standard Java compressor.
-[00:14:04 INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
-[00:14:04 WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
-[00:14:04 INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[00:14:04 INFO]: Epoll is working, utilising it!
-[00:14:04 INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[00:14:04 INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[00:14:04 INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[00:14:04 INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[00:14:04 INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[00:14:04 INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[00:14:04 INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:04 INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:04 INFO]: Loaded plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[00:14:04 INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:04 INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:04 INFO]: Loaded plugin BungeeGuard version 1.4.5 by Luck
-[00:14:04 INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:04 INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:04 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[00:14:04 WARN]: :>  
-[00:14:04 WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[00:14:04 WARN]: :>  
-[00:14:04 WARN]: :>  This plugin wasn't tested to be 'working'
-[00:14:04 WARN]: :>  with ANY version of BungeeCord (and forks)
-[00:14:04 WARN]: :>  apart from the versions listed below:
-[00:14:04 WARN]: :>  
-[00:14:04 WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:acb85e3:1871
-[00:14:04 WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
-[00:14:04 WARN]: :>  
-[00:14:04 WARN]: :>  This is not a Bukkit/Spigot plugin!
-[00:14:04 WARN]: :>  
-[00:14:04 WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[00:14:04 WARN]: :>  
-[00:14:04 WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[00:14:04 INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[00:14:05 INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[00:14:05 INFO]: Loaded plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[00:14:05 WARN]: Forced host server pvp is not defined
-[00:14:05 INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:05 INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:05 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mEnforcing default permissions plugin-side due to platform limitations.[0;39m
-[00:14:05 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[00:14:06 INFO]: Enabled plugin SkinsRestorer version 15.6.1 by knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls
-[00:14:06 INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:06 INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:06 INFO]: Enabled plugin BungeeGuard version 1.4.5 by Luck
-[00:14:06 INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:06 INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[00:14:06 ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[00:14:06 INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8082
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.1[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m8687003[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[00:14:06 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[00:14:06 INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[00:14:06 INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[00:14:06 INFO]: Enabled plugin EaglercraftXBungee version 1.3.1 by lax1dude
-[00:14:06 ERROR] [TerminalConsole]: Failed to read console input
-java.io.IOException: Bad file descriptor
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:73) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
-[00:14:06 INFO]: Listening on /127.0.0.1:25577
-[00:14:06 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/mc/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
-[00:14:06 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/mc/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[13:14:28 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/mc/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[13:14:28 INFO] [EaglercraftXBungee]: Loaded certificate: /home/ubuntu/server/mc/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[13:28:35 WARN] [EaglercraftXBungee]: Server icon is not a file: /home/ubuntu/server/mc/bungee/server-icon.png
+[13:28:37 INFO] [EaglercraftXBungee]: [/64.150.15.14:58932]: Connected via websocket
+[13:28:37 INFO] [EaglercraftXBungee]: [/64.150.15.14:58932]: Origin header is http://149.130.209.12:8081
+[22:21:51 WARN] [EaglercraftXBungee]: [Pre][/167.94.138.177:47294]: Exception Caught: io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
