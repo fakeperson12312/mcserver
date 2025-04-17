@@ -1,79 +1,607 @@
-[00:38:21] [User Authenticator #9/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
-[00:38:22] [Server thread/INFO]: Yuvrajxd joined the game
-[00:38:22] [Server thread/INFO]: Yuvrajxd[/204.14.36.11:33142] logged in with entity id 23727 at ([world]-544.9546255385302, -43.0, 2465.41377900956)
-[00:38:27] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
-[00:38:27] [Server thread/INFO]: Yuvrajxd left the game
-[00:40:00] [User Authenticator #10/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
-[00:40:01] [Server thread/INFO]: Yuvrajxd joined the game
-[00:40:01] [Server thread/INFO]: Yuvrajxd[/204.14.36.11:38678] logged in with entity id 23838 at ([world]-544.9546255385302, -43.0, 2465.41377900956)
-[00:40:10] [Craft Scheduler Thread - 1147 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 204.14.36.11
-[00:40:16] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
-[00:40:16] [Server thread/INFO]: Yuvrajxd left the game
-[00:41:20] [User Authenticator #11/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
-[00:41:21] [Server thread/INFO]: Yuvrajxd joined the game
-[00:41:21] [Server thread/INFO]: Yuvrajxd[/204.14.36.11:36676] logged in with entity id 23993 at ([world]-543.0327484443369, -44.0, 2461.4224215615714)
-[00:41:24] [Craft Scheduler Thread - 1150 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 204.14.36.11
-[00:54:49] [Server thread/INFO]: Yuvrajxd issued server command: /rtp
-[00:54:51] [Server thread/INFO]: Yuvrajxd issued server command: /tpr
-[00:54:51] [Server thread/INFO]: [Essentials] Yuvrajxd was denied access to command.
-[00:55:27] [Server thread/INFO]: Yuvrajxd issued server command: /sethome
-[01:06:55] [Server thread/INFO]: Yuvrajxd has made the advancement [Best Friends Forever]
-[01:15:17] [Server thread/INFO]: Yuvrajxd issued server command: /sethome
-[01:27:26] [Server thread/INFO]: Yuvrajxd issued server command: /sethome
-[01:34:23] [Server thread/INFO]: Yuvrajxd issued server command: /flyxp
-[01:34:25] [Server thread/INFO]: Yuvrajxd issued server command: /xpfly
-[01:34:57] [Server thread/INFO]: Yuvrajxd issued server command: /homes
-[01:38:51] [Server thread/INFO]: Yuvrajxd issued server command: /home home
-[01:41:39] [Server thread/INFO]: Yuvrajxd issued server command: /home
-[01:42:27] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
-[01:42:27] [Server thread/INFO]: Yuvrajxd left the game
-[02:19:35] [User Authenticator #12/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
-[02:19:35] [Server thread/INFO]: Yuvrajxd joined the game
-[02:19:35] [Server thread/INFO]: Yuvrajxd[/204.14.36.11:43382] logged in with entity id 33241 at ([world]-2576.1936607109023, 69.08307781780647, 54.37390315970067)
-[02:19:45] [Craft Scheduler Thread - 1331 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 204.14.36.11
-[02:20:36] [Server thread/INFO]: Yuvrajxd issued server command: /home home
-[02:30:36] [Server thread/INFO]: Yuvrajxd issued server command: /home home
-[02:31:19] [Server thread/INFO]: Yuvrajxd issued server command: /tpr
-[02:31:19] [Server thread/INFO]: [Essentials] Yuvrajxd was denied access to command.
-[02:34:34] [Server thread/INFO]: Yuvrajxd issued server command: /home ome
-[02:34:34] [Server thread/WARN]: Yuvrajxd moved too quickly! -0.8378789175462771,-25.0,7.7589282040062315
-[02:34:34] [Server thread/WARN]: Yuvrajxd moved too quickly! -0.8378789175462771,-25.0,7.7589282040062315
-[02:38:39] [Server thread/INFO]: Villager Villager['Shepherd'/33328, uuid='05ce9ba5-cda6-4857-9949-10686019972d', l='ServerLevel[world]', x=-2559.45, y=64.00, z=87.70, cpos=[-160, 5], tl=40391, v=true] died, message: 'Shepherd was slain by Zombie'
-[02:38:53] [Server thread/INFO]: Villager Villager['Farmer'/33295, uuid='ed38017f-970a-4e07-b467-6056923d2a25', l='ServerLevel[world]', x=-2564.39, y=70.88, z=99.90, cpos=[-161, 6], tl=40740, v=true] died, message: 'Farmer was slain by Zombie'
-[02:38:54] [Server thread/INFO]: Yuvrajxd has made the advancement [Sweet Dreams]
-[02:38:59] [Server thread/INFO]: Villager Villager['Villager'/33279, uuid='ec5eaada-5062-4638-991d-0333ee497f8b', l='ServerLevel[world]', x=-2548.67, y=64.00, z=76.85, cpos=[-160, 4], tl=39092, v=true] died, message: 'Villager was slain by Husk'
-[02:40:03] [Server thread/INFO]: Villager Villager['Toolsmith'/33345, uuid='7ba6c7a1-e862-41c4-a4a5-42d6920b0a1d', l='ServerLevel[world]', x=-2550.50, y=65.00, z=90.50, cpos=[-160, 5], tl=42392, v=true] died, message: 'Toolsmith was slain by Zombie'
-[02:41:24] [Server thread/INFO]: Yuvrajxd issued server command: /home home
-[02:41:24] [Server thread/WARN]: Yuvrajxd moved too quickly! -6.417125605092679,-25.0,-48.80000001192093
-[02:47:17] [Server thread/INFO]: Yuvrajxd issued server command: /home home
-[02:47:17] [Server thread/WARN]: Yuvrajxd moved too quickly! -54.873503127399545,-19.0,1090.5987975854869
-[02:47:17] [Server thread/WARN]: Yuvrajxd moved too quickly! -54.873503127399545,-19.0,1090.5987975854869
-[02:47:17] [Server thread/WARN]: Yuvrajxd moved too quickly! -54.873503127399545,-19.0,1090.5987975854869
-[02:47:17] [Server thread/WARN]: Yuvrajxd moved too quickly! -54.873503127399545,-19.0,1090.5987975854869
-[02:47:17] [Server thread/WARN]: Yuvrajxd moved too quickly! -54.873503127399545,-19.0,1090.5987975854869
-[02:47:22] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
-[02:47:22] [Server thread/INFO]: Yuvrajxd left the game
-[02:55:31] [User Authenticator #13/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
-[02:55:32] [Server thread/INFO]: Yuvrajxd joined the game
-[02:55:32] [Server thread/INFO]: Yuvrajxd[/204.14.36.11:46010] logged in with entity id 37305 at ([world]-2574.5, 45.0, 45.5)
-[02:55:39] [Craft Scheduler Thread - 1414 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 204.14.36.11
-[02:55:52] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
-[02:55:53] [Server thread/INFO]: Yuvrajxd left the game
-[03:07:30] [User Authenticator #14/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
-[03:07:31] [Server thread/INFO]: Yuvrajxd joined the game
-[03:07:31] [Server thread/INFO]: Yuvrajxd[/204.14.36.11:57544] logged in with entity id 37486 at ([world]-2574.8501521316143, 46.0, 45.64263504397636)
-[03:07:36] [Craft Scheduler Thread - 1437 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 204.14.36.11
-[03:14:01] [Server thread/INFO]: Yuvrajxd issued server command: /team
-[03:14:06] [Server thread/INFO]: Yuvrajxd issued server command: /team make
-[03:17:26] [Server thread/INFO]: Villager Villager['Villager'/37496, uuid='21099e8b-9a5a-4946-9b8a-95938474af77', l='ServerLevel[world]', x=-2565.08, y=69.00, z=48.49, cpos=[-161, 3], tl=57660, v=true] died, message: 'Villager was slain by Husk'
-[03:20:54] [Server thread/INFO]: Yuvrajxd has made the advancement [What a Deal!]
-[03:22:34] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
-[03:22:34] [Server thread/INFO]: Yuvrajxd left the game
-[03:22:40] [User Authenticator #15/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
-[03:22:41] [Server thread/INFO]: Yuvrajxd joined the game
-[03:22:41] [Server thread/INFO]: Yuvrajxd[/204.14.36.11:43928] logged in with entity id 38750 at ([world]-2566.960900197095, 70.5, 94.19634574081373)
-[03:22:44] [Craft Scheduler Thread - 1467 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 204.14.36.11
-[03:23:19] [Server thread/INFO]: Yuvrajxd issued server command: /home home
-[03:23:19] [Server thread/WARN]: Yuvrajxd moved too quickly! -37.639832757922704,-24.0,-52.96345120059388
-[03:23:28] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
-[03:23:28] [Server thread/INFO]: Yuvrajxd left the game
+[20:34:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Eclipse Adoptium Temurin-21.0.6+7) on Linux 6.8.0-1023-oracle (aarch64)
+[20:34:15] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[20:34:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:34:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[20:34:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - AuthMe (5.7.0-SNAPSHOT-b2642), BetterTeams (4.12.0), BountySeekers (2.0.0), BungeeGuard (1.4.5), Chunky (1.4.36), Essentials (2.21.0), LuckPerms (5.4.145), Vault (2.10.0), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.3.2)
+[20:34:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:34:22] [ServerMain/INFO]: Loaded 1290 recipes
+[20:34:23] [ServerMain/INFO]: Loaded 1399 advancements
+[20:34:23] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[20:34:23] [Server thread/INFO]: Loading properties
+[20:34:23] [Server thread/INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:34:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:34:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:34:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:34:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:34:25] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (int)
+[20:34:25] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (float)
+[20:34:25] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[20:34:25] [Server thread/INFO]: Default game type: SURVIVAL
+[20:34:25] [Server thread/INFO]: Generating keypair
+[20:34:25] [Server thread/INFO]: Starting Minecraft server on localhost:25567
+[20:34:25] [Server thread/INFO]: Using epoll channel type
+[20:34:26] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[20:34:26] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux aarch64) cipher from Velocity.
+[20:34:26] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[20:34:27] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[20:34:27] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[20:34:27] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[20:34:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:34:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:34:28] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:34:28] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:34:28] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[20:34:29] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.145
+[20:34:29] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[20:34:29] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.10.0
+[20:34:29] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[20:34:29] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[20:34:29] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[20:34:29] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2642
+[20:34:29] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.12.0
+[20:34:29] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[20:34:29] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:34:29] [Server thread/INFO]: [BountySeekers] Loading server plugin BountySeekers v2.0.0
+[20:34:29] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[20:34:29] [Server thread/INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.5
+[20:34:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:34:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[20:34:29] [Server thread/INFO]:         __    
+[20:34:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.145
+[20:34:29] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[20:34:29] [Server thread/INFO]: 
+[20:34:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:34:30] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:34:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:34:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:34:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1518ms)
+[20:34:30] [Server thread/INFO]: [Vault] Enabling Vault v2.10.0
+[20:34:30] [Server thread/INFO]: [Vault] Enabled Version 2.10.0
+[20:34:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:34:30] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[20:34:30] [Server thread/INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.5
+[20:34:30] [Server thread/INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[20:34:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:34:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:34:30] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:34:30] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:34:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:34:30] [Server thread/INFO]: Preparing level "world"
+[20:34:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:34:33] [Server thread/INFO]: Time elapsed: 1166 ms
+[20:34:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:34:33] [Server thread/INFO]: Time elapsed: 219 ms
+[20:34:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:34:33] [Server thread/INFO]: Time elapsed: 166 ms
+[20:34:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[20:34:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:34:33] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[20:34:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[20:34:34] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:34:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:34:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:34:34] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:34:35] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[20:34:35] [Server thread/INFO]: [Essentials] Using locale en
+[20:34:35] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:34:35] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:34:35] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:34:35] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[20:34:35] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2642
+[20:34:35] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[20:34:35] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[20:34:36] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[20:34:36] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[20:34:36] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[20:34:36] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[20:34:36] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.12.0
+[20:34:36] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[20:34:36] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:34:36] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[20:34:36] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[20:34:36] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@204630f3
+[20:34:36] [Server thread/INFO]: [BountySeekers] Enabling BountySeekers v2.0.0
+[20:34:36] [Server thread/INFO]: Enabled BountySeekers v2.0.0
+[20:34:36] [Server thread/INFO]: Placeholder API not found - Skipping hook.
+[20:34:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[20:34:36] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[20:34:36] [Server thread/INFO]: [spark] Starting background profiler...
+[20:34:36] [Server thread/INFO]: Done preparing level "world" (6.052s)
+[20:34:37] [Server thread/INFO]: Running delayed init tasks
+[20:34:37] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.10.0)!
+[20:34:37] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:34:37] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:34:37] [Server thread/INFO]: [Chunky] No tasks to continue.
+[20:34:37] [Server thread/INFO]: Done (23.112s)! For help, type "help"
+[20:34:37] [User Authenticator #0/INFO]: UUID of player Semiboi is e6dc84f2-fb3f-3adf-aec2-71b99da4947f
+[20:34:37] [User Authenticator #1/INFO]: UUID of player imasdf is 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8
+[20:34:38] [Server thread/INFO]: imasdf joined the game
+[20:34:39] [Server thread/INFO]: imasdf[/64.150.2.26:37496] logged in with entity id 40 at ([world]-2587.5, 71.0, 88.5)
+[20:34:39] [Server thread/INFO]: Semiboi joined the game
+[20:34:39] [Server thread/INFO]: Semiboi[/64.150.2.24:55042] logged in with entity id 39 at ([world]0.5, 4.0, 0.5)
+[20:34:42] [Server thread/INFO]: imasdf issued server command: /back
+[20:34:45] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] Semiboi used the wrong password
+[20:34:45] [Server thread/INFO]: Semiboi lost connection: Wrong password!
+[20:34:45] [Server thread/INFO]: Semiboi left the game
+[20:34:46] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] The user imasdf has 3 accounts:
+[20:34:46] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] §7§aimasdf§7, bruv1000000, cc588.
+[20:34:46] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] imasdf logged in 64.150.2.26
+[20:34:46] [Server thread/INFO]: imasdf issued server command: /back
+[20:34:47] [Server thread/INFO]: asdf imasdf fell from a high place
+[20:34:47] [User Authenticator #1/INFO]: UUID of player Semiboi is e6dc84f2-fb3f-3adf-aec2-71b99da4947f
+[20:34:48] [Server thread/INFO]: Semiboi joined the game
+[20:34:48] [Server thread/INFO]: Semiboi[/64.150.2.24:51060] logged in with entity id 239 at ([world]0.5, 4.0, 0.5)
+[20:34:52] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] The user Semiboi has 5 accounts:
+[20:34:52] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, iwontgrief, mundoispluh, ath818, rzhang6.
+[20:34:52] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] Semiboi logged in 64.150.2.24
+[20:34:54] [Server thread/INFO]: imasdf issued server command: /back
+[20:34:54] [Server thread/WARN]: imasdf moved too quickly! -2588.0,67.0,88.0
+[20:34:54] [Server thread/WARN]: imasdf moved too quickly! -2588.0,67.0,88.0
+[20:34:55] [Server thread/INFO]: Semiboi issued server command: /back
+[20:37:33] [Server thread/INFO]: imasdf issued server command: /back
+[20:37:35] [Server thread/INFO]: imasdf issued server command: /back
+[20:37:35] [Server thread/WARN]: imasdf moved too quickly! -2588.0,7.338509631720008,72.0
+[20:37:42] [Server thread/INFO]: imasdf lost connection: Disconnected
+[20:37:42] [Server thread/INFO]: asdf imasdf left the game
+[20:37:53] [User Authenticator #2/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[20:37:54] [Server thread/INFO]: Yuvrajxd joined the game
+[20:37:54] [Server thread/INFO]: Yuvrajxd[/64.150.2.24:47434] logged in with entity id 920 at ([world]-2619.929678092165, 69.0, 55.43293636668498)
+[20:37:57] [User Authenticator #2/INFO]: UUID of player imasdf is 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8
+[20:37:58] [Server thread/INFO]: imasdf joined the game
+[20:37:58] [Server thread/INFO]: imasdf[/64.150.2.26:35330] logged in with entity id 1050 at ([world]-2577.7030290373405, 69.0, 59.56870481855043)
+[20:37:58] [Craft Scheduler Thread - 13 - AuthMe/INFO]: [AuthMe] Yuvrajxd used the wrong password
+[20:37:58] [Server thread/INFO]: Yuvrajxd lost connection: Wrong password!
+[20:37:58] [Server thread/INFO]: Yuvrajxd left the game
+[20:38:00] [User Authenticator #2/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[20:38:01] [Server thread/INFO]: asdf Yuvrajxd joined the game
+[20:38:01] [Server thread/INFO]: Yuvrajxd[/64.150.2.24:35346] logged in with entity id 1065 at ([world]-2619.929678092165, 69.0, 55.43293636668498)
+[20:38:05] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] The user imasdf has 3 accounts:
+[20:38:05] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] §7§aimasdf§7, bruv1000000, cc588.
+[20:38:05] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] imasdf logged in 64.150.2.26
+[20:38:07] [Craft Scheduler Thread - 13 - AuthMe/INFO]: [AuthMe] The user Yuvrajxd has 6 accounts:
+[20:38:07] [Craft Scheduler Thread - 13 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, ath818, rzhang6.
+[20:38:07] [Craft Scheduler Thread - 13 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 64.150.2.24
+[20:39:45] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[20:39:45] [Server thread/WARN]: Yuvrajxd moved too quickly! -46.21718236465904,-33.0,24.937347395328448
+[20:39:50] [Server thread/INFO]: imasdf issued server command: /home
+[20:40:24] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[20:40:57] [Server thread/INFO]: Semiboi has made the advancement [Take Aim]
+[20:41:21] [Server thread/INFO]: Villager Villager['Cleric'/969, uuid='ef159e9b-0581-40ad-987b-59c616e955b0', l='ServerLevel[world]', x=-2545.30, y=71.00, z=38.51, cpos=[-160, 2], tl=146868, v=true] died, message: 'Cleric was slain by Husk'
+[20:41:31] [Server thread/INFO]: imasdf issued server command: /tpa Yuvrajxd
+[20:41:35] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[20:41:35] [Server thread/INFO]: asdf imasdf has made the advancement [We Need to Go Deeper]
+[20:41:49] [Server thread/INFO]: Semiboi issued server command: /home
+[20:42:25] [Server thread/INFO]: imasdf issued server command: /home
+[20:42:37] [Server thread/INFO]: imasdf issued server command: /tpa Yuvrajxd
+[20:42:42] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[20:42:47] [Server thread/INFO]: asdf imasdf has made the advancement [A Terrible Fortress]
+[20:45:25] [Server thread/INFO]: imasdf issued server command: /tpa Yuvrajxd
+[20:45:28] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[20:45:28] [Server thread/WARN]: imasdf moved too quickly! 26.191361082581636,-4.0,11.199999988079071
+[20:46:08] [Server thread/INFO]: Yuvrajxd issued server command: /tpa imasdf
+[20:46:16] [Server thread/INFO]: imasdf issued server command: /tpaccept
+[20:46:16] [Server thread/WARN]: Yuvrajxd moved too quickly! -8.026144859249172,22.0,-5.944760248376085
+[20:47:33] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[20:48:05] [Server thread/INFO]: asdf Yuvrajxd has made the advancement [Who is Cutting Onions?]
+[20:48:37] [Server thread/INFO]: imasdf issued server command: /tpa Yuvrajxd
+[20:48:40] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[20:49:51] [Server thread/INFO]: asdf imasdf has made the advancement [Who is Cutting Onions?]
+[20:51:33] [Server thread/INFO]: imasdf issued server command: /home
+[20:52:08] [Server thread/INFO]: Semiboi issued server command: /sethome
+[20:52:59] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[20:53:50] [Server thread/INFO]: Unknown or incomplete command, see below for error
+ip<--[HERE]
+[20:53:53] [Server thread/INFO]: imasdf lost connection: Disconnected
+[20:53:53] [Server thread/INFO]: asdf imasdf left the game
+[20:54:10] [User Authenticator #3/INFO]: UUID of player rzhang6 is 134f2860-7ac1-3a98-be3c-856bf208b82e
+[20:54:11] [Server thread/INFO]: rzhang6 joined the game
+[20:54:11] [Server thread/INFO]: rzhang6[/64.150.2.27:45530] logged in with entity id 5687 at ([world]3500.487500011921, 51.61866182632922, 750.606414735749)
+[20:54:12] [User Authenticator #3/INFO]: UUID of player imasdf is 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8
+[20:54:13] [Server thread/INFO]: asdf imasdf joined the game
+[20:54:13] [Server thread/INFO]: imasdf[/64.150.2.26:45542] logged in with entity id 5764 at ([world_nether]-348.4967341427254, 44.0, -3.461633737683697)
+[20:54:19] [Craft Scheduler Thread - 46 - AuthMe/INFO]: [AuthMe] rzhang6 used the wrong password
+[20:54:19] [Server thread/INFO]: rzhang6 lost connection: Wrong password!
+[20:54:19] [Server thread/INFO]: rzhang6 left the game
+[20:54:21] [User Authenticator #3/INFO]: UUID of player rzhang6 is 134f2860-7ac1-3a98-be3c-856bf208b82e
+[20:54:22] [Server thread/INFO]: rzhang6 joined the game
+[20:54:22] [Server thread/INFO]: rzhang6[/64.150.2.27:43358] logged in with entity id 6033 at ([world]3500.487500011921, 29.0, 750.606414735749)
+[20:54:26] [Craft Scheduler Thread - 46 - AuthMe/INFO]: [AuthMe] rzhang6 logged in 64.150.2.27
+[20:54:26] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] The user imasdf has 3 accounts:
+[20:54:26] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] §7§aimasdf§7, bruv1000000, cc588.
+[20:54:26] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] imasdf logged in 64.150.2.26
+[20:54:31] [User Authenticator #3/INFO]: UUID of player Ath818 is 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2
+[20:54:32] [Server thread/INFO]: Ath818 joined the game
+[20:54:32] [Server thread/INFO]: Ath818[/64.150.2.24:39654] logged in with entity id 6087 at ([world]93.10398126134564, 56.0, -330.93707482103656)
+[20:54:42] [Craft Scheduler Thread - 47 - AuthMe/INFO]: [AuthMe] The user Ath818 has 5 accounts:
+[20:54:42] [Craft Scheduler Thread - 47 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7.
+[20:54:42] [Craft Scheduler Thread - 47 - AuthMe/INFO]: [AuthMe] Ath818 logged in 64.150.2.24
+[20:55:34] [Server thread/INFO]: Ath818 issued server command: /tpa Yuvrajxd
+[20:55:44] [Server thread/INFO]: Ath818 issued server command: /tpa imasdf
+[20:55:53] [Server thread/INFO]: Ath818 issued server command: /seed
+[20:55:55] [Server thread/INFO]: Ath818 issued server command: /plugins
+[20:56:03] [Server thread/INFO]: Ath818 issued server command: /tpaall
+[20:56:09] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[20:56:14] [Server thread/INFO]: of Ath818 was slain by asdf Yuvrajxd
+[20:56:25] [Server thread/INFO]: Yuvrajxd issued server command: /tpa Ath818
+[20:56:28] [Server thread/INFO]: Ath818 issued server command: /tpaccept
+[20:56:34] [Server thread/INFO]: Semiboi issued server command: /
+[20:56:39] [Server thread/INFO]: Ath818 issued server command: /back
+[20:56:39] [Server thread/WARN]: Ath818 moved too quickly! 149.9579391681964,67.0,-374.8627411246671
+[20:56:39] [Server thread/WARN]: Ath818 moved too quickly! 149.9579391681964,67.0,-374.8627411246671
+[20:56:42] [Server thread/INFO]: Yuvrajxd issued server command: /tpa Ath818
+[20:56:46] [Server thread/INFO]: Ath818 issued server command: /tpaccept
+[20:56:46] [Server thread/WARN]: Yuvrajxd moved too quickly! 127.80932578093204,6.709885847624989,-366.0170392050903
+[20:56:51] [Server thread/INFO]: imasdf issued server command: /tpa Yuvrajxd
+[20:56:56] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[20:57:12] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:12] [Server thread/INFO]: rzhang6 has made the advancement [Acquire Hardware]
+[20:57:16] [Server thread/INFO]: Ath818 issued server command: /team disabd
+[20:57:18] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:19] [Server thread/INFO]: Ath818 issued server command: /team disband
+[20:57:20] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:20] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:21] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:21] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:22] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:23] [Server thread/INFO]: Ath818 issued server command: /team disband
+[20:57:32] [Server thread/INFO]: imasdf issued server command: /team invite Ath818
+[20:57:36] [Server thread/INFO]: Ath818 issued server command: /team join asdf
+[20:57:49] [User Authenticator #4/INFO]: UUID of player iatepancakes is 0f941c54-ac6d-3f20-b2bc-54be40e3bfda
+[20:57:50] [Server thread/INFO]: iatepancakes joined the game
+[20:57:50] [Server thread/INFO]: iatepancakes[/64.150.2.26:41516] logged in with entity id 7129 at ([world_nether]406.4626359767889, 74.88101379539273, -605.2804911051837)
+[20:57:56] [Craft Scheduler Thread - 48 - AuthMe/INFO]: [AuthMe] The user iatepancakes has 4 accounts:
+[20:57:56] [Craft Scheduler Thread - 48 - AuthMe/INFO]: [AuthMe] §7§aimasdf§7, §aiatepancakes§7, bruv1000000, cc588.
+[20:57:56] [Craft Scheduler Thread - 48 - AuthMe/INFO]: [AuthMe] iatepancakes logged in 64.150.2.26
+[20:58:17] [Server thread/INFO]: Made imasdf a server operator
+[20:58:24] [Server thread/INFO]: imasdf issued server command: /setworldspawn
+[20:58:24] [Server thread/INFO]: [asdf imasdf: Set the world spawn point to 145, 73, -353 [0.0]]
+[20:58:29] [User Authenticator #4/INFO]: UUID of player bruv10 is 3207e3ee-4875-36fb-af3b-9e390147f367
+[20:58:29] [Server thread/INFO]: bruv10 joined the game
+[20:58:29] [Server thread/INFO]: bruv10[/64.150.2.24:58492] logged in with entity id 7362 at ([world]138.5, 72.0, -348.5)
+[20:58:29] [Server thread/INFO]: imasdf issued server command: /deop imasdf
+[20:58:29] [Server thread/INFO]: [asdf imasdf: Made imasdf no longer a server operator]
+[20:58:31] [Server thread/INFO]: imasdf issued server command: /home
+[20:58:31] [Server thread/WARN]: imasdf moved too quickly! -2718.107599885194,-29.0,395.45873424129286
+[20:58:31] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[20:58:31] [Server thread/WARN]: Yuvrajxd moved too quickly! -2711.860713895121,-31.0,400.839205334625
+[20:58:34] [Server thread/INFO]: bruv10 lost connection: Disconnected
+[20:58:34] [Server thread/INFO]: bruv10 left the game
+[20:58:36] [Server thread/INFO]: Yuvrajxd issued server command: /tpahere Ath818
+[20:58:41] [Server thread/INFO]: Ath818 issued server command: /tpaccept
+[20:59:16] [User Authenticator #4/INFO]: UUID of player bruv10 is 3207e3ee-4875-36fb-af3b-9e390147f367
+[20:59:17] [Server thread/INFO]: bruv10 joined the game
+[20:59:17] [Server thread/INFO]: bruv10[/64.150.2.24:58236] logged in with entity id 7708 at ([world]138.46343454018947, 72.0, -348.42961005592537)
+[20:59:19] [Server thread/INFO]: bruv10 lost connection: Disconnected
+[20:59:19] [Server thread/INFO]: bruv10 left the game
+[20:59:56] [Server thread/INFO]: Semiboi issued server command: /tpa Yuvrajxd
+[21:00:14] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[21:00:14] [Server thread/INFO]: Semiboi has made the advancement [We Need to Go Deeper]
+[21:00:41] [Server thread/INFO]: Semiboi issued server command: /home
+[21:00:51] [User Authenticator #5/INFO]: UUID of player bruv1000000 is 340982f7-da83-3cc3-af64-61a64286037a
+[21:00:52] [Server thread/INFO]: bruv1000000 joined the game
+[21:00:52] [Server thread/INFO]: bruv1000000[/64.150.2.24:33164] logged in with entity id 8367 at ([world]-2574.699999988079, 45.0, 40.23038381768863)
+[21:00:53] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[21:00:54] [Server thread/INFO]: Semiboi issued server command: /tpa y
+[21:01:04] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] The user bruv1000000 has 6 accounts:
+[21:01:04] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[21:01:04] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] bruv1000000 logged in 64.150.2.24
+[21:01:08] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[21:01:30] [Server thread/INFO]: Ath818 lost connection: Disconnected
+[21:01:30] [Server thread/INFO]: Ath818 left the game
+[21:01:39] [Server thread/INFO]: Semiboi issued server command: /home
+[21:01:55] [Server thread/INFO]: imasdf issued server command: /tpa iatepancakes
+[21:02:01] [Server thread/INFO]: Semiboi issued server command: /tpa Yuvrajxd
+[21:02:02] [Server thread/INFO]: iatepancakes issued server command: /tpaccept
+[21:02:02] [Server thread/WARN]: imasdf moved too quickly! 897.9532048764398,1.0,-520.6239283934168
+[21:02:03] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[21:02:11] [Server thread/INFO]: Semiboi issued server command: /home
+[21:03:31] [Server thread/INFO]: asdf bruv1000000 has made the advancement [We Need to Go Deeper]
+[21:04:15] [Server thread/INFO]: asdf bruv1000000 has made the advancement [Enchanter]
+[21:04:24] [Server thread/INFO]: imasdf issued server command: /tpa iatepancakes
+[21:04:56] [Server thread/INFO]: iatepancakes issued server command: /tp
+[21:04:56] [Server thread/INFO]: [Essentials] iatepancakes was denied access to command.
+[21:04:59] [Server thread/INFO]: iatepancakes issued server command: /tpaccept
+[21:05:10] [Server thread/INFO]: Yuvrajxd issued server command: /tpa iatepancakes
+[21:05:14] [Server thread/INFO]: iatepancakes issued server command: /tpaccept
+[21:05:14] [Server thread/WARN]: Yuvrajxd moved too quickly! 685.1353714210597,-18.0,-237.80000001192093
+[21:05:16] [Server thread/INFO]: asdf iatepancakes has made the advancement [Those Were the Days]
+[21:05:19] [Server thread/INFO]: asdf iatepancakes has made the advancement [War Pigs]
+[21:05:20] [Server thread/INFO]: bruv1000000 issued server command: /tpa iatepancakes
+[21:05:20] [User Authenticator #6/INFO]: UUID of player Ath818 is 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2
+[21:05:21] [Server thread/INFO]: Ath818 joined the game
+[21:05:21] [Server thread/INFO]: Ath818[/64.150.2.24:43454] logged in with entity id 10477 at ([world_nether]-332.69999998807907, 36.0, 1.699999988079071)
+[21:05:22] [Server thread/INFO]: asdf Yuvrajxd has made the advancement [Those Were the Days]
+[21:05:25] [Craft Scheduler Thread - 68 - AuthMe/INFO]: [AuthMe] The user Ath818 has 6 accounts:
+[21:05:25] [Craft Scheduler Thread - 68 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[21:05:25] [Craft Scheduler Thread - 68 - AuthMe/INFO]: [AuthMe] Ath818 logged in 64.150.2.24
+[21:05:42] [Server thread/INFO]: bruv1000000 issued server command: /tpa imasdf
+[21:05:43] [Server thread/INFO]: imasdf issued server command: /tpaccept
+[21:05:44] [Server thread/INFO]: asdf imasdf has made the advancement [Those Were the Days]
+[21:05:46] [Server thread/INFO]: asdf bruv1000000 has made the advancement [Those Were the Days]
+[21:05:58] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
+[21:05:58] [Server thread/INFO]: asdf Yuvrajxd left the game
+[21:06:31] [User Authenticator #7/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[21:06:31] [Server thread/INFO]: imasdf issued server command: /home
+[21:06:32] [Server thread/INFO]: asdf Yuvrajxd joined the game
+[21:06:32] [Server thread/INFO]: Yuvrajxd[/64.150.2.24:40364] logged in with entity id 10886 at ([world_nether]436.5094243441204, 44.0, -241.69999998807907)
+[21:07:02] [Server thread/INFO]: Yuvrajxd lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:07:02] [Server thread/INFO]: Yuvrajxd left the game
+[21:07:05] [User Authenticator #7/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[21:07:06] [Server thread/INFO]: asdf Yuvrajxd joined the game
+[21:07:06] [Server thread/INFO]: Yuvrajxd[/64.150.2.24:60342] logged in with entity id 11253 at ([world_nether]436.5094243441204, 44.0, -241.69999998807907)
+[21:07:12] [Async Chat Thread - #0/INFO]: [Not Secure] [asdf] <Ath818> the nether
+[21:07:36] [Server thread/INFO]: Yuvrajxd lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:07:36] [Server thread/INFO]: Yuvrajxd left the game
+[21:07:39] [Server thread/INFO]: Ath818 lost connection: Disconnected
+[21:07:39] [Server thread/INFO]: asdf Ath818 left the game
+[21:07:40] [User Authenticator #7/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[21:07:40] [Server thread/INFO]: asdf Yuvrajxd joined the game
+[21:07:40] [Server thread/INFO]: Yuvrajxd[/64.150.2.24:47558] logged in with entity id 11480 at ([world_nether]436.38801721650407, 44.0, -241.30000001192093)
+[21:07:42] [User Authenticator #7/INFO]: UUID of player Ath818 is 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2
+[21:07:43] [Server thread/INFO]: asdf Ath818 joined the game
+[21:07:43] [Server thread/INFO]: Ath818[/64.150.2.24:47574] logged in with entity id 11495 at ([world_nether]-278.64650264054745, 28.183671611547663, -77.21915163669118)
+[21:07:43] [Server thread/INFO]: Semiboi issued server command: /tpa Yuvrajxd
+[21:07:51] [Craft Scheduler Thread - 74 - AuthMe/INFO]: [AuthMe] The user Ath818 has 6 accounts:
+[21:07:51] [Craft Scheduler Thread - 74 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[21:07:51] [Craft Scheduler Thread - 74 - AuthMe/INFO]: [AuthMe] Ath818 logged in 64.150.2.24
+[21:07:52] [Server thread/INFO]: asdf Ath818 tried to swim in lava
+[21:07:59] [Server thread/INFO]: Ath818 issued server command: /back
+[21:08:01] [Craft Scheduler Thread - 73 - AuthMe/INFO]: [AuthMe] The user Yuvrajxd has 6 accounts:
+[21:08:01] [Craft Scheduler Thread - 73 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[21:08:01] [Craft Scheduler Thread - 73 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 64.150.2.24
+[21:08:07] [Server thread/INFO]: asdf Ath818 has made the advancement [A Terrible Fortress]
+[21:08:11] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[21:08:12] [Server thread/INFO]: imasdf issued server command: /tpa Yuvrajxd
+[21:08:25] [Server thread/INFO]: imasdf issued server command: /tpa iatepancakes
+[21:08:25] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[21:08:28] [Server thread/INFO]: iatepancakes issued server command: /tpaccept
+[21:08:31] [Server thread/INFO]: imasdf lost connection: Disconnected
+[21:08:31] [Server thread/INFO]: asdf imasdf left the game
+[21:08:31] [Server thread/INFO]: Semiboi issued server command: /tpaccept
+[21:08:37] [Server thread/INFO]: Semiboi issued server command: /tpa Ath818
+[21:08:39] [Server thread/INFO]: Ath818 issued server command: /tpaccept
+[21:08:39] [Server thread/INFO]: Semiboi has made the advancement [A Terrible Fortress]
+[21:08:42] [User Authenticator #7/INFO]: UUID of player imasdf is 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8
+[21:08:42] [Server thread/INFO]: asdf imasdf joined the game
+[21:08:42] [Server thread/INFO]: imasdf[/64.150.2.26:56504] logged in with entity id 12004 at ([world_nether]432.43436085963106, 36.0, -267.68071872067446)
+[21:08:45] [Craft Scheduler Thread - 77 - AuthMe/INFO]: [AuthMe] imasdf used the wrong password
+[21:08:45] [Server thread/INFO]: imasdf lost connection: Wrong password!
+[21:08:45] [Server thread/INFO]: imasdf left the game
+[21:08:47] [User Authenticator #7/INFO]: UUID of player imasdf is 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8
+[21:08:48] [Server thread/INFO]: asdf imasdf joined the game
+[21:08:48] [Server thread/INFO]: imasdf[/64.150.2.26:51974] logged in with entity id 12028 at ([world_nether]432.43436085963106, 36.0, -267.68071872067446)
+[21:08:49] [Server thread/INFO]: asdf Yuvrajxd has made the advancement [Hot Stuff]
+[21:08:51] [Craft Scheduler Thread - 75 - AuthMe/INFO]: [AuthMe] The user imasdf has 3 accounts:
+[21:08:51] [Craft Scheduler Thread - 75 - AuthMe/INFO]: [AuthMe] §7§aimasdf§7, §aiatepancakes§7, cc588.
+[21:08:51] [Craft Scheduler Thread - 75 - AuthMe/INFO]: [AuthMe] imasdf logged in 64.150.2.26
+[21:09:01] [Server thread/INFO]: bruv1000000 issued server command: /home
+[21:09:46] [Server thread/INFO]: Yuvrajxd issued server command: /tpa imasdf
+[21:09:50] [Server thread/INFO]: imasdf issued server command: /sethome bastion
+[21:09:52] [Server thread/INFO]: imasdf issued server command: /home home
+[21:09:56] [Server thread/INFO]: imasdf issued server command: /home bastion
+[21:10:00] [Server thread/INFO]: imasdf issued server command: /tpaccept
+[21:10:15] [Server thread/INFO]: asdf bruv1000000 has made the advancement [Hot Stuff]
+[21:10:44] [Server thread/INFO]: asdf Ath818 was slain by Wither Skeleton
+[21:10:47] [Server thread/INFO]: Ath818 issued server command: /back
+[21:10:53] [Server thread/INFO]: asdf Ath818 was slain by Wither Skeleton
+[21:10:56] [Server thread/INFO]: Ath818 issued server command: /back
+[21:11:22] [Server thread/INFO]: asdf bruv1000000 has made the advancement [A Terrible Fortress]
+[21:11:29] [Server thread/INFO]: Ath818 issued server command: /tpahere Semiboi
+[21:11:30] [Server thread/INFO]: Semiboi issued server command: /tpa Ath818
+[21:11:33] [Server thread/INFO]: Ath818 issued server command: /tpacceot
+[21:11:35] [Server thread/INFO]: Ath818 issued server command: /tpaccept
+[21:12:14] [Server thread/INFO]: asdf iatepancakes was slain by Piglin Brute
+[21:12:16] [Server thread/INFO]: iatepancakes issued server command: /back
+[21:12:55] [Server thread/INFO]: Yuvrajxd issued server command: /home homie
+[21:13:16] [Server thread/INFO]: Yuvrajxd issued server command: /tpa Ath818
+[21:13:20] [Server thread/INFO]: Ath818 issued server command: /tpaccept
+[21:13:51] [Server thread/INFO]: asdf bruv1000000 has made the advancement [Into Fire]
+[21:14:08] [Server thread/INFO]: Ath818 issued server command: /tpahere Semiboi
+[21:14:12] [Server thread/INFO]: Semiboi issued server command: /
+[21:14:13] [Server thread/INFO]: imasdf issued server command: /tpa Yuvrajxd
+[21:14:16] [Server thread/INFO]: Semiboi issued server command: /tpaccept
+[21:14:16] [Server thread/WARN]: Semiboi moved too quickly! -25.81958398115853,6.0,-18.80610244306054
+[21:14:31] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[21:15:09] [Server thread/INFO]: iatepancakes issued server command: /back
+[21:15:15] [Server thread/INFO]: asdf imasdf has made the advancement [Ol' Betsy]
+[21:15:27] [Server thread/INFO]: iatepancakes issued server command: /home
+[21:15:46] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[21:15:55] [Server thread/INFO]: imasdf issued server command: /home
+[21:15:58] [Server thread/INFO]: imasdf issued server command: /home home
+[21:16:04] [Server thread/INFO]: Ath818 lost connection: Disconnected
+[21:16:04] [Server thread/INFO]: asdf Ath818 left the game
+[21:16:22] [Server thread/INFO]: imasdf issued server command: /delhome home
+[21:16:29] [Server thread/INFO]: imasdf issued server command: /sethome home
+[21:16:36] [Server thread/INFO]: imasdf issued server command: /sethome home
+[21:17:16] [User Authenticator #8/INFO]: UUID of player Ath818 is 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2
+[21:17:17] [Server thread/INFO]: asdf Ath818 joined the game
+[21:17:17] [Server thread/INFO]: Ath818[/64.150.2.24:58584] logged in with entity id 14964 at ([world_nether]-229.1134096861061, 43.0, -82.34246335461825)
+[21:17:24] [Craft Scheduler Thread - 89 - AuthMe/INFO]: [AuthMe] The user Ath818 has 6 accounts:
+[21:17:24] [Craft Scheduler Thread - 89 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[21:17:24] [Craft Scheduler Thread - 89 - AuthMe/INFO]: [AuthMe] Ath818 logged in 64.150.2.24
+[21:17:49] [Server thread/INFO]: Semiboi issued server command: /tpa y
+[21:17:55] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[21:18:11] [Server thread/INFO]: Semiboi tried to swim in lava to escape asdf Yuvrajxd
+[21:18:52] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
+[21:18:52] [Server thread/INFO]: asdf Yuvrajxd left the game
+[21:18:58] [User Authenticator #9/INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[21:18:59] [Server thread/INFO]: asdf Yuvrajxd joined the game
+[21:18:59] [Server thread/INFO]: Yuvrajxd[/64.150.2.24:44082] logged in with entity id 15914 at ([world_nether]-484.3549426765735, 27.70456937246473, -33.91745740992742)
+[21:19:02] [Craft Scheduler Thread - 97 - AuthMe/INFO]: [AuthMe] The user Yuvrajxd has 6 accounts:
+[21:19:02] [Craft Scheduler Thread - 97 - AuthMe/INFO]: [AuthMe] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[21:19:02] [Craft Scheduler Thread - 97 - AuthMe/INFO]: [AuthMe] Yuvrajxd logged in 64.150.2.24
+[21:19:04] [Server thread/INFO]: Yuvrajxd issued server command: /home home
+[21:19:13] [Server thread/INFO]: imasdf issued server command: /sethome travel
+[21:19:16] [Server thread/INFO]: imasdf issued server command: /home home
+[21:19:20] [Server thread/INFO]: asdf Ath818 tried to swim in lava
+[21:19:24] [Server thread/INFO]: Ath818 issued server command: /back
+[21:19:47] [Server thread/INFO]: Yuvrajxd issued server command: /tpa Semiboi
+[21:19:59] [Server thread/INFO]: Ath818 issued server command: /tpa imasdf
+[21:20:04] [Server thread/INFO]: imasdf issued server command: /tpaccept
+[21:20:09] [Server thread/INFO]: Ath818 issued server command: /sethome
+[21:20:22] [Server thread/INFO]: imasdf issued server command: /home travel
+[21:20:54] [Server thread/INFO]: Semiboi issued server command: /tpa Yuvrajxd
+[21:21:07] [Server thread/INFO]: bruv1000000 lost connection: Disconnected
+[21:21:07] [Server thread/INFO]: asdf bruv1000000 left the game
+[21:21:22] [Server thread/INFO]: Semiboi issued server command: /tpa Yuvrajxd
+[21:21:26] [Server thread/INFO]: Ath818 issued server command: /tpa Yuvrajxd
+[21:21:29] [Server thread/INFO]: Yuvrajxd issued server command: /tpaccept
+[21:21:31] [Server thread/INFO]: imasdf issued server command: /trade
+[21:21:38] [Server thread/INFO]: Semiboi issued server command: /tpa y
+[21:21:45] [Server thread/INFO]: imasdf issued server command: /delhome travel
+[21:22:11] [Server thread/INFO]: imasdf issued server command: /sethome travel
+[21:22:35] [Server thread/INFO]: imasdf issued server command: /sethome travel
+[21:23:36] [Server thread/INFO]: Ath818 lost connection: Disconnected
+[21:23:36] [Server thread/INFO]: asdf Ath818 left the game
+[21:23:36] [Server thread/INFO]: Attempt to teleport removed player Ath818 restricted
+[21:25:27] [Server thread/INFO]: Yuvrajxd issued server command: /kill
+[21:25:27] [Server thread/INFO]: [Essentials] Yuvrajxd was denied access to command.
+[21:25:36] [Server thread/INFO]: iatepancakes lost connection: Disconnected
+[21:25:36] [Server thread/INFO]: asdf iatepancakes left the game
+[21:25:41] [Server thread/INFO]: Yuvrajxd lost connection: Disconnected
+[21:25:41] [Server thread/INFO]: asdf Yuvrajxd left the game
+[21:25:53] [Server thread/INFO]: rzhang6 lost connection: Disconnected
+[21:25:53] [Server thread/INFO]: rzhang6 left the game
+[21:26:06] [Server thread/INFO]: Semiboi lost connection: Disconnected
+[21:26:06] [Server thread/INFO]: Semiboi left the game
+[21:26:07] [Server thread/INFO]: imasdf lost connection: Disconnected
+[21:26:07] [Server thread/INFO]: asdf imasdf left the game
+[21:35:30] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+Caused by: java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[21:35:31] [Server thread/INFO]: Stopping server
+[21:35:31] [Server thread/INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.5
+[21:35:31] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[21:35:31] [Server thread/INFO]: [BountySeekers] Disabling BountySeekers v2.0.0
+[21:35:31] [Server thread/INFO]: Disabled BountySeekers v2.0.0
+[21:35:31] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.12.0
+[21:35:31] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.7.0-SNAPSHOT-b2642
+[21:35:31] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[21:35:31] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[21:35:31] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[21:35:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[21:35:31] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[21:35:31] [Server thread/INFO]: [Vault] Disabling Vault v2.10.0
+[21:35:31] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[21:35:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.145
+[21:35:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:35:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:35:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:35:31] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[21:35:31] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:35:31] [Server thread/INFO]: Saving players
+[21:35:31] [Server thread/INFO]: Saving worlds
+[21:35:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:35:31] [Thread-6/WARN]: Exception in thread "Thread-6" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[21:35:31] [Thread-6/WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[21:35:31] [Thread-6/WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
+[21:35:31] [Thread-6/WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[21:35:31] [Thread-6/WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[21:35:31] [Thread-6/WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[21:35:31] [Thread-6/WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
+[21:35:31] [Thread-6/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[21:35:31] [Thread-6/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[21:35:31] [Thread-6/WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[21:35:31] [Thread-6/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[21:35:31] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[21:35:31] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[21:35:31] [Thread-6/WARN]: 	... 8 more
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 24 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[21:35:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Saved 471 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
+[21:35:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:35:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[21:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

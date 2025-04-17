@@ -1,0 +1,1066 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Starting org.bukkit.craftbukkit.Main
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[14:44:18 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Eclipse Adoptium Temurin-21.0.6+7) on Linux 6.8.0-1023-oracle (aarch64)
+[14:44:18 INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[14:44:19 INFO]: [PluginInitializerManager] Initializing plugins...
+[14:44:19 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[14:44:19 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-SNAPSHOT-b2642), AxTrade (1.15.1), BetterTeams (4.12.0), BountySeekers (2.0.0), BungeeGuard (1.4.5), Chunky (1.4.36), Essentials (2.21.0), LuckPerms (5.4.145), ProtocolLib (5.3.0), Vault (2.10.0), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.3.2)
+[14:44:24 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:44:26 INFO]: Loaded 1290 recipes
+[14:44:26 INFO]: Loaded 1399 advancements
+[14:44:26 INFO]: Starting minecraft server version 1.21.1
+[14:44:26 INFO]: Loading properties
+[14:44:26 INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:44:27 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:44:27 INFO]: Server Ping Player Sample Count: 12
+[14:44:27 INFO]: Using 4 threads for Netty based IO
+[14:44:28 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[14:44:29 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+[14:44:29 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (int)
+[14:44:29 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (float)
+[14:44:29 INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[14:44:29 INFO]: Default game type: SURVIVAL
+[14:44:29 INFO]: Generating keypair
+[14:44:29 INFO]: Starting Minecraft server on localhost:25567
+[14:44:29 INFO]: Using epoll channel type
+[14:44:29 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[14:44:29 INFO]: Paper: Using OpenSSL 3.x.x (Linux aarch64) cipher from Velocity.
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[14:44:30 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[14:44:31 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[14:44:31 INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[14:44:31 INFO]: [ViaVersion] Loading block connection mappings ...
+[14:44:31 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:44:32 INFO]: [ViaBackwards] Loading translations...
+[14:44:32 INFO]: [ViaBackwards] Registering protocols...
+[14:44:32 INFO]: [ViaRewind] Registering protocols...
+[14:44:32 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.145
+[14:44:33 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[14:44:33 INFO]: [Vault] Loading server plugin Vault v2.10.0
+[14:44:33 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[14:44:33 INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[14:44:33 INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[14:44:33 INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[14:44:33 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2642
+[14:44:33 INFO]: [BetterTeams] Loading server plugin BetterTeams v4.12.0
+[14:44:33 INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[14:44:33 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[14:44:33 INFO]: [BountySeekers] Loading server plugin BountySeekers v2.0.0
+[14:44:33 INFO]: [AxTrade] Loading server plugin AxTrade v1.15.1
+[14:44:33 INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[14:44:33 INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.5
+[14:44:33 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:44:33 INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[14:44:34 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[14:44:34 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.4.145[0m
+[14:44:34 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Bukkit - Purpur[0m
+[14:44:34 INFO]: 
+[14:44:34 INFO]: [LuckPerms] Loading configuration...
+[14:44:34 INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:44:34 INFO]: [LuckPerms] Loading internal permission managers...
+[14:44:34 INFO]: [LuckPerms] Performing initial data load...
+[14:44:35 INFO]: [LuckPerms] Successfully enabled. (took 1601ms)
+[14:44:35 INFO]: [Vault] Enabling Vault v2.10.0
+[14:44:35 INFO]: [Vault] Enabled Version 2.10.0
+[14:44:35 INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:44:35 INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[14:44:35 INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[14:44:35 INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.5
+[14:44:35 INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[14:44:35 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:44:35 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:44:35 WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:44:35 WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:44:35 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:44:35 INFO]: Preparing level "world"
+[14:44:36 INFO]: Preparing start region for dimension minecraft:overworld
+[14:44:37 INFO]: Time elapsed: 1118 ms
+[14:44:37 INFO]: Preparing start region for dimension minecraft:the_nether
+[14:44:37 INFO]: Time elapsed: 216 ms
+[14:44:37 INFO]: Preparing start region for dimension minecraft:the_end
+[14:44:37 INFO]: Time elapsed: 192 ms
+[14:44:37 INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[14:44:37 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[14:44:37 INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[14:44:37 INFO]: [Essentials] Enabling Essentials v2.21.0
+[14:44:38 ERROR]: [Essentials] You are running an unsupported server version!
+[14:44:38 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:44:38 INFO]: [Essentials] No kits found to migrate.
+[14:44:38 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:44:38 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:44:38 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:44:38 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:44:38 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:44:38 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:44:38 INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[14:44:38 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:44:38 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:44:38 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:44:38 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[14:44:38 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:44:38 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:44:38 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:44:38 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:44:38 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:44:38 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:44:38 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:44:38 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:44:38 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:44:38 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:44:38 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:44:38 INFO]: [Essentials] Loaded 43465 items from items.json.
+[14:44:38 INFO]: [Essentials] Using locale en
+[14:44:39 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:44:39 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:44:39 INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[14:44:39 INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[14:44:39 INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2642
+[14:44:39 INFO]: [AuthMe] SQLite Setup finished
+[14:44:40 INFO]: [AuthMe] Hooked into LuckPerms!
+[14:44:40 INFO]: [AuthMe] Hooked successfully into Essentials
+[14:44:40 INFO]: [AuthMe] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[14:44:40 INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[14:44:40 INFO]: [BetterTeams] Enabling BetterTeams v4.12.0
+[14:44:40 INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[14:44:40 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[14:44:40 INFO]: [BetterTeams] Display team name config value: prefix
+[14:44:40 INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[14:44:40 INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@7b511002
+[14:44:40 INFO]: [BountySeekers] Enabling BountySeekers v2.0.0
+[14:44:40 INFO]: Enabled BountySeekers v2.0.0
+[14:44:40 INFO]: Placeholder API not found - Skipping hook.
+[14:44:40 INFO]: [AxTrade] Enabling AxTrade v1.15.1
+[14:44:41 INFO]: [38;2;51;255;51m[AxTrade] Hooked into Vault![0m
+[14:44:41 INFO]: [38;2;0;255;221m[AxTrade] Loaded plugin![0m
+[14:44:41 INFO]: [Chunky] Enabling Chunky v1.4.36
+[14:44:42 WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[14:44:42 INFO]: [spark] Starting background profiler...
+[14:44:42 INFO]: Done preparing level "world" (7.176s)
+[14:44:42 INFO]: Running delayed init tasks
+[14:44:42 INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.10.0)!
+[14:44:42 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:44:42 INFO]: [Essentials] [38;2;255;170;0mFetching version information...[0m
+[14:44:42 INFO]: [Chunky] No tasks to continue.
+[14:44:42 INFO]: Done (25.017s)! For help, type "help"
+[14:44:44 INFO]: UUID of player asdfasdfasdf1234 is 944b1b71-76b5-3162-84a3-3faa03a2472d
+[14:44:44 INFO]: [38;2;255;255;85masdfasdfasdf1234 joined the game[0m
+[14:44:45 INFO]: asdfasdfasdf1234[/64.150.15.14:50446] logged in with entity id 30 at ([world]128.5, 87.0, -335.5)
+[14:44:45 WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 38.296123ms. Summary: Getting group for asdfasdfasdf1234
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[14:44:45 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[14:44:53 INFO]: [AuthMe] The user asdfasdfasdf1234 has 3 accounts:
+[14:44:53 INFO]: [AuthMe] §7§aasdfasdfasdf1234§7, asdfasdf, imasdf.
+[14:44:53 INFO]: [AuthMe] asdfasdfasdf1234 logged in 64.150.15.14
+[14:45:44 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:45:44 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:45:48 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:45:48 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:45:48 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:45:48 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:45:49 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:45:49 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:45:50 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:45:50 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:45:50 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:45:50 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:49:12 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:49:12 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:49:13 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:49:13 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:49:16 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:49:16 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:49:18 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:49:18 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:49:20 INFO]: asdfasdfasdf1234 issued server command: /summon cow
+[14:49:20 INFO]: [3m[38;2;170;170;170m[asdfasdfasdf1234: Summoned new Cow][0m
+[14:58:14 INFO]: asdfasdfasdf1234 lost connection: Timed out
+[14:58:14 INFO]: [38;2;255;255;85masdfasdfasdf1234 left the game[0m
+WARNING: Using incubator modules: jdk.incubator.vector
+Starting org.bukkit.craftbukkit.Main
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[20:22:56 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Eclipse Adoptium Temurin-21.0.6+7) on Linux 6.8.0-1023-oracle (aarch64)
+[20:22:56 INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[20:22:57 INFO]: [PluginInitializerManager] Initializing plugins...
+[20:22:57 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[20:22:57 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-SNAPSHOT-b2642), AxTrade (1.15.1), BetterTeams (4.12.0), BountySeekers (2.0.0), BungeeGuard (1.4.5), Chunky (1.4.36), Essentials (2.21.0), LuckPerms (5.4.145), ProtocolLib (5.3.0), Vault (2.10.0), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.3.2)
+[20:23:02 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:23:05 INFO]: Loaded 1290 recipes
+[20:23:05 INFO]: Loaded 1399 advancements
+[20:23:06 INFO]: Starting minecraft server version 1.21.1
+[20:23:06 INFO]: Loading properties
+[20:23:06 INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:23:07 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:23:07 INFO]: Server Ping Player Sample Count: 12
+[20:23:07 INFO]: Using 4 threads for Netty based IO
+[20:23:08 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:23:08 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+[20:23:08 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (int)
+[20:23:08 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (float)
+[20:23:08 INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[20:23:08 INFO]: Default game type: SURVIVAL
+[20:23:08 INFO]: Generating keypair
+[20:23:08 INFO]: Starting Minecraft server on localhost:25567
+[20:23:08 INFO]: Using epoll channel type
+[20:23:08 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[20:23:08 INFO]: Paper: Using OpenSSL 3.x.x (Linux aarch64) cipher from Velocity.
+[20:23:09 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[20:23:10 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[20:23:10 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[20:23:10 INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[20:23:11 INFO]: [ViaVersion] Loading block connection mappings ...
+[20:23:11 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:23:11 INFO]: [ViaBackwards] Loading translations...
+[20:23:11 INFO]: [ViaBackwards] Registering protocols...
+[20:23:12 INFO]: [ViaRewind] Registering protocols...
+[20:23:12 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.145
+[20:23:12 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[20:23:12 INFO]: [Vault] Loading server plugin Vault v2.10.0
+[20:23:12 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[20:23:12 INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[20:23:13 INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[20:23:13 INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[20:23:13 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2642
+[20:23:13 INFO]: [BetterTeams] Loading server plugin BetterTeams v4.12.0
+[20:23:13 INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[20:23:13 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:23:13 INFO]: [BountySeekers] Loading server plugin BountySeekers v2.0.0
+[20:23:13 INFO]: [AxTrade] Loading server plugin AxTrade v1.15.1
+[20:23:13 INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[20:23:13 INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.5
+[20:23:13 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:23:13 INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[20:23:13 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[20:23:13 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.4.145[0m
+[20:23:13 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Bukkit - Purpur[0m
+[20:23:13 INFO]: 
+[20:23:13 INFO]: [LuckPerms] Loading configuration...
+[20:23:13 INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:23:14 INFO]: [LuckPerms] Loading internal permission managers...
+[20:23:14 INFO]: [LuckPerms] Performing initial data load...
+[20:23:14 INFO]: [LuckPerms] Successfully enabled. (took 1696ms)
+[20:23:14 INFO]: [Vault] Enabling Vault v2.10.0
+[20:23:14 INFO]: [Vault] Enabled Version 2.10.0
+[20:23:14 INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:23:14 INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[20:23:14 INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[20:23:14 INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.5
+[20:23:14 INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[20:23:14 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:23:14 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:23:14 WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:23:14 WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:23:14 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:23:14 INFO]: Preparing level "world"
+[20:23:15 INFO]: Preparing start region for dimension minecraft:overworld
+[20:23:16 INFO]: Time elapsed: 1241 ms
+[20:23:16 INFO]: Preparing start region for dimension minecraft:the_nether
+[20:23:17 INFO]: Time elapsed: 172 ms
+[20:23:17 INFO]: Preparing start region for dimension minecraft:the_end
+[20:23:17 INFO]: Time elapsed: 185 ms
+[20:23:17 INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[20:23:17 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:23:17 INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[20:23:17 INFO]: [Essentials] Enabling Essentials v2.21.0
+[20:23:17 ERROR]: [Essentials] You are running an unsupported server version!
+[20:23:18 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:23:18 INFO]: [Essentials] No kits found to migrate.
+[20:23:18 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:23:18 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:23:18 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:23:18 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:23:18 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:23:18 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:23:18 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:23:18 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:23:18 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:23:18 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:23:18 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:23:18 INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[20:23:18 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:23:18 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:23:18 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:23:18 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:23:18 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:23:18 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:23:18 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:23:18 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:23:18 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:23:18 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:23:18 INFO]: [Essentials] Loaded 43465 items from items.json.
+[20:23:18 INFO]: [Essentials] Using locale en
+[20:23:18 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:23:19 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:23:19 INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:23:19 INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[20:23:19 INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2642
+[20:23:19 INFO]: [AuthMe] SQLite Setup finished
+[20:23:19 INFO]: [AuthMe] Hooked into LuckPerms!
+[20:23:19 INFO]: [AuthMe] Hooked successfully into Essentials
+[20:23:19 INFO]: [AuthMe] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[20:23:20 INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[20:23:20 INFO]: [BetterTeams] Enabling BetterTeams v4.12.0
+[20:23:20 INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[20:23:20 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:23:20 INFO]: [BetterTeams] Display team name config value: prefix
+[20:23:20 INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[20:23:20 INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@6268fd85
+[20:23:20 INFO]: [BountySeekers] Enabling BountySeekers v2.0.0
+[20:23:20 INFO]: Enabled BountySeekers v2.0.0
+[20:23:20 INFO]: Placeholder API not found - Skipping hook.
+[20:23:20 INFO]: [AxTrade] Enabling AxTrade v1.15.1
+[20:23:21 INFO]: [38;2;51;255;51m[AxTrade] Hooked into Vault![0m
+[20:23:21 INFO]: [38;2;0;255;221m[AxTrade] Loaded plugin![0m
+[20:23:21 INFO]: [Chunky] Enabling Chunky v1.4.36
+[20:23:21 WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[20:23:21 INFO]: [spark] Starting background profiler...
+[20:23:22 INFO]: Done preparing level "world" (7.223s)
+[20:23:22 INFO]: Running delayed init tasks
+[20:23:22 INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.10.0)!
+[20:23:22 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:23:22 INFO]: [Essentials] [38;2;255;170;0mFetching version information...[0m
+[20:23:22 INFO]: [Chunky] No tasks to continue.
+[20:23:22 INFO]: Done (26.764s)! For help, type "help"
+[20:27:13 INFO]: Stopping server
+[20:27:13 INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.5
+[20:27:13 INFO]: [Chunky] Disabling Chunky v1.4.36
+[20:27:13 INFO]: [AxTrade] Disabling AxTrade v1.15.1
+[20:27:13 INFO]: [BountySeekers] Disabling BountySeekers v2.0.0
+[20:27:13 INFO]: Disabled BountySeekers v2.0.0
+[20:27:13 INFO]: [BetterTeams] Disabling BetterTeams v4.12.0
+[20:27:13 INFO]: [AuthMe] Disabling AuthMe v5.7.0-SNAPSHOT-b2642
+[20:27:13 INFO]: [AuthMe] Waiting for 0 tasks to finish
+[20:27:13 INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[20:27:13 INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[20:27:13 INFO]: [Essentials] Disabling Essentials v2.21.0
+[20:27:13 INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[20:27:13 INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[20:27:13 INFO]: [Vault] Disabling Vault v2.10.0
+[20:27:13 INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[20:27:13 INFO]: [LuckPerms] Disabling LuckPerms v5.4.145
+[20:27:13 INFO]: [LuckPerms] Starting shutdown process...
+[20:27:13 INFO]: [LuckPerms] Closing storage...
+[20:27:13 INFO]: [LuckPerms] Goodbye!
+[20:27:13 INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[20:27:13 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:27:13 INFO]: Saving players
+[20:27:13 INFO]: Saving worlds
+[20:27:13 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:27:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:27:13 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:27:13 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:27:13 WARN]: Exception in thread "Thread-5" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[20:27:13 WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[20:27:13 WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
+[20:27:13 WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[20:27:13 WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[20:27:13 WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[20:27:13 WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
+[20:27:13 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[20:27:13 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[20:27:13 WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[20:27:13 WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[20:27:13 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[20:27:13 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[20:27:13 WARN]: 	... 8 more
+[20:27:13 INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.24s
+[20:27:13 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:27:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:27:13 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:27:13 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:27:13 INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
+[20:27:13 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:27:13 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:27:13 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:27:13 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:27:13 INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
+[20:27:13 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:27:13 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:27:13 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:27:13 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+WARNING: Using incubator modules: jdk.incubator.vector
+Starting org.bukkit.craftbukkit.Main
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[20:19:51 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Eclipse Adoptium Temurin-21.0.6+7) on Linux 6.8.0-1023-oracle (aarch64)
+[20:19:51 INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[20:19:52 INFO]: [PluginInitializerManager] Initializing plugins...
+[20:19:52 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[20:19:52 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-SNAPSHOT-b2642), AxTrade (1.15.1), BetterTeams (4.12.0), BountySeekers (2.0.0), BungeeGuard (1.4.5), Chunky (1.4.36), Essentials (2.21.0), LuckPerms (5.4.145), ProtocolLib (5.3.0), Vault (2.10.0), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.3.2)
+[20:19:58 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:20:01 INFO]: Loaded 1290 recipes
+[20:20:01 INFO]: Loaded 1399 advancements
+[20:20:01 INFO]: Starting minecraft server version 1.21.1
+[20:20:01 INFO]: Loading properties
+[20:20:01 INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:20:02 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:20:02 INFO]: Server Ping Player Sample Count: 12
+[20:20:02 INFO]: Using 4 threads for Netty based IO
+[20:20:03 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:20:04 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+[20:20:04 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (int)
+[20:20:04 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (float)
+[20:20:04 INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[20:20:04 INFO]: Default game type: SURVIVAL
+[20:20:04 INFO]: Generating keypair
+[20:20:04 INFO]: Starting Minecraft server on localhost:25567
+[20:20:04 INFO]: Using epoll channel type
+[20:20:04 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[20:20:04 INFO]: Paper: Using OpenSSL 3.x.x (Linux aarch64) cipher from Velocity.
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[20:20:05 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[20:20:05 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[20:20:05 INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[20:20:06 INFO]: [ViaVersion] Loading block connection mappings ...
+[20:20:06 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:20:06 INFO]: [ViaBackwards] Loading translations...
+[20:20:07 INFO]: [ViaBackwards] Registering protocols...
+[20:20:07 INFO]: [ViaRewind] Registering protocols...
+[20:20:07 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.145
+[20:20:08 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[20:20:08 INFO]: [Vault] Loading server plugin Vault v2.10.0
+[20:20:08 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[20:20:08 INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[20:20:08 INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[20:20:08 INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[20:20:08 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2642
+[20:20:08 INFO]: [BetterTeams] Loading server plugin BetterTeams v4.12.0
+[20:20:08 INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[20:20:08 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:20:08 INFO]: [BountySeekers] Loading server plugin BountySeekers v2.0.0
+[20:20:08 INFO]: [AxTrade] Loading server plugin AxTrade v1.15.1
+[20:20:08 INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[20:20:08 INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.5
+[20:20:08 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:20:08 INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[20:20:08 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[20:20:08 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.4.145[0m
+[20:20:08 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Bukkit - Purpur[0m
+[20:20:08 INFO]: 
+[20:20:08 INFO]: [LuckPerms] Loading configuration...
+[20:20:09 INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:20:09 INFO]: [LuckPerms] Loading internal permission managers...
+[20:20:09 INFO]: [LuckPerms] Performing initial data load...
+[20:20:09 INFO]: [LuckPerms] Successfully enabled. (took 1537ms)
+[20:20:09 INFO]: [Vault] Enabling Vault v2.10.0
+[20:20:09 INFO]: [Vault] Enabled Version 2.10.0
+[20:20:09 INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:20:09 INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[20:20:09 INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[20:20:10 INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.5
+[20:20:10 INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[20:20:10 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:10 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:10 WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:10 WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:20:10 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:10 INFO]: Preparing level "world"
+[20:20:10 INFO]: Preparing start region for dimension minecraft:overworld
+[20:20:11 INFO]: Time elapsed: 455 ms
+[20:20:11 INFO]: Preparing start region for dimension minecraft:the_nether
+[20:20:12 INFO]: Time elapsed: 943 ms
+[20:20:12 INFO]: Preparing start region for dimension minecraft:the_end
+[20:20:12 INFO]: Time elapsed: 135 ms
+[20:20:12 INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[20:20:12 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:20:12 INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[20:20:12 INFO]: [Essentials] Enabling Essentials v2.21.0
+[20:20:12 ERROR]: [Essentials] You are running an unsupported server version!
+[20:20:13 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:20:13 INFO]: [Essentials] No kits found to migrate.
+[20:20:13 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:20:13 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:20:13 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:20:13 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:20:13 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:20:13 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:20:13 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:20:13 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:20:13 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:20:13 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:20:13 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:20:13 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:20:13 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:20:13 INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[20:20:13 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:20:13 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:20:13 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:20:13 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:20:13 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:20:13 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:20:13 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:20:13 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:20:13 INFO]: [Essentials] Loaded 43465 items from items.json.
+[20:20:13 INFO]: [Essentials] Using locale en
+[20:20:13 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:20:14 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:20:14 INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:20:14 INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[20:20:14 INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2642
+[20:20:14 INFO]: [AuthMe] SQLite Setup finished
+[20:20:14 INFO]: [AuthMe] Hooked into LuckPerms!
+[20:20:14 INFO]: [AuthMe] Hooked successfully into Essentials
+[20:20:14 INFO]: [AuthMe] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[20:20:15 INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[20:20:15 INFO]: [BetterTeams] Enabling BetterTeams v4.12.0
+[20:20:15 INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[20:20:15 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:20:15 INFO]: [BetterTeams] Display team name config value: prefix
+[20:20:15 INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[20:20:15 INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@502a3347
+[20:20:15 INFO]: [BountySeekers] Enabling BountySeekers v2.0.0
+[20:20:15 INFO]: Enabled BountySeekers v2.0.0
+[20:20:15 INFO]: Placeholder API not found - Skipping hook.
+[20:20:15 INFO]: [AxTrade] Enabling AxTrade v1.15.1
+[20:20:15 INFO]: [38;2;51;255;51m[AxTrade] Hooked into Vault![0m
+[20:20:16 INFO]: [38;2;0;255;221m[AxTrade] Loaded plugin![0m
+[20:20:16 INFO]: [Chunky] Enabling Chunky v1.4.36
+[20:20:16 WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[20:20:16 INFO]: [spark] Starting background profiler...
+[20:20:16 INFO]: Done preparing level "world" (6.931s)
+[20:20:16 INFO]: Running delayed init tasks
+[20:20:16 INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.10.0)!
+[20:20:16 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:20:16 INFO]: [Essentials] [38;2;255;170;0mFetching version information...[0m
+[20:20:17 INFO]: [Chunky] No tasks to continue.
+[20:20:17 INFO]: Done (26.620s)! For help, type "help"
+[20:23:07 INFO]: UUID of player iatepancakes is 0f941c54-ac6d-3f20-b2bc-54be40e3bfda
+[20:23:08 INFO]: [38;2;255;255;85miatepancakes joined the game[0m
+[20:23:09 INFO]: iatepancakes[/64.150.2.26:59854] logged in with entity id 13 at ([world_nether]406.4626359767889, 74.95941379691861, -605.2804911051837)
+[20:23:09 INFO]: Stopping server
+[20:23:09 INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.5
+[20:23:09 INFO]: [Chunky] Disabling Chunky v1.4.36
+[20:23:09 INFO]: [AxTrade] Disabling AxTrade v1.15.1
+[20:23:09 INFO]: [BountySeekers] Disabling BountySeekers v2.0.0
+[20:23:09 INFO]: Disabled BountySeekers v2.0.0
+[20:23:09 INFO]: [BetterTeams] Disabling BetterTeams v4.12.0
+[20:23:09 INFO]: [AuthMe] Disabling AuthMe v5.7.0-SNAPSHOT-b2642
+[20:23:09 INFO]: [AuthMe] Waiting for 0 tasks to finish
+[20:23:09 INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[20:23:09 INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[20:23:09 INFO]: [Essentials] Disabling Essentials v2.21.0
+[20:23:09 INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[20:23:09 INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[20:23:09 INFO]: [Vault] Disabling Vault v2.10.0
+[20:23:09 INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[20:23:09 INFO]: [LuckPerms] Disabling LuckPerms v5.4.145
+[20:23:09 INFO]: [LuckPerms] Starting shutdown process...
+[20:23:09 INFO]: [LuckPerms] Closing storage...
+[20:23:09 INFO]: [LuckPerms] Goodbye!
+[20:23:09 INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[20:23:09 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:23:09 INFO]: Saving players
+[20:23:09 WARN]: Exception in thread "Thread-6" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[20:23:09 WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[20:23:09 WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
+[20:23:09 WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[20:23:09 WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[20:23:09 WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[20:23:09 WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
+[20:23:09 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[20:23:09 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[20:23:09 WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[20:23:09 WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[20:23:09 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[20:23:09 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[20:23:09 WARN]: 	... 8 more
+[20:23:09 INFO]: iatepancakes lost connection: Server closed
+[20:23:09 INFO]: [38;2;255;255;85miatepancakes left the game[0m
+[20:23:09 INFO]: Saving worlds
+[20:23:09 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:23:09 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:23:09 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:23:09 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:23:09 INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.26s
+[20:23:09 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:23:09 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:23:09 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:23:09 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:23:10 INFO]: [ChunkHolderManager] Saved 50 block chunks, 50 entity chunks, 0 poi chunks in world 'world_nether' in 0.10s
+[20:23:10 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:23:10 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:23:10 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:23:10 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:23:10 INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[20:23:10 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:23:10 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:23:10 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:23:10 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+Server restarting...
+Press CTRL + C to stop.
+WARNING: Using incubator modules: jdk.incubator.vector
+Starting org.bukkit.craftbukkit.Main
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[20:23:15 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Eclipse Adoptium Temurin-21.0.6+7) on Linux 6.8.0-1023-oracle (aarch64)
+[20:23:15 INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[20:23:16 INFO]: [PluginInitializerManager] Initializing plugins...
+[20:23:16 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[20:23:16 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-SNAPSHOT-b2642), AxTrade (1.15.1), BetterTeams (4.12.0), BountySeekers (2.0.0), BungeeGuard (1.4.5), Chunky (1.4.36), Essentials (2.21.0), LuckPerms (5.4.145), ProtocolLib (5.3.0), Vault (2.10.0), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.3.2)
+[20:23:21 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:23:22 INFO]: Loaded 1290 recipes
+[20:23:23 INFO]: Loaded 1399 advancements
+[20:23:23 INFO]: Starting minecraft server version 1.21.1
+[20:23:23 INFO]: Loading properties
+[20:23:23 INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:23:24 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:23:24 INFO]: Server Ping Player Sample Count: 12
+[20:23:24 INFO]: Using 4 threads for Netty based IO
+[20:23:25 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:23:25 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+[20:23:25 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (int)
+[20:23:25 INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (float)
+[20:23:25 INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[20:23:25 INFO]: Default game type: SURVIVAL
+[20:23:25 INFO]: Generating keypair
+[20:23:25 INFO]: Starting Minecraft server on localhost:25567
+[20:23:26 INFO]: Using epoll channel type
+[20:23:26 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[20:23:26 INFO]: Paper: Using OpenSSL 3.x.x (Linux aarch64) cipher from Velocity.
+[20:23:26 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[20:23:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/ubuntu/server/mc/main/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[20:23:27 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[20:23:27 INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[20:23:27 INFO]: [ViaVersion] Loading block connection mappings ...
+[20:23:28 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:23:28 INFO]: [ViaBackwards] Loading translations...
+[20:23:28 INFO]: [ViaBackwards] Registering protocols...
+[20:23:29 INFO]: [ViaRewind] Registering protocols...
+[20:23:29 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.145
+[20:23:29 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[20:23:29 INFO]: [Vault] Loading server plugin Vault v2.10.0
+[20:23:29 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[20:23:29 INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[20:23:29 INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[20:23:29 INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[20:23:29 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2642
+[20:23:29 INFO]: [BetterTeams] Loading server plugin BetterTeams v4.12.0
+[20:23:29 INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[20:23:29 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:23:29 INFO]: [BountySeekers] Loading server plugin BountySeekers v2.0.0
+[20:23:29 INFO]: [AxTrade] Loading server plugin AxTrade v1.15.1
+[20:23:29 INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[20:23:29 INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.5
+[20:23:29 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:23:29 INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[20:23:30 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[20:23:30 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.4.145[0m
+[20:23:30 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Bukkit - Purpur[0m
+[20:23:30 INFO]: 
+[20:23:30 INFO]: [LuckPerms] Loading configuration...
+[20:23:30 INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:23:31 INFO]: [LuckPerms] Loading internal permission managers...
+[20:23:31 INFO]: [LuckPerms] Performing initial data load...
+[20:23:31 INFO]: [LuckPerms] Successfully enabled. (took 1524ms)
+[20:23:31 INFO]: [Vault] Enabling Vault v2.10.0
+[20:23:31 INFO]: [Vault] Enabled Version 2.10.0
+[20:23:31 INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:23:31 INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[20:23:31 INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[20:23:31 INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.5
+[20:23:31 INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[20:23:31 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:23:31 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:23:31 WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:23:31 WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:23:31 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:23:31 INFO]: Preparing level "world"
+[20:23:32 INFO]: Preparing start region for dimension minecraft:overworld
+[20:23:32 INFO]: Time elapsed: 600 ms
+[20:23:32 INFO]: Preparing start region for dimension minecraft:the_nether
+[20:23:33 INFO]: Time elapsed: 819 ms
+[20:23:33 INFO]: Preparing start region for dimension minecraft:the_end
+[20:23:33 INFO]: Time elapsed: 232 ms
+[20:23:33 INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[20:23:34 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:23:34 INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[20:23:34 INFO]: [Essentials] Enabling Essentials v2.21.0
+[20:23:34 ERROR]: [Essentials] You are running an unsupported server version!
+[20:23:35 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:23:35 INFO]: [Essentials] No kits found to migrate.
+[20:23:35 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:23:35 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:23:35 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:23:35 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:23:35 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:23:35 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:23:35 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:23:35 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:23:35 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:23:35 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:23:35 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:23:35 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:23:35 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:23:35 INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[20:23:35 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:23:35 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:23:35 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:23:35 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:23:35 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:23:35 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:23:35 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:23:35 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:23:35 INFO]: [Essentials] Loaded 43465 items from items.json.
+[20:23:35 INFO]: [Essentials] Using locale en
+[20:23:35 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:23:35 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:23:35 INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:23:35 INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[20:23:35 INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2642
+[20:23:36 INFO]: [AuthMe] SQLite Setup finished
+[20:23:36 INFO]: [AuthMe] Hooked into LuckPerms!
+[20:23:36 INFO]: [AuthMe] Hooked successfully into Essentials
+[20:23:36 INFO]: [AuthMe] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[20:23:36 INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[20:23:36 INFO]: [BetterTeams] Enabling BetterTeams v4.12.0
+[20:23:36 INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[20:23:36 INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:23:37 INFO]: [BetterTeams] Display team name config value: prefix
+[20:23:37 INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[20:23:37 INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@6a0c36e6
+[20:23:37 INFO]: [BountySeekers] Enabling BountySeekers v2.0.0
+[20:23:37 INFO]: Enabled BountySeekers v2.0.0
+[20:23:37 INFO]: Placeholder API not found - Skipping hook.
+[20:23:37 INFO]: [AxTrade] Enabling AxTrade v1.15.1
+[20:23:37 INFO]: [38;2;51;255;51m[AxTrade] Hooked into Vault![0m
+[20:23:37 INFO]: [38;2;0;255;221m[AxTrade] Loaded plugin![0m
+[20:23:38 INFO]: [Chunky] Enabling Chunky v1.4.36
+[20:23:38 WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[20:23:38 INFO]: [spark] Starting background profiler...
+[20:23:38 INFO]: Done preparing level "world" (7.257s)
+[20:23:38 INFO]: Running delayed init tasks
+[20:23:38 INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.10.0)!
+[20:23:38 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:23:38 INFO]: [Essentials] [38;2;255;170;0mFetching version information...[0m
+[20:23:38 INFO]: [Chunky] No tasks to continue.
+[20:23:38 INFO]: Done (24.439s)! For help, type "help"
+[20:25:34 INFO]: UUID of player imasdf is 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8
+[20:25:35 INFO]: [38;2;255;255;85mimasdf joined the game[0m
+[20:25:35 INFO]: imasdf[/64.150.2.26:41120] logged in with entity id 13 at ([world]-2586.2651750621762, 71.0, 81.79714217258153)
+[20:25:55 INFO]: [AuthMe] The user imasdf has 3 accounts:
+[20:25:55 INFO]: [AuthMe] §7§aimasdf§7, bruv1000000, cc588.
+[20:25:55 INFO]: [AuthMe] imasdf logged in 64.150.2.26
+[20:25:55 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:26:00 INFO]: imasdf issued server command: /back
+[20:26:00 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:26:13 INFO]: imasdf issued server command: /back
+[20:26:13 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:26:49 INFO]: imasdf issued server command: /back
+[20:26:49 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:26:59 INFO]: imasdf issued server command: /back
+[20:26:59 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:27:25 INFO]: imasdf issued server command: /back
+[20:27:25 WARN]: imasdf moved too quickly! -2587.0,67.0,81.0
+[20:27:26 WARN]: imasdf moved too quickly! -2587.0,67.0,81.0
+[20:27:26 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:27:29 INFO]: imasdf issued server command: /bakc
+[20:27:34 INFO]: imasdf issued server command: /back
+[20:27:34 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:27:47 INFO]: imasdf issued server command: /back
+[20:27:47 WARN]: imasdf moved too quickly! -2587.0,67.0,81.0
+[20:27:47 INFO]: [38;2;255;170;0masdf[0m imasdf left the confines of this world
+[20:28:01 INFO]: Stopping server
+[20:28:01 INFO]: [BungeeGuard] Disabling BungeeGuard v1.4.5
+[20:28:01 INFO]: [Chunky] Disabling Chunky v1.4.36
+[20:28:01 INFO]: [AxTrade] Disabling AxTrade v1.15.1
+[20:28:01 INFO]: [BountySeekers] Disabling BountySeekers v2.0.0
+[20:28:01 INFO]: Disabled BountySeekers v2.0.0
+[20:28:01 INFO]: [BetterTeams] Disabling BetterTeams v4.12.0
+[20:28:01 INFO]: [AuthMe] Disabling AuthMe v5.7.0-SNAPSHOT-b2642
+[20:28:01 INFO]: [AuthMe] Waiting for 0 tasks to finish
+[20:28:01 INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[20:28:01 INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[20:28:01 INFO]: [Essentials] Disabling Essentials v2.21.0
+[20:28:01 INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[20:28:01 INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[20:28:01 INFO]: [Vault] Disabling Vault v2.10.0
+[20:28:01 INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[20:28:01 INFO]: [LuckPerms] Disabling LuckPerms v5.4.145
+[20:28:01 INFO]: [LuckPerms] Starting shutdown process...
+[20:28:01 INFO]: [LuckPerms] Closing storage...
+[20:28:01 INFO]: [LuckPerms] Goodbye!
+[20:28:01 INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[20:28:01 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:28:01 INFO]: Saving players
+[20:28:01 INFO]: imasdf lost connection: Server closed
+[20:28:01 INFO]: [38;2;255;255;85mimasdf left the game[0m
+[20:28:01 WARN]: Exception in thread "Thread-6" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[20:28:01 WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[20:28:01 WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
+[20:28:01 WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[20:28:01 WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[20:28:01 WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[20:28:01 WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
+[20:28:01 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[20:28:01 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[20:28:01 WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[20:28:01 WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[20:28:01 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[20:28:01 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[20:28:01 WARN]: 	... 8 more
+[20:28:01 INFO]: Saving worlds
+[20:28:01 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:28:01 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:28:01 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:28:01 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:28:01 INFO]: [ChunkHolderManager] Saved 306 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 0.43s
+[20:28:01 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:28:01 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:28:01 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:28:01 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:28:02 INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
+[20:28:02 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:28:02 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:28:02 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:28:02 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:28:02 INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[20:28:02 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:28:02 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:02 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:02 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

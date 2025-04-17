@@ -605,3 +605,193 @@
 [04-15 02:55:39]: [FINE] Yuvrajxd logged in 204.14.36.11
 [04-15 03:07:36]: [FINE] Yuvrajxd logged in 204.14.36.11
 [04-15 03:22:44]: [FINE] Yuvrajxd logged in 204.14.36.11
+[04-15 14:44:39]: [INFO] SQLite Setup finished
+[04-15 14:44:40]: [INFO] Hooked into LuckPerms!
+[04-15 14:44:40]: [INFO] Hooked successfully into Essentials
+[04-15 14:44:40]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-15 14:44:40]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-15 14:44:53]: [FINE] The user asdfasdfasdf1234 has 3 accounts:
+[04-15 14:44:53]: [FINE] §7§aasdfasdfasdf1234§7, asdfasdf, imasdf.
+[04-15 14:44:53]: [FINE] asdfasdfasdf1234 logged in 64.150.15.14
+[04-15 20:23:19]: [INFO] SQLite Setup finished
+[04-15 20:23:19]: [INFO] Hooked into LuckPerms!
+[04-15 20:23:19]: [INFO] Hooked successfully into Essentials
+[04-15 20:23:19]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-15 20:23:20]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-15 20:27:13]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-15 20:28:03]: [INFO] SQLite Setup finished
+[04-15 20:28:03]: [INFO] Hooked into LuckPerms!
+[04-15 20:28:04]: [INFO] Hooked successfully into Essentials
+[04-15 20:28:04]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-15 20:28:04]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-15 20:29:22]: [FINE] Semiboi logged in 64.150.2.26
+[04-15 20:29:25]: [FINE] The user mundoispluh has 3 accounts:
+[04-15 20:29:25]: [FINE] §7iwontgrief, §amundoispluh§7, ath818.
+[04-15 20:29:25]: [FINE] mundoispluh logged in 64.150.2.24
+[04-15 20:29:26]: [FINE] iatepancakes registered 64.150.2.25
+[04-15 20:29:26]: [FINE] iatepancakes logged in 64.150.2.25
+[04-15 20:29:30]: [FINE] bruv1000000 registered 64.150.2.26
+[04-15 20:29:30]: [FINE] The user bruv1000000 has 2 accounts:
+[04-15 20:29:30]: [FINE] §7§aSemiboi§7, §abruv1000000§7.
+[04-15 20:29:30]: [FINE] bruv1000000 logged in 64.150.2.26
+[04-15 20:29:30]: [FINE] imasdf used the wrong password
+[04-15 20:29:36]: [FINE] The user Yuvrajxd has 2 accounts:
+[04-15 20:29:36]: [FINE] §7§aYuvrajxd§7, §aiatepancakes§7.
+[04-15 20:29:36]: [FINE] Yuvrajxd logged in 64.150.2.25
+[04-15 20:29:37]: [FINE] The user imasdf has 3 accounts:
+[04-15 20:29:37]: [FINE] §7§aYuvrajxd§7, §aimasdf§7, §aiatepancakes§7.
+[04-15 20:29:37]: [FINE] imasdf logged in 64.150.2.25
+[04-15 20:30:25]: [FINE] The user Yuvrajxd has 3 accounts:
+[04-15 20:30:25]: [FINE] §7§aYuvrajxd§7, §aimasdf§7, §aiatepancakes§7.
+[04-15 20:30:25]: [FINE] Yuvrajxd logged in 64.150.2.25
+[04-15 20:33:58]: [FINE] rzhang6 registered 64.150.2.24
+[04-15 20:33:58]: [FINE] The user rzhang6 has 4 accounts:
+[04-15 20:33:58]: [FINE] §7iwontgrief, §amundoispluh§7, ath818, §arzhang6§7.
+[04-15 20:33:58]: [FINE] rzhang6 logged in 64.150.2.24
+[04-15 20:34:53]: [FINE] Ath818 used the wrong password
+[04-15 20:34:58]: [FINE] Ath818 used the wrong password
+[04-15 20:35:04]: [FINE] The user Ath818 has 4 accounts:
+[04-15 20:35:04]: [FINE] §7iwontgrief, §amundoispluh§7, §aAth818§7, §arzhang6§7.
+[04-15 20:35:04]: [FINE] Ath818 logged in 64.150.2.24
+[04-15 20:37:08]: [FINE] The user Iwontgrief has 4 accounts:
+[04-15 20:37:08]: [FINE] §7§aIwontgrief§7, §amundoispluh§7, §aAth818§7, §arzhang6§7.
+[04-15 20:37:08]: [FINE] Iwontgrief logged in 64.150.2.24
+[04-15 20:38:13]: [FINE] The user Semiboi has 2 accounts:
+[04-15 20:38:13]: [FINE] §7§aSemiboi§7, §abruv1000000§7.
+[04-15 20:38:13]: [FINE] Semiboi logged in 64.150.2.26
+[04-15 20:57:31]: [FINE] The user iatepancakes has 3 accounts:
+[04-15 20:57:31]: [FINE] §7§aYuvrajxd§7, §aimasdf§7, §aiatepancakes§7.
+[04-15 20:57:31]: [FINE] iatepancakes logged in 64.150.2.25
+[04-15 21:22:12]: [FINE] CC588 registered 64.150.2.26
+[04-15 21:22:12]: [FINE] The user CC588 has 3 accounts:
+[04-15 21:22:12]: [FINE] §7§aSemiboi§7, bruv1000000, §aCC588§7.
+[04-15 21:22:12]: [FINE] CC588 logged in 64.150.2.26
+[04-15 21:23:16]: [FINE] The user asdfasdfasdf1234 has 2 accounts:
+[04-15 21:23:16]: [FINE] §7§aasdfasdfasdf1234§7, asdfasdf.
+[04-15 21:23:16]: [FINE] asdfasdfasdf1234 logged in 64.150.15.14
+[04-15 21:27:42]: [FINE] Ath818 used the wrong password
+[04-15 21:27:47]: [FINE] Ath818 used the wrong password
+[04-15 21:27:52]: [FINE] The user Ath818 has 4 accounts:
+[04-15 21:27:52]: [FINE] §7iwontgrief, §amundoispluh§7, §aAth818§7, rzhang6.
+[04-15 21:27:52]: [FINE] Ath818 logged in 64.150.2.24
+[04-15 21:31:47]: [FINE] The user Ath818 has 4 accounts:
+[04-15 21:31:47]: [FINE] §7iwontgrief, §amundoispluh§7, §aAth818§7, rzhang6.
+[04-15 21:31:47]: [FINE] Ath818 logged in 64.150.2.24
+[04-15 21:33:25]: [FINE] The user Ath818 has 4 accounts:
+[04-15 21:33:25]: [FINE] §7iwontgrief, §amundoispluh§7, §aAth818§7, rzhang6.
+[04-15 21:33:25]: [FINE] Ath818 logged in 64.150.2.24
+[04-16 00:08:36]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-16 00:09:03]: [INFO] SQLite Setup finished
+[04-16 00:09:03]: [INFO] Hooked into LuckPerms!
+[04-16 00:09:03]: [INFO] Hooked successfully into Essentials
+[04-16 00:09:03]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-16 00:09:03]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-16 00:44:46]: [FINE] Yuvrajxd logged in 204.14.36.11
+[04-16 01:08:00]: [FINE] iatepancakes logged in 107.138.62.191
+[04-16 01:18:07]: [FINE] Semiboi logged in 208.59.145.19
+[04-16 01:40:23]: [FINE] iatepancakes logged in 107.138.62.191
+[04-16 01:43:03]: [FINE] Semiboi logged in 208.59.145.19
+[04-16 02:36:29]: [FINE] Semiboi logged in 208.59.145.19
+[04-16 06:53:50]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-16 20:20:14]: [INFO] SQLite Setup finished
+[04-16 20:20:14]: [INFO] Hooked into LuckPerms!
+[04-16 20:20:14]: [INFO] Hooked successfully into Essentials
+[04-16 20:20:14]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-16 20:20:15]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-16 20:23:09]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-16 20:23:36]: [INFO] SQLite Setup finished
+[04-16 20:23:36]: [INFO] Hooked into LuckPerms!
+[04-16 20:23:36]: [INFO] Hooked successfully into Essentials
+[04-16 20:23:36]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-16 20:23:36]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-16 20:25:55]: [FINE] The user imasdf has 3 accounts:
+[04-16 20:25:55]: [FINE] §7§aimasdf§7, bruv1000000, cc588.
+[04-16 20:25:55]: [FINE] imasdf logged in 64.150.2.26
+[04-16 20:28:01]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-16 20:28:46]: [INFO] SQLite Setup finished
+[04-16 20:28:46]: [INFO] Hooked into LuckPerms!
+[04-16 20:28:46]: [INFO] Hooked successfully into Essentials
+[04-16 20:28:46]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-16 20:28:46]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-16 20:29:09]: [FINE] The user imasdf has 3 accounts:
+[04-16 20:29:09]: [FINE] §7§aimasdf§7, bruv1000000, cc588.
+[04-16 20:29:09]: [FINE] imasdf logged in 64.150.2.26
+[04-16 20:30:18]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-16 20:31:11]: [INFO] SQLite Setup finished
+[04-16 20:31:11]: [INFO] Hooked into LuckPerms!
+[04-16 20:31:11]: [INFO] Hooked successfully into Essentials
+[04-16 20:31:11]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-16 20:31:11]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-16 20:31:11]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-16 20:31:24]: [FINE] imasdf used the wrong password
+[04-16 20:31:52]: [FINE] imasdf used the wrong password
+[04-16 20:32:05]: [FINE] imasdf used the wrong password
+[04-16 20:32:13]: [FINE] imasdf used the wrong password
+[04-16 20:33:11]: [FINE] The user Semiboi has 5 accounts:
+[04-16 20:33:11]: [FINE] §7§aSemiboi§7, iwontgrief, mundoispluh, ath818, rzhang6.
+[04-16 20:33:11]: [FINE] Semiboi logged in 64.150.2.24
+[04-16 20:33:16]: [FINE] The user imasdf has 3 accounts:
+[04-16 20:33:16]: [FINE] §7§aimasdf§7, bruv1000000, cc588.
+[04-16 20:33:16]: [FINE] imasdf logged in 64.150.2.26
+[04-16 20:33:25]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-16 20:33:52]: [INFO] SQLite Setup finished
+[04-16 20:33:52]: [INFO] Hooked into LuckPerms!
+[04-16 20:33:53]: [INFO] Hooked successfully into Essentials
+[04-16 20:33:53]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-16 20:33:53]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-16 20:33:53]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-16 20:34:09]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!
+[04-16 20:34:35]: [INFO] SQLite Setup finished
+[04-16 20:34:35]: [INFO] Hooked into LuckPerms!
+[04-16 20:34:36]: [INFO] Hooked successfully into Essentials
+[04-16 20:34:36]: [INFO] Essentials spawn file not found: '/home/ubuntu/server/mc/main/plugins/Essentials/spawn.yml'
+[04-16 20:34:36]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-16 20:34:36]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2642 successfully enabled!
+[04-16 20:34:45]: [FINE] Semiboi used the wrong password
+[04-16 20:34:46]: [FINE] The user imasdf has 3 accounts:
+[04-16 20:34:46]: [FINE] §7§aimasdf§7, bruv1000000, cc588.
+[04-16 20:34:46]: [FINE] imasdf logged in 64.150.2.26
+[04-16 20:34:52]: [FINE] The user Semiboi has 5 accounts:
+[04-16 20:34:52]: [FINE] §7§aSemiboi§7, iwontgrief, mundoispluh, ath818, rzhang6.
+[04-16 20:34:52]: [FINE] Semiboi logged in 64.150.2.24
+[04-16 20:37:58]: [FINE] Yuvrajxd used the wrong password
+[04-16 20:38:05]: [FINE] The user imasdf has 3 accounts:
+[04-16 20:38:05]: [FINE] §7§aimasdf§7, bruv1000000, cc588.
+[04-16 20:38:05]: [FINE] imasdf logged in 64.150.2.26
+[04-16 20:38:07]: [FINE] The user Yuvrajxd has 6 accounts:
+[04-16 20:38:07]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, ath818, rzhang6.
+[04-16 20:38:07]: [FINE] Yuvrajxd logged in 64.150.2.24
+[04-16 20:54:19]: [FINE] rzhang6 used the wrong password
+[04-16 20:54:26]: [FINE] rzhang6 logged in 64.150.2.27
+[04-16 20:54:26]: [FINE] The user imasdf has 3 accounts:
+[04-16 20:54:26]: [FINE] §7§aimasdf§7, bruv1000000, cc588.
+[04-16 20:54:26]: [FINE] imasdf logged in 64.150.2.26
+[04-16 20:54:42]: [FINE] The user Ath818 has 5 accounts:
+[04-16 20:54:42]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7.
+[04-16 20:54:42]: [FINE] Ath818 logged in 64.150.2.24
+[04-16 20:57:56]: [FINE] The user iatepancakes has 4 accounts:
+[04-16 20:57:56]: [FINE] §7§aimasdf§7, §aiatepancakes§7, bruv1000000, cc588.
+[04-16 20:57:56]: [FINE] iatepancakes logged in 64.150.2.26
+[04-16 21:01:04]: [FINE] The user bruv1000000 has 6 accounts:
+[04-16 21:01:04]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[04-16 21:01:04]: [FINE] bruv1000000 logged in 64.150.2.24
+[04-16 21:05:25]: [FINE] The user Ath818 has 6 accounts:
+[04-16 21:05:25]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[04-16 21:05:25]: [FINE] Ath818 logged in 64.150.2.24
+[04-16 21:07:51]: [FINE] The user Ath818 has 6 accounts:
+[04-16 21:07:51]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[04-16 21:07:51]: [FINE] Ath818 logged in 64.150.2.24
+[04-16 21:08:01]: [FINE] The user Yuvrajxd has 6 accounts:
+[04-16 21:08:01]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[04-16 21:08:01]: [FINE] Yuvrajxd logged in 64.150.2.24
+[04-16 21:08:45]: [FINE] imasdf used the wrong password
+[04-16 21:08:51]: [FINE] The user imasdf has 3 accounts:
+[04-16 21:08:51]: [FINE] §7§aimasdf§7, §aiatepancakes§7, cc588.
+[04-16 21:08:51]: [FINE] imasdf logged in 64.150.2.26
+[04-16 21:17:24]: [FINE] The user Ath818 has 6 accounts:
+[04-16 21:17:24]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[04-16 21:17:24]: [FINE] Ath818 logged in 64.150.2.24
+[04-16 21:19:02]: [FINE] The user Yuvrajxd has 6 accounts:
+[04-16 21:19:02]: [FINE] §7§aSemiboi§7, §aYuvrajxd§7, iwontgrief, mundoispluh, §aAth818§7, §abruv1000000§7.
+[04-16 21:19:02]: [FINE] Yuvrajxd logged in 64.150.2.24
+[04-16 21:35:31]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2642 disabled!

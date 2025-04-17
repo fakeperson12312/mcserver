@@ -1,7 +1,10 @@
 storageType: YAML
 teamNameLookup:
-- knights:d6e88ee0-a769-4901-bc67-5070bbd9df9c
+- asdf:85d5af77-8ea4-4703-90eb-b60e232e859b
 playerLookup:
-- f3d50001-5a5f-381b-ae5d-981c0d9d0f1f:d6e88ee0-a769-4901-bc67-5070bbd9df9c
-- 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2:d6e88ee0-a769-4901-bc67-5070bbd9df9c
+- 340982f7-da83-3cc3-af64-61a64286037a:85d5af77-8ea4-4703-90eb-b60e232e859b
+- f435e6d7-a032-3164-a81a-10125e1f4cb2:85d5af77-8ea4-4703-90eb-b60e232e859b
+- 0f941c54-ac6d-3f20-b2bc-54be40e3bfda:85d5af77-8ea4-4703-90eb-b60e232e859b
+- 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2:85d5af77-8ea4-4703-90eb-b60e232e859b
+- 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8:85d5af77-8ea4-4703-90eb-b60e232e859b
 chestClaims: []

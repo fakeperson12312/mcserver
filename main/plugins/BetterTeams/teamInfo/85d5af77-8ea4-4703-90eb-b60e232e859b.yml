@@ -1,0 +1,16 @@
+name: asdf
+description: ''
+open: false
+pvp: false
+home: ''
+color: '6'
+chests: []
+players:
+- 17a1af03-b06e-3e70-9dd5-8a9dbd53ffd8,OWNER
+- f435e6d7-a032-3164-a81a-10125e1f4cb2,DEFAULT
+- 0f941c54-ac6d-3f20-b2bc-54be40e3bfda,DEFAULT
+- 340982f7-da83-3cc3-af64-61a64286037a,DEFAULT
+- 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2,DEFAULT
+level: 1
+tag: ''
+score: 1

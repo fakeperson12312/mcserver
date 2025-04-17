@@ -786,3 +786,1682 @@ io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connecti
 [14:22:32 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
 [14:24:14 INFO]: [initial connection] /45.135.194.8:58204 is pinging the server with version 1.8
 [14:39:17 INFO]: [initial connection] /156.146.63.199:41904 is pinging the server with version Unknown
+2025-04-15T14:43:58.987304088Z main WARN Advanced terminal features are not available in this environment
+[14:43:59 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[14:43:59 INFO]: Loading localizations...
+[14:43:59 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[14:44:00 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[14:44:00 INFO]: Loading plugins...
+[14:44:00 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[14:44:00 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[14:44:00 INFO]: Loaded 3 plugins
+[14:44:00 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[14:44:00 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[14:44:00 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[14:44:00 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[14:44:00 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[14:44:00 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[14:44:01 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[14:44:02 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[14:44:02 INFO]: Done (3s)!
+[14:44:02 ERROR] [TerminalConsole]: Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+[14:44:02 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[14:44:02 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[14:44:02 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[14:44:02 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[14:44:02 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[14:44:02 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[14:44:02 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[14:44:02 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[14:44:02 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[14:44:02 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[14:44:02 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[14:44:02 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[14:44:02 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[14:44:02 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[14:44:41 INFO] [eaglerxvelocity]: [/64.150.15.14:36483]: Connected via websocket
+[14:44:41 INFO] [eaglerxvelocity]: [/64.150.15.14:36483]: Origin header is http://34.173.135.58
+[14:44:42 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:36483) has connected
+[14:44:42 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[14:55:18 INFO]: [initial connection] /193.32.127.138:53486 is pinging the server with version 1.20.3
+[14:58:14 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:36483): kicked from server main: An internal server connection error occurred.
+[14:58:14 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[14:58:14 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:36483) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[14:58:22 WARN] [eaglerxvelocity]: Server icon is not a file: /home/ubuntu/server/mc/proxy/server-icon.png
+[14:59:18 INFO]: [initial connection] /45.135.194.8:39116 is pinging the server with version 1.8
+[15:06:11 INFO]: [initial connection] /156.146.63.199:15600 is pinging the server with version Unknown
+[15:13:16 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[15:16:50 INFO]: [initial connection] /45.135.194.8:53626 is pinging the server with version 1.8
+[15:17:14 INFO]: [initial connection] /156.253.227.23:34578 is pinging the server with version 1.20.2
+[15:21:55 INFO]: [initial connection] /156.146.63.199:55804 is pinging the server with version 1.21
+2025-04-15T20:23:03.730604540Z main WARN Advanced terminal features are not available in this environment
+[20:23:04 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[20:23:04 INFO]: Loading localizations...
+[20:23:04 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[20:23:04 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[20:23:04 INFO]: Loading plugins...
+[20:23:05 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[20:23:05 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[20:23:05 INFO]: Loaded 3 plugins
+[20:23:05 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[20:23:05 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[20:23:05 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[20:23:05 ERROR] [eaglerxvelocity]: Eaglercraft could not bind port: /0.0.0.0:8081
+[20:23:05 ERROR] [eaglerxvelocity]: Reason: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[20:23:05 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[20:23:05 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[20:23:05 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[20:23:06 ERROR]: Can't bind to /0.0.0.0:25565
+io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[20:23:06 INFO]: Done (3.07s)!
+[20:23:06 ERROR] [TerminalConsole]: Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+[20:23:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:23:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:23:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[20:23:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:23:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:23:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[20:23:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[20:23:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[20:23:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[20:23:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:23:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[20:23:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[20:23:07 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[20:23:07 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[20:27:25 INFO]: Shutting down the proxy...
+[20:27:25 INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+2025-04-15T20:29:05.129558249Z main WARN Advanced terminal features are not available in this environment
+[20:29:05 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[20:29:05 INFO]: Loading localizations...
+[20:29:05 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[20:29:05 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[20:29:05 INFO]: Loading plugins...
+[20:29:06 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[20:29:06 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[20:29:06 INFO]: Loaded 3 plugins
+[20:29:06 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[20:29:06 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[20:29:06 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[20:29:06 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[20:29:06 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[20:29:06 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[20:29:06 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[20:29:07 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[20:29:07 INFO]: Done (2.3s)!
+[20:29:07 ERROR] [TerminalConsole]: Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+[20:29:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:29:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:29:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[20:29:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:29:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:29:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[20:29:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[20:29:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[20:29:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[20:29:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:29:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[20:29:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[20:29:07 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[20:29:07 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[20:29:08 INFO]: [connected player] mundoispluh (/64.150.2.24:46985) has connected
+[20:29:08 INFO]: [server connection] mundoispluh -> main has connected
+[20:29:08 INFO]: [connected player] Semiboi (/64.150.2.26:51245) has connected
+[20:29:08 INFO]: [server connection] Semiboi -> main has connected
+[20:29:10 INFO]: [connected player] imasdf (/64.150.2.25:24949) has connected
+[20:29:10 INFO]: [server connection] imasdf -> main has connected
+[20:29:11 INFO]: [initial connection] /64.150.2.24:22320 is pinging the server with version 1.21
+[20:29:13 INFO]: [initial connection] /64.150.2.25:54710 is pinging the server with version 1.21
+[20:29:14 INFO]: [initial connection] /64.150.2.26:27450 is pinging the server with version 1.21
+[20:29:15 INFO]: [connected player] iatepancakes (/64.150.2.25:40253) has connected
+[20:29:15 INFO]: [server connection] iatepancakes -> main has connected
+[20:29:15 INFO]: [connected player] bruv1000000 (/64.150.2.26:28048) has connected
+[20:29:15 INFO]: [server connection] bruv1000000 -> main has connected
+[20:29:16 INFO]: [initial connection] /64.150.2.25:9189 is pinging the server with version 1.21
+[20:29:20 INFO]: [initial connection] /64.150.2.24:44091 is pinging the server with version 1.21
+[20:29:20 INFO]: [initial connection] /64.150.2.24:28725 is pinging the server with version 1.21
+[20:29:30 INFO]: [connected player] imasdf (/64.150.2.25:24949): kicked from server main: Wrong password!
+[20:29:30 INFO]: [server connection] imasdf -> main has disconnected
+[20:29:30 INFO]: [connected player] imasdf (/64.150.2.25:24949) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:29:31 INFO]: [connected player] Yuvrajxd (/64.150.2.25:11616) has connected
+[20:29:31 INFO]: [server connection] Yuvrajxd -> main has connected
+[20:29:33 INFO]: [connected player] imasdf (/64.150.2.25:50037) has connected
+[20:29:34 INFO]: [server connection] imasdf -> main has connected
+[20:29:59 INFO]: [connected player] Yuvrajxd (/64.150.2.25:11616) has disconnected
+[20:29:59 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[20:29:59 INFO]: [initial connection] /64.150.2.25:6450 is pinging the server with version 1.21
+[20:30:08 INFO]: [initial connection] /64.150.2.25:28607 is pinging the server with version 1.21
+[20:30:11 INFO]: [initial connection] /64.150.2.25:22842 is pinging the server with version 1.21
+[20:30:11 INFO]: [initial connection] /64.150.2.25:38389 is pinging the server with version 1.21
+[20:30:11 INFO]: [initial connection] /64.150.2.25:38674 is pinging the server with version 1.21
+[20:30:11 INFO]: [initial connection] /64.150.2.25:8868 is pinging the server with version 1.21
+[20:30:13 INFO]: [initial connection] /64.150.2.25:33307 is pinging the server with version 1.21
+[20:30:13 INFO]: [initial connection] /64.150.2.25:1925 is pinging the server with version 1.21
+[20:30:13 INFO]: [initial connection] /64.150.2.25:51979 is pinging the server with version 1.21
+[20:30:14 INFO]: [initial connection] /64.150.2.25:7109 is pinging the server with version 1.21
+[20:30:15 INFO]: [initial connection] /64.150.2.25:44364 is pinging the server with version 1.21
+[20:30:19 INFO]: [initial connection] /64.150.2.25:49425 is pinging the server with version 1.21
+[20:30:21 INFO]: [connected player] Yuvrajxd (/64.150.2.25:7977) has connected
+[20:30:21 INFO]: [server connection] Yuvrajxd -> main has connected
+[20:30:23 INFO]: [initial connection] /193.25.217.28:35566 is pinging the server with version 1.21.2
+[20:32:35 INFO]: [initial connection] /45.135.194.8:45746 is pinging the server with version 1.8
+[20:33:07 INFO]: [initial connection] /64.150.2.24:50238 is pinging the server with version 1.21
+[20:33:09 INFO]: [connected player] rzhang6 (/64.150.2.24:16784) has connected
+[20:33:09 INFO]: [server connection] rzhang6 -> main has connected
+[20:33:40 INFO]: [connected player] rzhang6 (/64.150.2.24:16784): kicked from server main: Login timeout exceeded, you have been kicked from the server, please try again!
+[20:33:40 INFO]: [server connection] rzhang6 -> main has disconnected
+[20:33:40 INFO]: [connected player] rzhang6 (/64.150.2.24:16784) has disconnected: [38;2;255;85;85mYou were kicked from main: [38;2;170;0;0mLogin timeout exceeded, you have been kicked from the server, please try again![0m
+[20:33:43 INFO]: [connected player] rzhang6 (/64.150.2.24:17895) has connected
+[20:33:43 INFO]: [server connection] rzhang6 -> main has connected
+[20:34:40 INFO]: [initial connection] /64.150.2.24:15979 is pinging the server with version 1.21
+[20:34:42 INFO]: [connected player] Ath818 (/64.150.2.24:14163) has connected
+[20:34:42 INFO]: [server connection] Ath818 -> main has connected
+[20:34:53 INFO]: [connected player] Ath818 (/64.150.2.24:14163): kicked from server main: Wrong password!
+[20:34:53 INFO]: [server connection] Ath818 -> main has disconnected
+[20:34:53 INFO]: [connected player] Ath818 (/64.150.2.24:14163) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:34:55 INFO]: [connected player] Ath818 (/64.150.2.24:24099) has connected
+[20:34:55 INFO]: [server connection] Ath818 -> main has connected
+[20:34:58 INFO]: [connected player] Ath818 (/64.150.2.24:24099): kicked from server main: Wrong password!
+[20:34:58 INFO]: [server connection] Ath818 -> main has disconnected
+[20:34:58 INFO]: [connected player] Ath818 (/64.150.2.24:24099) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:35:00 INFO]: [connected player] Ath818 (/64.150.2.24:24969) has connected
+[20:35:00 INFO]: [server connection] Ath818 -> main has connected
+[20:35:10 INFO]: [connected player] Semiboi (/64.150.2.26:51245) has disconnected
+[20:35:10 INFO]: [server connection] Semiboi -> main has disconnected
+[20:35:10 INFO]: [initial connection] /64.150.2.26:1307 is pinging the server with version 1.21
+[20:37:01 INFO]: [initial connection] /64.150.2.24:52126 is pinging the server with version 1.21
+[20:37:02 INFO]: [connected player] Iwontgrief (/64.150.2.24:28138) has connected
+[20:37:03 INFO]: [server connection] Iwontgrief -> main has connected
+[20:38:01 INFO]: [initial connection] /64.150.2.26:3063 is pinging the server with version 1.21
+[20:38:04 INFO]: [connected player] Semiboi (/64.150.2.26:29395) has connected
+[20:38:05 INFO]: [server connection] Semiboi -> main has connected
+[20:42:19 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[20:43:37 INFO]: [initial connection] /156.146.63.199:27260 is pinging the server with version Unknown
+[20:50:02 INFO]: [initial connection] /45.135.194.8:44274 is pinging the server with version 1.8
+[20:57:19 INFO]: [connected player] iatepancakes (/64.150.2.25:40253): kicked from server main: 
+[20:57:19 INFO]: [server connection] iatepancakes -> main has disconnected
+[20:57:19 INFO]: [connected player] iatepancakes (/64.150.2.25:40253) has disconnected: [38;2;255;85;85mYou were kicked from main: [0m
+[20:57:24 INFO]: [connected player] iatepancakes (/64.150.2.25:47340) has connected
+[20:57:24 INFO]: [server connection] iatepancakes -> main has connected
+[20:59:22 WARN] [eaglerxvelocity]: [Pre][/199.45.154.133:59004]: Exception Caught: io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:03:09 INFO]: [initial connection] /156.146.63.199:21816 is pinging the server with version Unknown
+[21:07:33 INFO]: [initial connection] /45.135.194.8:43450 is pinging the server with version 1.8
+[21:16:27 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:18:09 INFO]: [connected player] bruv1000000 (/64.150.2.26:28048) has disconnected
+[21:18:09 INFO]: [server connection] bruv1000000 -> main has disconnected
+[21:18:10 INFO]: [initial connection] /64.150.2.26:15873 is pinging the server with version 1.21
+[21:21:33 INFO]: [connected player] Ath818 (/64.150.2.24:24969) has disconnected
+[21:21:33 INFO]: [server connection] Ath818 -> main has disconnected
+[21:21:34 INFO]: [initial connection] /64.150.2.24:17505 is pinging the server with version 1.21
+[21:21:53 INFO]: [initial connection] /64.150.2.26:7269 is pinging the server with version 1.21
+[21:21:57 INFO]: [connected player] CC588 (/64.150.2.26:14712) has connected
+[21:21:57 INFO]: [server connection] CC588 -> main has connected
+[21:22:30 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[21:22:33 INFO]: [connected player] rzhang6 (/64.150.2.24:17895) has disconnected
+[21:22:33 INFO]: [server connection] rzhang6 -> main has disconnected
+[21:22:33 INFO]: [initial connection] /64.150.2.24:32143 is pinging the server with version 1.21
+[21:23:06 WARN] [eaglerxvelocity]: Server icon is not a file: /home/ubuntu/server/mc/proxy/server-icon.png
+[21:23:07 INFO] [eaglerxvelocity]: [/64.150.15.14:3143]: Connected via websocket
+[21:23:07 INFO] [eaglerxvelocity]: [/64.150.15.14:3143]: Origin header is http://34.173.135.58
+[21:23:08 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:3143) has connected
+[21:23:08 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[21:25:03 INFO]: [initial connection] /45.135.194.8:45688 is pinging the server with version 1.8
+[21:26:10 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:3143) has disconnected
+[21:26:10 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[21:27:25 INFO]: [connected player] Iwontgrief (/64.150.2.24:28138) has disconnected
+[21:27:25 INFO]: [server connection] Iwontgrief -> main has disconnected
+[21:27:25 INFO]: [initial connection] /64.150.2.24:39630 is pinging the server with version 1.21
+[21:27:31 INFO]: [initial connection] /64.150.2.24:18455 is pinging the server with version 1.21
+[21:27:33 INFO]: [connected player] Ath818 (/64.150.2.24:18482) has connected
+[21:27:34 INFO]: [server connection] Ath818 -> main has connected
+[21:27:42 INFO]: [connected player] Ath818 (/64.150.2.24:18482): kicked from server main: Wrong password!
+[21:27:42 INFO]: [server connection] Ath818 -> main has disconnected
+[21:27:42 INFO]: [connected player] Ath818 (/64.150.2.24:18482) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[21:27:44 INFO]: [connected player] Ath818 (/64.150.2.24:48472) has connected
+[21:27:44 INFO]: [server connection] Ath818 -> main has connected
+[21:27:47 INFO]: [connected player] Ath818 (/64.150.2.24:48472): kicked from server main: Wrong password!
+[21:27:47 INFO]: [server connection] Ath818 -> main has disconnected
+[21:27:47 INFO]: [connected player] Ath818 (/64.150.2.24:48472) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[21:27:49 INFO]: [connected player] Ath818 (/64.150.2.24:7419) has connected
+[21:27:49 INFO]: [server connection] Ath818 -> main has connected
+[21:28:09 INFO]: [connected player] Ath818 (/64.150.2.24:7419) has disconnected
+[21:28:09 INFO]: [server connection] Ath818 -> main has disconnected
+[21:28:10 INFO]: [initial connection] /64.150.2.24:27557 is pinging the server with version 1.21
+[21:31:33 INFO]: [initial connection] /64.150.2.24:26916 is pinging the server with version 1.21
+[21:31:40 INFO]: [connected player] Ath818 (/64.150.2.24:37183) has connected
+[21:31:40 INFO]: [server connection] Ath818 -> main has connected
+[21:32:13 INFO]: [initial connection] /95.111.227.12:37438 is pinging the server with version 1.20.3
+[21:32:14 INFO]: [connected player] Ath818 (/64.150.2.24:37183) has disconnected
+[21:32:14 INFO]: [server connection] Ath818 -> main has disconnected
+[21:32:14 INFO]: [initial connection] /64.150.2.24:12312 is pinging the server with version 1.21
+[21:33:15 INFO]: [initial connection] /64.150.2.24:17870 is pinging the server with version 1.21
+[21:33:17 INFO]: [connected player] Ath818 (/64.150.2.24:32096) has connected
+[21:33:17 INFO]: [server connection] Ath818 -> main has connected
+[21:34:39 INFO]: [connected player] mundoispluh (/64.150.2.24:46985) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:34:39 ERROR]: [connected player] mundoispluh (/64.150.2.24:46985): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@2a0bade9
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:34:39 INFO]: [server connection] mundoispluh -> main has disconnected
+[21:39:07 INFO]: [connected player] Ath818 (/64.150.2.24:32096) has disconnected
+[21:39:07 INFO]: [server connection] Ath818 -> main has disconnected
+[21:39:07 INFO]: [initial connection] /64.150.2.24:7975 is pinging the server with version 1.21
+[21:39:28 INFO]: [initial connection] /217.156.122.21:54816 is pinging the server with version 1.8
+[21:40:03 INFO]: [connected player] Yuvrajxd (/64.150.2.25:7977) has disconnected
+[21:40:03 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[21:40:03 INFO]: [initial connection] /64.150.2.25:7338 is pinging the server with version 1.21
+[21:40:13 INFO]: [connected player] iatepancakes (/64.150.2.25:47340) has disconnected
+[21:40:13 INFO]: [server connection] iatepancakes -> main has disconnected
+[21:40:13 INFO]: [initial connection] /64.150.2.25:44754 is pinging the server with version 1.21
+[21:41:22 INFO]: [connected player] imasdf (/64.150.2.25:50037) has disconnected
+[21:41:22 INFO]: [server connection] imasdf -> main has disconnected
+[21:41:22 INFO]: [initial connection] /64.150.2.25:43614 is pinging the server with version 1.21
+[21:41:30 INFO]: [connected player] CC588 (/64.150.2.26:14712) has disconnected
+[21:41:30 INFO]: [server connection] CC588 -> main has disconnected
+[21:41:30 INFO]: [initial connection] /64.150.2.26:31733 is pinging the server with version 1.21
+[21:42:12 INFO]: [connected player] Semiboi (/64.150.2.26:29395): kicked from server main: An internal server connection error occurred.
+[21:42:12 INFO]: [server connection] Semiboi -> main has disconnected
+[21:42:12 INFO]: [connected player] Semiboi (/64.150.2.26:29395) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[21:42:33 INFO]: [initial connection] /45.135.194.8:53870 is pinging the server with version 1.8
+[21:42:42 INFO]: [connected player] Semiboi (/64.150.2.26:29395) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:42:42 ERROR]: [connected player] Semiboi (/64.150.2.26:29395): read timed out
+[21:43:53 INFO]: [initial connection] /156.146.63.199:54122 is pinging the server with version 1.21
+[21:50:51 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:55:26 INFO]: [initial connection] /156.146.63.199:50280 is pinging the server with version Unknown
+[21:58:06 INFO]: [initial connection] /146.70.189.149:58430 is pinging the server with version 1.20.3
+[22:00:04 INFO]: [initial connection] /45.135.194.8:42458 is pinging the server with version 1.8
+[22:12:34 INFO]: [initial connection] /156.146.63.199:29748 is pinging the server with version Unknown
+[22:17:39 INFO]: [initial connection] /45.135.194.8:54226 is pinging the server with version 1.8
+[22:21:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[22:21:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[22:21:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[22:21:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[22:21:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[22:21:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[22:21:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[22:21:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[22:21:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[22:21:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[22:21:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[22:21:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[22:29:55 INFO]: [legacy connection] /198.235.24.120:57570 is pinging the server with version Legacy
+[22:35:10 INFO]: [initial connection] /45.135.194.8:43758 is pinging the server with version 1.8
+[22:41:21 INFO]: [initial connection] /156.146.63.199:49076 is pinging the server with version Unknown
+[22:44:13 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[22:52:42 INFO]: [initial connection] /45.135.194.8:58788 is pinging the server with version 1.8
+[23:02:58 INFO]: [initial connection] /156.146.63.199:56230 is pinging the server with version 1.21
+[23:10:14 INFO]: [initial connection] /45.135.194.8:59132 is pinging the server with version 1.8
+[23:12:19 INFO]: [initial connection] /146.70.144.108:48730 is pinging the server with version 1.20.3
+[23:22:21 INFO]: [initial connection] /156.146.63.199:9176 is pinging the server with version Unknown
+[23:23:00 INFO]: [initial connection] /95.111.227.12:47722 is pinging the server with version 1.20.3
+[23:27:50 INFO]: [initial connection] /45.135.194.8:49046 is pinging the server with version 1.8
+[23:35:33 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[23:41:41 INFO]: [initial connection] /156.146.63.199:15356 is pinging the server with version Unknown
+[23:45:24 INFO]: [initial connection] /45.135.194.8:35246 is pinging the server with version 1.8
+[23:51:10 INFO]: [initial connection] /156.146.63.199:15430 is pinging the server with version Unknown
+[23:55:46 INFO]: [initial connection] /71.6.158.166:55972 is pinging the server with version Unknown
+[00:03:05 INFO]: [initial connection] /45.135.194.8:52902 is pinging the server with version 1.8
+[00:09:10 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[00:13:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:13:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[00:13:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[00:13:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[00:13:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:13:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[00:13:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[00:13:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[00:13:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[00:13:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[00:13:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[00:13:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[00:13:11 INFO]: [initial connection] /156.146.63.199:46804 is pinging the server with version 1.21
+[00:20:41 INFO]: [initial connection] /45.135.194.8:47226 is pinging the server with version 1.8
+[00:38:16 INFO]: [initial connection] /45.135.194.8:40834 is pinging the server with version 1.8
+[00:41:03 INFO]: [initial connection] /156.146.63.199:50416 is pinging the server with version Unknown
+[00:41:20 INFO]: [initial connection] /169.150.203.46:38694 is pinging the server with version 1.20.3
+[00:44:35 INFO]: [initial connection] /204.14.36.11:56938 is pinging the server with version 1.21
+[00:44:37 INFO]: [initial connection] /204.14.36.11:56939 is pinging the server with version 1.21
+[00:44:37 INFO]: [initial connection] /204.14.36.11:56940 is pinging the server with version 1.21
+[00:44:40 INFO]: [connected player] Yuvrajxd (/204.14.36.11:56941) has connected
+[00:44:40 INFO]: [server connection] Yuvrajxd -> main has connected
+[00:47:07 INFO]: [connected player] Yuvrajxd (/204.14.36.11:56941) has disconnected
+[00:47:07 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[00:47:12 INFO]: [initial connection] /204.14.36.11:56948 is pinging the server with version 1.21
+[00:49:07 INFO]: [initial connection] /204.14.36.11:57017 has disconnected
+[00:49:15 INFO]: [initial connection] /204.14.36.11:57027 is pinging the server with version 1.21
+[00:49:16 INFO]: [initial connection] /204.14.36.11:57028 is pinging the server with version 1.21
+[00:50:01 INFO]: [initial connection] /204.14.36.11:57034 is pinging the server with version 1.21
+[00:51:17 INFO]: [initial connection] /204.14.36.11:57120 is pinging the server with version 1.21
+[00:52:28 INFO]: [initial connection] /156.146.63.199:27858 is pinging the server with version Unknown
+[00:52:59 INFO]: [initial connection] /204.14.36.11:57145 is pinging the server with version 1.21
+[00:55:52 INFO]: [initial connection] /45.135.194.8:45666 is pinging the server with version 1.8
+[01:03:35 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[01:06:11 INFO]: [initial connection] /107.138.62.191:50003 is pinging the server with version Unknown
+[01:07:52 INFO]: [initial connection] /107.138.62.191:50154 is pinging the server with version 1.21.2
+[01:07:54 INFO]: [connected player] iatepancakes (/107.138.62.191:50157) has connected
+[01:07:54 INFO]: [server connection] iatepancakes -> main has connected
+[01:08:05 INFO]: [initial connection] /156.146.63.199:10124 is pinging the server with version Unknown
+[01:13:28 INFO]: [initial connection] /45.135.194.8:56918 is pinging the server with version 1.8
+[01:14:35 INFO]: [initial connection] /95.111.227.12:43576 is pinging the server with version 1.20.3
+[01:17:34 INFO]: [initial connection] /208.59.145.19:50504 is pinging the server with version 1.21
+[01:17:35 INFO]: [connected player] Semiboi (/208.59.145.19:50505) has connected
+[01:17:36 INFO]: [server connection] Semiboi -> main has connected
+[01:18:41 INFO]: [connected player] Semiboi (/208.59.145.19:50505) has disconnected
+[01:18:41 INFO]: [server connection] Semiboi -> main has disconnected
+[01:22:10 INFO]: [initial connection] /104.193.135.186:59176 is pinging the server with version 1.20.3
+[01:26:02 INFO]: [connected player] iatepancakes (/107.138.62.191:50157) has disconnected
+[01:26:02 INFO]: [server connection] iatepancakes -> main has disconnected
+[01:28:49 INFO]: [initial connection] /107.138.62.191:50637 is pinging the server with version Unknown
+[01:30:15 INFO]: [initial connection] /156.146.63.199:58304 is pinging the server with version 1.21
+[01:31:04 INFO]: [initial connection] /45.135.194.8:50980 is pinging the server with version 1.8
+[01:39:15 INFO]: [initial connection] /107.138.62.191:50042 is pinging the server with version Unknown
+[01:40:15 INFO]: [initial connection] /107.138.62.191:50133 is pinging the server with version 1.21.2
+[01:40:16 INFO]: [connected player] iatepancakes (/107.138.62.191:50137) has connected
+[01:40:16 INFO]: [server connection] iatepancakes -> main has connected
+[01:40:34 INFO]: [initial connection] /107.138.62.191:50143 is pinging the server with version 1.21.2
+[01:40:50 INFO]: [initial connection] /107.138.62.191:50147 is pinging the server with version 1.21.2
+[01:41:06 INFO]: [initial connection] /107.138.62.191:50152 is pinging the server with version 1.21.2
+[01:41:22 INFO]: [initial connection] /107.138.62.191:50159 is pinging the server with version 1.21.2
+[01:41:54 INFO]: [initial connection] /107.138.62.191:50167 is pinging the server with version 1.21.2
+[01:42:08 INFO]: [initial connection] /208.59.145.19:50658 is pinging the server with version 1.21
+[01:42:10 INFO]: [connected player] Semiboi (/208.59.145.19:50659) has connected
+[01:42:10 INFO]: [initial connection] /107.138.62.191:50173 is pinging the server with version 1.21.2
+[01:42:10 INFO]: [server connection] Semiboi -> main has connected
+[01:42:26 INFO]: [initial connection] /107.138.62.191:50179 is pinging the server with version 1.21.2
+[01:42:42 INFO]: [initial connection] /107.138.62.191:50183 is pinging the server with version 1.21.2
+[01:42:45 INFO]: [connected player] Semiboi (/208.59.145.19:50659): kicked from server main: Login timeout exceeded, you have been kicked from the server, please try again!
+[01:42:45 INFO]: [server connection] Semiboi -> main has disconnected
+[01:42:45 INFO]: [connected player] Semiboi (/208.59.145.19:50659) has disconnected: [38;2;255;85;85mYou were kicked from main: [38;2;170;0;0mLogin timeout exceeded, you have been kicked from the server, please try again![0m
+[01:42:53 INFO]: [connected player] Semiboi (/208.59.145.19:50661) has connected
+[01:42:53 INFO]: [server connection] Semiboi -> main has connected
+[01:43:14 INFO]: [initial connection] /107.138.62.191:50191 is pinging the server with version 1.21.2
+[01:43:30 INFO]: [initial connection] /107.138.62.191:50195 is pinging the server with version 1.21.2
+[01:44:02 INFO]: [initial connection] /107.138.62.191:50204 is pinging the server with version 1.21.2
+[01:44:18 INFO]: [initial connection] /107.138.62.191:50208 is pinging the server with version 1.21.2
+[01:44:34 INFO]: [initial connection] /107.138.62.191:50212 is pinging the server with version 1.21.2
+[01:44:50 INFO]: [initial connection] /107.138.62.191:50216 is pinging the server with version 1.21.2
+[01:45:06 INFO]: [initial connection] /107.138.62.191:50222 is pinging the server with version 1.21.2
+[01:45:38 INFO]: [initial connection] /107.138.62.191:50231 is pinging the server with version 1.21.2
+[01:46:26 INFO]: [initial connection] /107.138.62.191:50246 is pinging the server with version 1.21.2
+[01:46:42 INFO]: [initial connection] /107.138.62.191:50252 is pinging the server with version 1.21.2
+[01:46:58 INFO]: [initial connection] /107.138.62.191:50259 is pinging the server with version 1.21.2
+[01:47:14 INFO]: [initial connection] /107.138.62.191:50266 is pinging the server with version 1.21.2
+[01:47:30 INFO]: [initial connection] /107.138.62.191:50271 is pinging the server with version 1.21.2
+[01:48:02 INFO]: [initial connection] /107.138.62.191:50280 is pinging the server with version 1.21.2
+[01:48:18 INFO]: [initial connection] /107.138.62.191:50284 is pinging the server with version 1.21.2
+[01:48:34 INFO]: [initial connection] /107.138.62.191:50288 is pinging the server with version 1.21.2
+[01:48:39 INFO]: [initial connection] /45.135.194.8:32824 is pinging the server with version 1.8
+[01:49:06 INFO]: [initial connection] /107.138.62.191:50296 is pinging the server with version 1.21.2
+[01:49:22 INFO]: [initial connection] /107.138.62.191:50305 is pinging the server with version 1.21.2
+[01:49:38 INFO]: [initial connection] /107.138.62.191:50310 is pinging the server with version 1.21.2
+[01:49:54 INFO]: [initial connection] /107.138.62.191:50314 is pinging the server with version 1.21.2
+[01:50:10 INFO]: [initial connection] /107.138.62.191:50318 is pinging the server with version 1.21.2
+[01:50:26 INFO]: [initial connection] /107.138.62.191:50322 is pinging the server with version 1.21.2
+[01:50:42 INFO]: [initial connection] /107.138.62.191:50327 is pinging the server with version 1.21.2
+[01:51:46 INFO]: [initial connection] /107.138.62.191:50344 is pinging the server with version 1.21.2
+[01:52:02 INFO]: [initial connection] /107.138.62.191:50349 is pinging the server with version 1.21.2
+[01:52:18 INFO]: [initial connection] /107.138.62.191:50353 is pinging the server with version 1.21.2
+[01:52:34 INFO]: [initial connection] /107.138.62.191:50358 is pinging the server with version 1.21.2
+[01:52:50 INFO]: [initial connection] /107.138.62.191:50362 is pinging the server with version 1.21.2
+[01:53:38 INFO]: [initial connection] /107.138.62.191:50378 is pinging the server with version 1.21.2
+[01:54:05 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[01:54:10 INFO]: [initial connection] /107.138.62.191:50387 is pinging the server with version 1.21.2
+[01:54:26 INFO]: [initial connection] /107.138.62.191:50391 is pinging the server with version 1.21.2
+[01:54:42 INFO]: [initial connection] /107.138.62.191:50395 is pinging the server with version 1.21.2
+[01:54:58 INFO]: [initial connection] /107.138.62.191:50400 is pinging the server with version 1.21.2
+[01:55:14 INFO]: [initial connection] /107.138.62.191:50404 is pinging the server with version 1.21.2
+[01:55:15 INFO]: [initial connection] /185.65.134.177:57242 is pinging the server with version 1.20.3
+[01:55:30 INFO]: [initial connection] /107.138.62.191:50408 is pinging the server with version 1.21.2
+[01:55:46 INFO]: [initial connection] /107.138.62.191:50412 is pinging the server with version 1.21.2
+[01:56:50 INFO]: [initial connection] /107.138.62.191:50430 is pinging the server with version 1.21.2
+[01:57:22 INFO]: [initial connection] /107.138.62.191:50439 is pinging the server with version 1.21.2
+[01:57:54 INFO]: [initial connection] /107.138.62.191:50448 is pinging the server with version 1.21.2
+[01:58:42 INFO]: [initial connection] /107.138.62.191:50460 is pinging the server with version 1.21.2
+[01:58:58 INFO]: [initial connection] /107.138.62.191:50466 is pinging the server with version 1.21.2
+[01:59:30 INFO]: [initial connection] /107.138.62.191:50474 is pinging the server with version 1.21.2
+[02:00:02 INFO]: [connected player] iatepancakes (/107.138.62.191:50137) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[02:00:02 ERROR]: [connected player] iatepancakes (/107.138.62.191:50137): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@61205aec
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[02:00:02 INFO]: [server connection] iatepancakes -> main has disconnected
+[02:00:29 INFO]: [initial connection] /156.146.63.199:44072 is pinging the server with version Unknown
+[02:05:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[02:05:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[02:05:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[02:05:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[02:05:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[02:05:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[02:05:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[02:05:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[02:05:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[02:05:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[02:05:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[02:05:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[02:06:14 INFO]: [initial connection] /45.135.194.8:33538 is pinging the server with version 1.8
+[02:09:32 INFO]: [connected player] Semiboi (/208.59.145.19:50661) has disconnected
+[02:09:32 INFO]: [server connection] Semiboi -> main has disconnected
+[02:09:38 INFO]: [initial connection] /208.59.145.19:50994 is pinging the server with version 1.21
+[02:17:02 INFO]: [initial connection] /156.146.63.199:13016 is pinging the server with version Unknown
+[02:23:46 INFO]: [initial connection] /45.135.194.8:59932 is pinging the server with version 1.8
+[02:28:18 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[02:35:57 INFO]: [initial connection] /208.59.145.19:51168 is pinging the server with version 1.21
+[02:36:13 INFO]: [connected player] Semiboi (/208.59.145.19:51172) has connected
+[02:36:14 INFO]: [server connection] Semiboi -> main has connected
+[02:36:21 INFO]: [initial connection] /156.146.63.199:24818 is pinging the server with version 1.21
+[02:38:29 INFO]: [legacy connection] /198.235.24.184:58998 is pinging the server with version Legacy
+[02:40:29 INFO]: [initial connection] /86.54.31.42:49812 is pinging the server with version Unknown
+[02:41:22 INFO]: [initial connection] /45.135.194.8:46948 is pinging the server with version 1.8
+[02:50:27 INFO]: [initial connection] /146.70.184.238:42652 is pinging the server with version 1.20.3
+[02:52:51 INFO]: [connected player] Semiboi (/208.59.145.19:51172) has disconnected
+[02:52:51 INFO]: [server connection] Semiboi -> main has disconnected
+[02:58:57 INFO]: [initial connection] /45.135.194.8:48574 is pinging the server with version 1.8
+[02:59:06 INFO]: [initial connection] /156.146.63.199:11978 is pinging the server with version Unknown
+[03:03:11 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[03:03:59 INFO]: [initial connection] /95.111.227.12:60636 is pinging the server with version 1.20.3
+[03:04:45 INFO]: [initial connection] /156.146.63.199:12068 is pinging the server with version Unknown
+[03:16:35 INFO]: [initial connection] /45.135.194.8:46088 is pinging the server with version 1.8
+[03:17:46 INFO]: [initial connection] /156.253.227.23:54932 is pinging the server with version 1.20.2
+[03:34:11 INFO]: [initial connection] /45.135.194.8:37418 is pinging the server with version 1.8
+[03:37:18 INFO]: [initial connection] /156.146.63.199:55186 is pinging the server with version 1.21
+[03:43:08 INFO]: [initial connection] /156.146.63.199:16960 is pinging the server with version Unknown
+[03:51:45 INFO]: [initial connection] /45.135.194.8:57334 is pinging the server with version 1.8
+[03:56:15 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[03:57:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[03:57:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[03:57:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[03:57:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[03:57:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[03:57:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[03:57:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[03:57:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[03:57:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[03:57:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[03:57:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[03:57:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[04:09:22 INFO]: [initial connection] /45.135.194.8:40236 is pinging the server with version 1.8
+[04:11:50 INFO]: [initial connection] /156.146.63.199:44996 is pinging the server with version Unknown
+[04:25:50 INFO]: [initial connection] /91.207.57.140:59494 is pinging the server with version 1.20.3
+[04:27:01 INFO]: [initial connection] /45.135.194.8:56772 is pinging the server with version 1.8
+[04:30:44 INFO]: [initial connection] /156.146.63.199:38430 is pinging the server with version Unknown
+[04:32:16 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[04:44:35 INFO]: [initial connection] /45.135.194.8:54454 is pinging the server with version 1.8
+[04:50:23 INFO]: [initial connection] /95.111.227.12:42220 is pinging the server with version 1.20.3
+[04:54:34 INFO]: [initial connection] /156.146.63.199:55552 is pinging the server with version 1.21
+[05:02:14 INFO]: [initial connection] /45.135.194.8:38198 is pinging the server with version 1.8
+[05:09:37 INFO]: [initial connection] /156.146.63.199:28388 is pinging the server with version Unknown
+[05:19:18 INFO]: [initial connection] /141.98.254.173:46892 is pinging the server with version 1.20.3
+[05:19:52 INFO]: [initial connection] /45.135.194.8:37680 is pinging the server with version 1.8
+[05:24:20 INFO]: [initial connection] /156.146.63.199:17212 is pinging the server with version Unknown
+[05:24:35 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[05:37:29 INFO]: [initial connection] /45.135.194.8:38230 is pinging the server with version 1.8
+[05:44:12 INFO]: [initial connection] /156.146.63.199:53872 is pinging the server with version Unknown
+[05:49:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[05:49:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[05:49:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[05:49:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[05:49:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[05:49:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[05:49:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[05:49:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[05:49:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[05:49:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[05:49:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[05:49:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[05:55:06 INFO]: [initial connection] /45.135.194.8:60488 is pinging the server with version 1.8
+[06:00:45 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[06:12:44 INFO]: [initial connection] /45.135.194.8:40708 is pinging the server with version 1.8
+[06:16:16 INFO]: [initial connection] /156.146.63.199:24228 is pinging the server with version 1.21
+[06:28:56 INFO]: [initial connection] /95.111.227.12:48690 is pinging the server with version 1.20.3
+[06:29:08 INFO]: [initial connection] /156.146.63.199:42306 is pinging the server with version Unknown
+[06:30:21 INFO]: [initial connection] /45.135.194.8:44114 is pinging the server with version 1.8
+[06:34:44 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[06:42:52 INFO]: [initial connection] /193.32.248.216:52700 is pinging the server with version 1.20.3
+[06:47:56 INFO]: [initial connection] /45.135.194.8:40354 is pinging the server with version 1.8
+[06:52:41 INFO]: [initial connection] /156.146.63.199:31302 is pinging the server with version Unknown
+[07:03:53 INFO]: [initial connection] /156.146.63.199:54126 is pinging the server with version Unknown
+[07:05:37 INFO]: [initial connection] /45.135.194.8:58256 is pinging the server with version 1.8
+[07:10:56 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[07:23:21 INFO]: [initial connection] /45.135.194.8:52884 is pinging the server with version 1.8
+[07:32:44 INFO]: [initial connection] /156.146.63.199:16392 is pinging the server with version 1.21
+[07:40:04 INFO]: [initial connection] /156.146.63.199:46396 is pinging the server with version Unknown
+[07:41:00 INFO]: [initial connection] /45.135.194.8:57890 is pinging the server with version 1.8
+[07:41:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[07:41:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[07:41:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[07:41:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[07:41:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[07:41:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[07:41:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[07:41:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[07:41:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[07:41:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[07:41:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[07:41:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[07:46:27 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[07:58:39 INFO]: [initial connection] /45.135.194.8:56276 is pinging the server with version 1.8
+[07:58:43 INFO]: [initial connection] /156.146.63.199:59202 is pinging the server with version Unknown
+[08:02:27 INFO]: [initial connection] /95.111.227.12:45818 is pinging the server with version 1.20.3
+[08:04:15 INFO]: [initial connection] /176.65.148.136:58108 is pinging the server with version Unknown
+[08:07:39 INFO]: [initial connection] /146.70.225.149:50712 is pinging the server with version 1.20.3
+[08:15:03 INFO]: [initial connection] /156.146.63.199:17442 is pinging the server with version Unknown
+[08:16:16 INFO]: [initial connection] /45.135.194.8:39338 is pinging the server with version 1.8
+[08:21:16 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[08:33:59 INFO]: [initial connection] /45.135.194.8:40428 is pinging the server with version 1.8
+[08:39:37 INFO]: [initial connection] /193.25.217.28:43604 is pinging the server with version 1.21.2
+[08:41:03 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version 1.21
+[08:51:36 INFO]: [initial connection] /45.135.194.8:60586 is pinging the server with version 1.8
+[09:09:14 INFO]: [initial connection] /45.135.194.8:38560 is pinging the server with version 1.8
+[09:16:50 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[09:22:27 INFO]: [initial connection] /156.146.63.199:43222 is pinging the server with version Unknown
+[09:26:54 INFO]: [initial connection] /45.135.194.8:36514 is pinging the server with version 1.8
+[09:27:06 INFO]: [initial connection] /146.70.134.172:57884 is pinging the server with version 1.20.3
+[09:33:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[09:33:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[09:33:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[09:33:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[09:33:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[09:33:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[09:33:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[09:33:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[09:33:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[09:33:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[09:33:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[09:33:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[09:37:44 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[09:38:52 INFO]: [initial connection] /95.111.227.12:43170 is pinging the server with version 1.20.3
+[09:44:30 INFO]: [initial connection] /45.135.194.8:54878 is pinging the server with version 1.8
+[09:55:09 INFO]: [initial connection] /156.146.63.199:29614 is pinging the server with version 1.21
+[10:02:09 INFO]: [initial connection] /45.135.194.8:41252 is pinging the server with version 1.8
+[10:13:31 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[10:17:37 INFO]: [initial connection] /156.146.63.199:18448 is pinging the server with version Unknown
+[10:19:46 INFO]: [initial connection] /45.135.194.8:40666 is pinging the server with version 1.8
+[10:37:22 INFO]: [initial connection] /45.135.194.8:42488 is pinging the server with version 1.8
+[10:40:21 INFO]: [initial connection] /156.146.63.199:20830 is pinging the server with version Unknown
+[10:48:37 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[10:50:42 INFO]: [initial connection] /156.146.63.199:25356 is pinging the server with version Unknown
+[10:54:59 INFO]: [initial connection] /45.135.194.8:52190 is pinging the server with version 1.8
+[10:55:47 INFO]: [initial connection] /146.70.74.119:44082 is pinging the server with version 1.20.3
+[11:12:37 INFO]: [initial connection] /45.135.194.8:54500 is pinging the server with version 1.8
+[11:16:33 INFO]: [initial connection] /156.146.63.199:26758 is pinging the server with version 1.21
+[11:17:10 INFO]: [initial connection] /95.111.227.12:36720 is pinging the server with version 1.20.3
+[11:25:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[11:25:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[11:25:07 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[11:25:07 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[11:25:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[11:25:07 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[11:25:07 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[11:25:07 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[11:25:07 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[11:25:07 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[11:25:07 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[11:25:07 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[11:25:38 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[11:30:14 INFO]: [initial connection] /45.135.194.8:48874 is pinging the server with version 1.8
+[11:37:24 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[11:47:50 INFO]: [initial connection] /45.135.194.8:56120 is pinging the server with version 1.8
+[11:56:52 INFO]: [initial connection] /185.212.149.204:35256 is pinging the server with version 1.20.3
+[12:01:08 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[12:02:49 INFO]: [initial connection] /156.146.63.199:38058 is pinging the server with version Unknown
+[12:05:30 INFO]: [initial connection] /45.135.194.8:54404 is pinging the server with version 1.8
+[12:21:38 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version 1.21
+[12:22:41 INFO]: [initial connection] /45.135.194.65:43412 is pinging the server with version Unknown
+[12:22:43 INFO]: [connected player] ServerSeekerV2 (/45.135.194.65:43416) has connected
+[12:22:46 INFO]: [connected player] ServerSeekerV2 (/45.135.194.65:43416) has disconnected
+[12:23:06 INFO]: [initial connection] /45.135.194.8:59262 is pinging the server with version 1.8
+[12:40:43 INFO]: [initial connection] /45.135.194.8:49202 is pinging the server with version 1.8
+[12:47:24 INFO]: [initial connection] /156.146.63.199:52388 is pinging the server with version Unknown
+[12:49:35 INFO]: [initial connection] /64.150.2.24:4141 is pinging the server with version 1.21
+[12:49:37 INFO]: [connected player] mundoispluh (/64.150.2.24:54614) has connected
+[12:49:37 ERROR]: [connected player] mundoispluh (/64.150.2.24:54614): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:49:37 INFO]: [connected player] mundoispluh (/64.150.2.24:54614) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[12:49:43 INFO]: [connected player] mundoispluh (/64.150.2.24:25192) has connected
+[12:49:43 ERROR]: [connected player] mundoispluh (/64.150.2.24:25192): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:49:43 INFO]: [connected player] mundoispluh (/64.150.2.24:25192) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[12:52:03 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[12:58:37 INFO]: [initial connection] /95.111.227.12:39876 is pinging the server with version 1.20.3
+[12:58:42 INFO]: [initial connection] /45.135.194.8:42378 is pinging the server with version 1.8
+[12:59:45 INFO]: [initial connection] /156.146.63.199:58954 is pinging the server with version Unknown
+[13:06:26 INFO]: Shutting down the proxy...
+[13:06:26 INFO]: Closing endpoint /0.0.0.0:25565
+[13:06:26 INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
+[13:06:26 INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[13:06:26 INFO] [eaglerxvelocity]: Stopping skin cache HTTP client...
+2025-04-16T20:19:56.292732292Z main WARN Advanced terminal features are not available in this environment
+[20:19:56 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[20:19:56 INFO]: Loading localizations...
+[20:19:57 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[20:19:57 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[20:19:57 INFO]: Loading plugins...
+[20:19:57 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[20:19:57 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[20:19:57 INFO]: Loaded 3 plugins
+[20:19:57 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[20:19:57 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[20:19:57 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[20:19:58 ERROR] [eaglerxvelocity]: Eaglercraft could not bind port: /0.0.0.0:8081
+[20:19:58 ERROR] [eaglerxvelocity]: Reason: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[20:19:58 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[20:19:58 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[20:19:58 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[20:19:59 ERROR]: Can't bind to /0.0.0.0:25565
+io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[20:19:59 INFO]: Done (3.36s)!
+[20:19:59 ERROR] [TerminalConsole]: Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+[20:19:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:19:59 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:19:59 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[20:19:59 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:19:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:19:59 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[20:19:59 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[20:19:59 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[20:19:59 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[20:19:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:19:59 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[20:19:59 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[20:20:01 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[20:20:01 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[20:22:55 INFO]: Shutting down the proxy...
+[20:22:55 INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+Server restarting...
+Press CTRL + C to stop.
+2025-04-16T20:22:57.149212316Z main WARN Advanced terminal features are not available in this environment
+[20:22:57 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[20:22:57 INFO]: Loading localizations...
+[20:22:57 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[20:22:57 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[20:22:57 INFO]: Loading plugins...
+[20:22:58 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[20:22:58 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[20:22:58 INFO]: Loaded 3 plugins
+[20:22:58 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[20:22:58 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[20:22:58 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[20:22:58 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[20:22:58 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[20:22:58 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[20:22:58 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[20:22:59 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[20:22:59 INFO]: Done (2.15s)!
+[20:22:59 ERROR] [TerminalConsole]: Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+[20:22:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:22:59 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:22:59 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[20:22:59 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:22:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:22:59 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[20:22:59 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[20:22:59 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[20:22:59 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[20:22:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:22:59 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[20:22:59 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[20:23:00 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[20:23:00 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[20:23:06 INFO]: [connected player] iatepancakes (/64.150.2.26:46853) has connected
+[20:23:06 INFO]: [server connection] iatepancakes -> main has connected
+[20:23:09 INFO]: [connected player] iatepancakes (/64.150.2.26:46853): kicked from server main: Server closed
+[20:23:09 INFO]: [server connection] iatepancakes -> main has disconnected
+[20:23:09 INFO]: [connected player] iatepancakes (/64.150.2.26:46853) has disconnected: [38;2;255;85;85mYou were kicked from main: Server closed[0m
+[20:25:04 INFO]: [initial connection] /64.150.2.26:47118 is pinging the server with version 1.21
+[20:25:11 INFO]: [initial connection] /64.150.2.26:13920 is pinging the server with version 1.21
+[20:25:14 INFO]: [initial connection] /155.248.209.22:61000 is pinging the server with version 1.8
+[20:25:34 INFO]: [connected player] imasdf (/64.150.2.26:4339) has connected
+[20:25:34 INFO]: [server connection] imasdf -> main has connected
+[20:25:59 INFO]: [initial connection] /64.150.2.26:53679 is pinging the server with version 1.21
+[20:28:01 INFO]: [connected player] imasdf (/64.150.2.26:4339): kicked from server main: Server closed
+[20:28:01 INFO]: [server connection] imasdf -> main has disconnected
+[20:28:01 INFO]: [connected player] imasdf (/64.150.2.26:4339) has disconnected: [38;2;255;85;85mYou were kicked from main: Server closed[0m
+[20:28:26 INFO]: [initial connection] /64.150.2.26:54561 has disconnected
+[20:28:44 INFO]: [connected player] imasdf (/64.150.2.26:46806) has connected
+[20:28:44 INFO]: [server connection] imasdf -> main has connected
+[20:28:50 INFO]: [initial connection] /64.150.2.24:50291 is pinging the server with version 1.21
+[20:28:52 INFO]: [connected player] imasdf (/64.150.2.24:29020) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:28:53 INFO]: [connected player] imasdf (/64.150.2.24:19480) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:28:55 INFO]: [connected player] imasdf (/64.150.2.24:42203) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:28:57 INFO]: [initial connection] /64.150.2.24:25755 is pinging the server with version 1.21
+[20:28:59 INFO]: [connected player] imasdf (/64.150.2.24:4582) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:29:05 INFO]: [initial connection] /64.150.2.24:50896 is pinging the server with version 1.21
+[20:29:06 INFO]: [connected player] imasdf (/64.150.2.24:49870) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:29:09 INFO]: [connected player] imasdf (/64.150.2.24:29203) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:29:10 INFO]: [connected player] imasdf (/64.150.2.24:3966) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:29:33 INFO]: [connected player] imasdf (/64.150.2.24:15078) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:29:35 INFO]: [connected player] imasdf (/64.150.2.24:56541) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:29:37 INFO]: [connected player] imasdf (/64.150.2.24:50096) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:29:58 INFO]: [connected player] imasdf (/64.150.2.24:9882) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:30:04 INFO]: [connected player] imasdf (/64.150.2.24:45505) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:30:09 INFO]: [connected player] imasdf (/64.150.2.24:43605) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:30:11 INFO]: [connected player] imasdf (/64.150.2.24:38228) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:30:13 INFO]: [initial connection] /64.150.2.24:26322 is pinging the server with version 1.21
+[20:30:13 INFO]: [initial connection] /64.150.2.24:12320 is pinging the server with version 1.21
+[20:30:14 INFO]: [initial connection] /64.150.2.24:9553 is pinging the server with version 1.21
+[20:30:14 INFO]: [initial connection] /64.150.2.24:58914 is pinging the server with version 1.21
+[20:30:14 INFO]: [initial connection] /64.150.2.24:52925 is pinging the server with version 1.21
+[20:30:14 INFO]: [initial connection] /64.150.2.24:12204 is pinging the server with version 1.21
+[20:30:14 INFO]: [initial connection] /64.150.2.24:56022 is pinging the server with version 1.21
+[20:30:15 INFO]: [initial connection] /64.150.2.24:43029 is pinging the server with version 1.21
+[20:30:15 INFO]: [initial connection] /64.150.2.24:10612 is pinging the server with version 1.21
+[20:30:17 INFO]: [connected player] imasdf (/64.150.2.24:56045) has disconnected: [38;2;255;85;85mYou are already connected to this proxy![0m
+[20:30:18 INFO]: [connected player] imasdf (/64.150.2.26:46806): kicked from server main: Server closed
+[20:30:18 INFO]: [server connection] imasdf -> main has disconnected
+[20:30:18 INFO]: [connected player] imasdf (/64.150.2.26:46806) has disconnected: [38;2;255;85;85mYou were kicked from main: Server closed[0m
+[20:30:20 INFO]: [connected player] imasdf (/64.150.2.24:34632) has connected
+[20:30:20 ERROR]: [connected player] imasdf (/64.150.2.24:34632): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:30:20 INFO]: [connected player] imasdf (/64.150.2.24:34632) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[20:30:23 INFO]: [connected player] imasdf (/64.150.2.24:58576) has connected
+[20:30:23 ERROR]: [connected player] imasdf (/64.150.2.24:58576): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:30:23 INFO]: [connected player] imasdf (/64.150.2.24:58576) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[20:30:25 INFO]: [connected player] imasdf (/64.150.2.24:51364) has connected
+[20:30:25 ERROR]: [connected player] imasdf (/64.150.2.24:51364): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:30:25 INFO]: [connected player] imasdf (/64.150.2.24:51364) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[20:30:31 INFO]: [initial connection] /64.150.2.24:10942 is pinging the server with version 1.21
+[20:30:31 INFO]: [initial connection] /64.150.2.24:7694 is pinging the server with version 1.21
+[20:30:31 INFO]: [initial connection] /64.150.2.24:53685 is pinging the server with version 1.21
+[20:30:31 INFO]: [initial connection] /64.150.2.24:8898 is pinging the server with version 1.21
+[20:30:31 INFO]: [initial connection] /64.150.2.24:14527 is pinging the server with version 1.21
+[20:30:32 INFO]: [initial connection] /64.150.2.24:39391 is pinging the server with version 1.21
+[20:30:32 INFO]: [initial connection] /64.150.2.24:2648 is pinging the server with version 1.21
+[20:30:32 INFO]: [initial connection] /64.150.2.24:9728 is pinging the server with version 1.21
+[20:30:32 INFO]: [initial connection] /64.150.2.24:12123 is pinging the server with version 1.21
+[20:30:32 INFO]: [initial connection] /64.150.2.24:9703 is pinging the server with version 1.21
+[20:30:32 INFO]: [initial connection] /64.150.2.24:23726 is pinging the server with version 1.21
+[20:30:32 INFO]: [initial connection] /64.150.2.24:11496 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:36947 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:52668 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:52563 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:12164 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:55219 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:36659 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:31692 is pinging the server with version 1.21
+[20:30:33 INFO]: [initial connection] /64.150.2.24:32404 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:54167 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:47803 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:27302 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:40535 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:53372 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:45023 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:14967 is pinging the server with version 1.21
+[20:30:34 INFO]: [initial connection] /64.150.2.24:9716 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:31916 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:8684 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:31811 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:34852 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:10413 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:52124 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:46693 is pinging the server with version 1.21
+[20:30:35 INFO]: [initial connection] /64.150.2.24:58669 is pinging the server with version 1.21
+[20:30:36 INFO]: [initial connection] /64.150.2.24:34437 is pinging the server with version 1.21
+[20:30:36 INFO]: [initial connection] /64.150.2.24:54791 is pinging the server with version 1.21
+[20:30:38 INFO]: [connected player] imasdf (/64.150.2.24:17077) has connected
+[20:30:38 ERROR]: [connected player] imasdf (/64.150.2.24:17077): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:30:38 INFO]: [connected player] imasdf (/64.150.2.24:17077) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[20:30:42 INFO]: [initial connection] /64.150.2.24:12246 is pinging the server with version 1.21
+[20:30:42 INFO]: [initial connection] /64.150.2.24:38637 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:11445 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:53976 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:21533 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:30211 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:37081 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:14234 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:37115 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:27798 is pinging the server with version 1.21
+[20:30:43 INFO]: [initial connection] /64.150.2.24:41488 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:35564 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:8309 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:31929 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:14612 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:4882 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:49311 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:44313 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:13351 is pinging the server with version 1.21
+[20:30:44 INFO]: [initial connection] /64.150.2.24:30918 is pinging the server with version 1.21
+[20:30:46 INFO]: [connected player] imasdf (/64.150.2.24:4552) has connected
+[20:30:46 ERROR]: [connected player] imasdf (/64.150.2.24:4552): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:30:46 INFO]: [connected player] imasdf (/64.150.2.24:4552) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[20:30:49 INFO]: [initial connection] /64.150.2.24:37302 is pinging the server with version 1.21
+[20:30:49 INFO]: [initial connection] /64.150.2.24:49376 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:25902 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:47375 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:34610 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:41785 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:44121 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:17578 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:21112 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:39699 is pinging the server with version 1.21
+[20:30:50 INFO]: [initial connection] /64.150.2.24:8476 is pinging the server with version 1.21
+[20:30:51 INFO]: [initial connection] /64.150.2.24:29588 is pinging the server with version 1.21
+[20:30:51 INFO]: [initial connection] /64.150.2.24:25998 is pinging the server with version 1.21
+[20:30:51 INFO]: [initial connection] /64.150.2.24:43265 is pinging the server with version 1.21
+[20:30:51 INFO]: [initial connection] /64.150.2.24:24690 is pinging the server with version 1.21
+[20:30:51 INFO]: [initial connection] /64.150.2.24:33141 is pinging the server with version 1.21
+[20:30:51 INFO]: [initial connection] /64.150.2.24:15675 is pinging the server with version 1.21
+[20:30:51 INFO]: [initial connection] /64.150.2.24:6296 is pinging the server with version 1.21
+[20:30:52 INFO]: [initial connection] /64.150.2.24:53422 is pinging the server with version 1.21
+[20:30:52 INFO]: [initial connection] /64.150.2.24:40424 is pinging the server with version 1.21
+[20:30:52 INFO]: [initial connection] /64.150.2.24:55718 is pinging the server with version 1.21
+[20:30:52 INFO]: [initial connection] /64.150.2.24:5918 is pinging the server with version 1.21
+[20:30:53 INFO]: [initial connection] /64.150.2.24:53336 is pinging the server with version 1.21
+[20:30:53 INFO]: [initial connection] /64.150.2.24:22520 is pinging the server with version 1.21
+[20:30:53 INFO]: [initial connection] /64.150.2.24:31142 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:7860 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:12234 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:6163 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:56497 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:21627 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:14337 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:38499 is pinging the server with version 1.21
+[20:30:54 INFO]: [initial connection] /64.150.2.24:36757 is pinging the server with version 1.21
+[20:30:55 INFO]: [initial connection] /64.150.2.24:56895 is pinging the server with version 1.21
+[20:30:55 INFO]: [initial connection] /64.150.2.24:54615 is pinging the server with version 1.21
+[20:30:55 INFO]: [connected player] imasdf (/64.150.2.26:46888) has connected
+[20:30:55 ERROR]: [connected player] imasdf (/64.150.2.26:46888): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:30:55 INFO]: [connected player] imasdf (/64.150.2.26:46888) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[20:30:55 INFO]: [initial connection] /64.150.2.24:26061 is pinging the server with version 1.21
+[20:30:55 INFO]: [initial connection] /64.150.2.24:57408 is pinging the server with version 1.21
+[20:30:55 INFO]: [initial connection] /64.150.2.24:28756 is pinging the server with version 1.21
+[20:30:55 INFO]: [initial connection] /64.150.2.24:2017 is pinging the server with version 1.21
+[20:30:55 INFO]: [initial connection] /64.150.2.24:57739 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:23752 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:49413 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:12276 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:10693 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:50587 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:56963 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:34164 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:1485 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:14054 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:52084 is pinging the server with version 1.21
+[20:30:56 INFO]: [initial connection] /64.150.2.24:56523 is pinging the server with version 1.21
+[20:30:57 INFO]: [initial connection] /64.150.2.24:8448 is pinging the server with version 1.21
+[20:30:57 INFO]: [initial connection] /64.150.2.24:33931 is pinging the server with version 1.21
+[20:30:57 INFO]: [initial connection] /64.150.2.24:16142 is pinging the server with version 1.21
+[20:30:57 INFO]: [initial connection] /64.150.2.24:43048 is pinging the server with version 1.21
+[20:30:57 INFO]: [initial connection] /64.150.2.24:45602 is pinging the server with version 1.21
+[20:30:57 INFO]: [initial connection] /64.150.2.24:25139 is pinging the server with version 1.21
+[20:30:57 INFO]: [initial connection] /64.150.2.24:28072 is pinging the server with version 1.21
+[20:30:58 INFO]: [initial connection] /64.150.2.24:8669 is pinging the server with version 1.21
+[20:30:58 INFO]: [initial connection] /64.150.2.24:3178 is pinging the server with version 1.21
+[20:30:58 INFO]: [initial connection] /64.150.2.24:17630 is pinging the server with version 1.21
+[20:31:02 INFO]: [connected player] imasdf (/64.150.2.24:3820) has connected
+[20:31:02 INFO]: [server connection] imasdf -> main has connected
+[20:31:24 INFO]: [connected player] imasdf (/64.150.2.24:3820): kicked from server main: Wrong password!
+[20:31:24 INFO]: [server connection] imasdf -> main has disconnected
+[20:31:24 INFO]: [connected player] imasdf (/64.150.2.24:3820) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:31:28 INFO]: [connected player] imasdf (/64.150.2.24:1539) has connected
+[20:31:28 INFO]: [server connection] imasdf -> main has connected
+[20:31:52 INFO]: [connected player] imasdf (/64.150.2.24:1539): kicked from server main: Wrong password!
+[20:31:52 INFO]: [server connection] imasdf -> main has disconnected
+[20:31:52 INFO]: [connected player] imasdf (/64.150.2.24:1539) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:31:56 INFO]: [connected player] imasdf (/64.150.2.24:49554) has connected
+[20:31:56 INFO]: [server connection] imasdf -> main has connected
+[20:32:05 INFO]: [connected player] imasdf (/64.150.2.24:49554): kicked from server main: Wrong password!
+[20:32:05 INFO]: [server connection] imasdf -> main has disconnected
+[20:32:05 INFO]: [connected player] imasdf (/64.150.2.24:49554) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:32:08 INFO]: [connected player] imasdf (/64.150.2.24:57694) has connected
+[20:32:08 INFO]: [server connection] imasdf -> main has connected
+[20:32:13 INFO]: [connected player] imasdf (/64.150.2.24:57694): kicked from server main: Wrong password!
+[20:32:13 INFO]: [server connection] imasdf -> main has disconnected
+[20:32:13 INFO]: [connected player] imasdf (/64.150.2.24:57694) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:33:01 INFO]: [initial connection] /64.150.2.24:12602 is pinging the server with version 1.21
+[20:33:04 INFO]: [connected player] Semiboi (/64.150.2.24:23821) has connected
+[20:33:04 INFO]: [server connection] Semiboi -> main has connected
+[20:33:11 INFO]: [initial connection] /64.150.2.26:44114 is pinging the server with version 1.21
+[20:33:12 INFO]: [connected player] imasdf (/64.150.2.26:34640) has connected
+[20:33:12 INFO]: [server connection] imasdf -> main has connected
+[20:33:25 INFO]: [connected player] imasdf (/64.150.2.26:34640): kicked from server main: Server closed
+[20:33:25 INFO]: [server connection] imasdf -> main has disconnected
+[20:33:25 INFO]: [connected player] imasdf (/64.150.2.26:34640) has disconnected: [38;2;255;85;85mYou were kicked from main: Server closed[0m
+[20:33:25 INFO]: [connected player] Semiboi (/64.150.2.24:23821): kicked from server main: Server closed
+[20:33:25 INFO]: [server connection] Semiboi -> main has disconnected
+[20:33:25 INFO]: [connected player] Semiboi (/64.150.2.24:23821) has disconnected: [38;2;255;85;85mYou were kicked from main: Server closed[0m
+[20:34:32 INFO]: [connected player] Semiboi (/64.150.2.24:26238) has connected
+[20:34:32 INFO]: [server connection] Semiboi -> main has connected
+[20:34:37 INFO]: [connected player] imasdf (/64.150.2.26:35669) has connected
+[20:34:37 INFO]: [server connection] imasdf -> main has connected
+[20:34:45 INFO]: [connected player] Semiboi (/64.150.2.24:26238): kicked from server main: Wrong password!
+[20:34:45 INFO]: [server connection] Semiboi -> main has disconnected
+[20:34:45 INFO]: [connected player] Semiboi (/64.150.2.24:26238) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:34:47 INFO]: [connected player] Semiboi (/64.150.2.24:24598) has connected
+[20:34:47 INFO]: [server connection] Semiboi -> main has connected
+[20:37:42 INFO]: [connected player] imasdf (/64.150.2.26:35669) has disconnected
+[20:37:42 INFO]: [server connection] imasdf -> main has disconnected
+[20:37:42 INFO]: [initial connection] /64.150.2.26:37723 is pinging the server with version 1.21
+[20:37:51 INFO]: [initial connection] /64.150.2.24:15098 is pinging the server with version 1.21
+[20:37:53 INFO]: [connected player] Yuvrajxd (/64.150.2.24:41035) has connected
+[20:37:53 INFO]: [server connection] Yuvrajxd -> main has connected
+[20:37:57 INFO]: [connected player] imasdf (/64.150.2.26:36740) has connected
+[20:37:57 INFO]: [server connection] imasdf -> main has connected
+[20:37:58 INFO]: [connected player] Yuvrajxd (/64.150.2.24:41035): kicked from server main: Wrong password!
+[20:37:58 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[20:37:58 INFO]: [connected player] Yuvrajxd (/64.150.2.24:41035) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:38:00 INFO]: [connected player] Yuvrajxd (/64.150.2.24:3532) has connected
+[20:38:00 INFO]: [server connection] Yuvrajxd -> main has connected
+[20:39:58 INFO]: [initial connection] /45.135.194.8:40338 is pinging the server with version 1.8
+[20:42:32 INFO]: [initial connection] /156.146.63.199:25878 is pinging the server with version Unknown
+[20:49:10 INFO]: [initial connection] /193.25.217.28:53956 is pinging the server with version 1.21.2
+[20:51:13 INFO]: [initial connection] /156.146.63.199:47530 is pinging the server with version Unknown
+[20:53:53 INFO]: [connected player] imasdf (/64.150.2.26:36740) has disconnected
+[20:53:53 INFO]: [server connection] imasdf -> main has disconnected
+[20:53:53 INFO]: [initial connection] /64.150.2.26:11277 is pinging the server with version 1.21
+[20:54:08 INFO]: [initial connection] /64.150.2.27:4052 is pinging the server with version 1.21
+[20:54:10 INFO]: [connected player] rzhang6 (/64.150.2.27:28602) has connected
+[20:54:10 INFO]: [server connection] rzhang6 -> main has connected
+[20:54:12 INFO]: [connected player] imasdf (/64.150.2.26:4368) has connected
+[20:54:12 INFO]: [server connection] imasdf -> main has connected
+[20:54:19 INFO]: [connected player] rzhang6 (/64.150.2.27:28602): kicked from server main: Wrong password!
+[20:54:19 INFO]: [server connection] rzhang6 -> main has disconnected
+[20:54:19 INFO]: [connected player] rzhang6 (/64.150.2.27:28602) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:54:21 INFO]: [connected player] rzhang6 (/64.150.2.27:57825) has connected
+[20:54:21 INFO]: [server connection] rzhang6 -> main has connected
+[20:54:28 INFO]: [initial connection] /64.150.2.24:43286 is pinging the server with version 1.21
+[20:54:30 INFO]: [connected player] Ath818 (/64.150.2.24:18345) has connected
+[20:54:30 INFO]: [server connection] Ath818 -> main has connected
+[20:57:46 INFO]: [initial connection] /64.150.2.26:31475 is pinging the server with version 1.21
+[20:57:49 INFO]: [connected player] iatepancakes (/64.150.2.26:4738) has connected
+[20:57:49 INFO]: [server connection] iatepancakes -> main has connected
+[20:58:04 INFO]: [initial connection] /45.135.194.8:60788 is pinging the server with version 1.8
+[20:58:25 INFO]: [initial connection] /64.150.2.24:35528 is pinging the server with version 1.21
+[20:58:28 INFO]: [connected player] bruv10 (/64.150.2.24:40293) has connected
+[20:58:28 INFO]: [server connection] bruv10 -> main has connected
+[20:58:34 INFO]: [connected player] bruv10 (/64.150.2.24:40293) has disconnected
+[20:58:34 INFO]: [server connection] bruv10 -> main has disconnected
+[20:58:35 INFO]: [initial connection] /64.150.2.24:6624 is pinging the server with version 1.21
+[20:59:15 INFO]: [initial connection] /64.150.2.24:18154 is pinging the server with version 1.21
+[20:59:16 INFO]: [connected player] bruv10 (/64.150.2.24:7083) has connected
+[20:59:16 INFO]: [server connection] bruv10 -> main has connected
+[20:59:19 INFO]: [connected player] bruv10 (/64.150.2.24:7083) has disconnected
+[20:59:19 INFO]: [server connection] bruv10 -> main has disconnected
+[20:59:19 INFO]: [initial connection] /64.150.2.24:15658 is pinging the server with version 1.21
+[21:00:48 INFO]: [initial connection] /64.150.2.24:10925 is pinging the server with version 1.21
+[21:00:50 INFO]: [connected player] bruv1000000 (/64.150.2.24:22896) has connected
+[21:00:51 INFO]: [server connection] bruv1000000 -> main has connected
+[21:01:30 INFO]: [connected player] Ath818 (/64.150.2.24:18345) has disconnected
+[21:01:30 INFO]: [server connection] Ath818 -> main has disconnected
+[21:01:30 INFO]: [initial connection] /64.150.2.24:17934 is pinging the server with version 1.21
+[21:01:55 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:02:55 ERROR]: [initial connection] /51.15.34.47:61000: read timed out
+[21:05:18 INFO]: [initial connection] /64.150.2.24:4729 is pinging the server with version 1.21
+[21:05:20 INFO]: [connected player] Ath818 (/64.150.2.24:22122) has connected
+[21:05:20 INFO]: [server connection] Ath818 -> main has connected
+[21:05:58 INFO]: [connected player] Yuvrajxd (/64.150.2.24:3532) has disconnected
+[21:05:58 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[21:05:58 INFO]: [initial connection] /64.150.2.24:9515 is pinging the server with version 1.21
+[21:06:17 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[21:06:31 INFO]: [connected player] Yuvrajxd (/64.150.2.24:41089) has connected
+[21:06:31 INFO]: [server connection] Yuvrajxd -> main has connected
+[21:07:02 INFO]: [connected player] Yuvrajxd (/64.150.2.24:41089): kicked from server main: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:07:02 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[21:07:02 INFO]: [connected player] Yuvrajxd (/64.150.2.24:41089) has disconnected: [38;2;255;85;85mYou were kicked from main: [38;2;170;0;0mLogin timeout exceeded, you have been kicked from the server, please try again![0m
+[21:07:05 INFO]: [connected player] Yuvrajxd (/64.150.2.24:47313) has connected
+[21:07:05 INFO]: [server connection] Yuvrajxd -> main has connected
+[21:07:36 INFO]: [connected player] Yuvrajxd (/64.150.2.24:47313): kicked from server main: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:07:36 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[21:07:36 INFO]: [connected player] Yuvrajxd (/64.150.2.24:47313) has disconnected: [38;2;255;85;85mYou were kicked from main: [38;2;170;0;0mLogin timeout exceeded, you have been kicked from the server, please try again![0m
+[21:07:39 INFO]: [connected player] Ath818 (/64.150.2.24:22122) has disconnected
+[21:07:39 INFO]: [server connection] Ath818 -> main has disconnected
+[21:07:39 INFO]: [initial connection] /64.150.2.24:23940 is pinging the server with version 1.21
+[21:07:40 INFO]: [connected player] Yuvrajxd (/64.150.2.24:11335) has connected
+[21:07:40 INFO]: [server connection] Yuvrajxd -> main has connected
+[21:07:42 INFO]: [connected player] Ath818 (/64.150.2.24:22893) has connected
+[21:07:42 INFO]: [server connection] Ath818 -> main has connected
+[21:08:31 INFO]: [connected player] imasdf (/64.150.2.26:4368) has disconnected
+[21:08:31 INFO]: [server connection] imasdf -> main has disconnected
+[21:08:31 INFO]: [initial connection] /64.150.2.26:53719 is pinging the server with version 1.21
+[21:08:41 INFO]: [connected player] imasdf (/64.150.2.26:27996) has connected
+[21:08:41 INFO]: [server connection] imasdf -> main has connected
+[21:08:45 INFO]: [connected player] imasdf (/64.150.2.26:27996): kicked from server main: Wrong password!
+[21:08:45 INFO]: [server connection] imasdf -> main has disconnected
+[21:08:45 INFO]: [connected player] imasdf (/64.150.2.26:27996) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[21:08:47 INFO]: [connected player] imasdf (/64.150.2.26:25280) has connected
+[21:08:47 INFO]: [server connection] imasdf -> main has connected
+[21:15:43 INFO]: [initial connection] /45.135.194.8:33286 is pinging the server with version 1.8
+[21:16:04 INFO]: [connected player] Ath818 (/64.150.2.24:22893) has disconnected
+[21:16:04 INFO]: [server connection] Ath818 -> main has disconnected
+[21:16:04 INFO]: [initial connection] /64.150.2.24:3501 is pinging the server with version 1.21
+[21:16:35 INFO]: [initial connection] /185.65.134.151:55788 is pinging the server with version 1.20.3
+[21:17:14 INFO]: [initial connection] /64.150.2.24:26791 is pinging the server with version 1.21
+[21:17:16 INFO]: [connected player] Ath818 (/64.150.2.24:52086) has connected
+[21:17:16 INFO]: [server connection] Ath818 -> main has connected
+[21:18:52 INFO]: [connected player] Yuvrajxd (/64.150.2.24:11335) has disconnected
+[21:18:52 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[21:18:52 INFO]: [initial connection] /64.150.2.24:56837 is pinging the server with version 1.21
+[21:18:58 INFO]: [connected player] Yuvrajxd (/64.150.2.24:36889) has connected
+[21:18:58 INFO]: [server connection] Yuvrajxd -> main has connected
+[21:19:27 INFO]: [initial connection] /156.253.227.141:38296 is pinging the server with version 1.20.2
+[21:19:42 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:21:07 INFO]: [connected player] bruv1000000 (/64.150.2.24:22896) has disconnected
+[21:21:07 INFO]: [server connection] bruv1000000 -> main has disconnected
+[21:21:07 INFO]: [initial connection] /64.150.2.24:29061 is pinging the server with version 1.21
+[21:23:36 INFO]: [connected player] Ath818 (/64.150.2.24:52086) has disconnected
+[21:23:36 INFO]: [server connection] Ath818 -> main has disconnected
+[21:23:36 INFO]: [initial connection] /64.150.2.24:55327 is pinging the server with version 1.21
+[21:25:36 INFO]: [connected player] iatepancakes (/64.150.2.26:4738) has disconnected
+[21:25:36 INFO]: [server connection] iatepancakes -> main has disconnected
+[21:25:36 INFO]: [initial connection] /64.150.2.26:25857 is pinging the server with version 1.21
+[21:25:41 INFO]: [connected player] Yuvrajxd (/64.150.2.24:36889) has disconnected
+[21:25:41 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[21:25:41 INFO]: [initial connection] /64.150.2.24:9161 is pinging the server with version 1.21
+[21:25:53 INFO]: [connected player] rzhang6 (/64.150.2.27:57825) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:25:53 ERROR]: [connected player] rzhang6 (/64.150.2.27:57825): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@431cbc4
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:25:53 INFO]: [server connection] rzhang6 -> main has disconnected
+[21:26:06 INFO]: [connected player] Semiboi (/64.150.2.24:24598) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:26:06 ERROR]: [connected player] Semiboi (/64.150.2.24:24598): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@260d6116
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:26:06 INFO]: [server connection] Semiboi -> main has disconnected
+[21:26:07 INFO]: [connected player] imasdf (/64.150.2.26:25280) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:26:07 ERROR]: [connected player] imasdf (/64.150.2.26:25280): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@4241e5bf
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:26:07 INFO]: [server connection] imasdf -> main has disconnected
+[21:30:50 INFO]: [initial connection] /156.146.63.199:23102 is pinging the server with version 1.21
+[21:33:23 INFO]: [initial connection] /45.135.194.8:42218 is pinging the server with version 1.8
+[21:37:07 INFO]: [initial connection] /95.111.227.12:34202 is pinging the server with version 1.20.3
+[21:38:14 INFO]: [initial connection] /64.150.2.25:23160 is pinging the server with version 1.21
+[21:38:16 INFO]: [connected player] Semiboi (/64.150.2.25:23857) has connected
+[21:38:16 ERROR]: [connected player] Semiboi (/64.150.2.25:23857): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:38:16 INFO]: [connected player] Semiboi (/64.150.2.25:23857) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:38:19 INFO]: [connected player] Semiboi (/64.150.2.25:23168) has connected
+[21:38:19 ERROR]: [connected player] Semiboi (/64.150.2.25:23168): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:38:19 INFO]: [connected player] Semiboi (/64.150.2.25:23168) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:38:22 INFO]: [initial connection] /64.150.2.25:35693 is pinging the server with version 1.21
+[21:38:24 INFO]: [connected player] Semiboi (/64.150.2.25:17115) has connected
+[21:38:24 ERROR]: [connected player] Semiboi (/64.150.2.25:17115): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:38:24 INFO]: [connected player] Semiboi (/64.150.2.25:17115) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:38:31 INFO]: [initial connection] /64.150.2.25:33217 is pinging the server with version 1.21
+[21:38:32 INFO]: [connected player] Semiboi (/64.150.2.25:12309) has connected
+[21:38:32 ERROR]: [connected player] Semiboi (/64.150.2.25:12309): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:38:32 INFO]: [connected player] Semiboi (/64.150.2.25:12309) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:38:45 INFO]: [connected player] Semiboi (/64.150.2.25:19645) has connected
+[21:38:45 ERROR]: [connected player] Semiboi (/64.150.2.25:19645): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:38:45 INFO]: [connected player] Semiboi (/64.150.2.25:19645) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:38:47 INFO]: [connected player] Semiboi (/64.150.2.25:9082) has connected
+[21:38:47 ERROR]: [connected player] Semiboi (/64.150.2.25:9082): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:38:47 INFO]: [connected player] Semiboi (/64.150.2.25:9082) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:39:04 INFO]: [connected player] Semiboi (/64.150.2.25:31029) has connected
+[21:39:04 ERROR]: [connected player] Semiboi (/64.150.2.25:31029): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:39:04 INFO]: [connected player] Semiboi (/64.150.2.25:31029) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:39:06 INFO]: [connected player] Semiboi (/64.150.2.25:54983) has connected
+[21:39:06 ERROR]: [connected player] Semiboi (/64.150.2.25:54983): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:39:06 INFO]: [connected player] Semiboi (/64.150.2.25:54983) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:39:08 INFO]: [connected player] Semiboi (/64.150.2.25:32941) has connected
+[21:39:08 ERROR]: [connected player] Semiboi (/64.150.2.25:32941): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:39:08 INFO]: [connected player] Semiboi (/64.150.2.25:32941) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:42:37 INFO]: [connected player] Semiboi (/64.150.2.25:39590) has connected
+[21:42:37 ERROR]: [connected player] Semiboi (/64.150.2.25:39590): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:42:37 INFO]: [connected player] Semiboi (/64.150.2.25:39590) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:42:39 INFO]: [connected player] Semiboi (/64.150.2.25:27005) has connected
+[21:42:39 ERROR]: [connected player] Semiboi (/64.150.2.25:27005): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:42:39 INFO]: [connected player] Semiboi (/64.150.2.25:27005) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:42:41 INFO]: [connected player] Semiboi (/64.150.2.25:57228) has connected
+[21:42:41 ERROR]: [connected player] Semiboi (/64.150.2.25:57228): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:42:41 INFO]: [connected player] Semiboi (/64.150.2.25:57228) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:42:44 INFO]: [connected player] Semiboi (/64.150.2.25:31028) has connected
+[21:42:44 ERROR]: [connected player] Semiboi (/64.150.2.25:31028): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:42:44 INFO]: [connected player] Semiboi (/64.150.2.25:31028) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:47:54 INFO]: [connected player] Semiboi (/64.150.2.25:42552) has connected
+[21:47:54 ERROR]: [connected player] Semiboi (/64.150.2.25:42552): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:47:54 INFO]: [connected player] Semiboi (/64.150.2.25:42552) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:47:56 INFO]: [connected player] Semiboi (/64.150.2.25:52940) has connected
+[21:47:56 ERROR]: [connected player] Semiboi (/64.150.2.25:52940): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:47:56 INFO]: [connected player] Semiboi (/64.150.2.25:52940) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:50:44 INFO]: [connected player] Semiboi (/64.150.2.25:37448) has connected
+[21:50:44 ERROR]: [connected player] Semiboi (/64.150.2.25:37448): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:50:44 INFO]: [connected player] Semiboi (/64.150.2.25:37448) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:50:56 INFO]: [connected player] Semiboi (/64.150.2.25:4284) has connected
+[21:50:56 ERROR]: [connected player] Semiboi (/64.150.2.25:4284): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:50:56 INFO]: [connected player] Semiboi (/64.150.2.25:4284) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:51:00 INFO]: [initial connection] /64.150.2.25:1579 is pinging the server with version 1.21
+[21:51:00 INFO]: [initial connection] /64.150.2.25:43829 is pinging the server with version 1.21
+[21:51:01 INFO]: [initial connection] /64.150.2.25:30077 is pinging the server with version 1.21
+[21:51:01 INFO]: [initial connection] /64.150.2.25:33674 is pinging the server with version 1.21
+[21:51:01 INFO]: [initial connection] /64.150.2.25:9298 is pinging the server with version 1.21
+[21:51:01 INFO]: [initial connection] /64.150.2.25:52611 is pinging the server with version 1.21
+[21:51:01 INFO]: [initial connection] /64.150.2.25:26729 is pinging the server with version 1.21
+[21:51:01 INFO]: [initial connection] /64.150.2.25:42214 is pinging the server with version 1.21
+[21:51:02 INFO]: [initial connection] /64.150.2.25:57714 is pinging the server with version 1.21
+[21:51:02 INFO]: [initial connection] /64.150.2.25:29215 is pinging the server with version 1.21
+[21:51:02 INFO]: [initial connection] /45.135.194.8:35000 is pinging the server with version 1.8
+[21:51:02 INFO]: [initial connection] /64.150.2.25:34649 is pinging the server with version 1.21
+[21:51:02 INFO]: [initial connection] /64.150.2.25:18240 is pinging the server with version 1.21
+[21:51:02 INFO]: [initial connection] /64.150.2.25:26209 is pinging the server with version 1.21
+[21:51:02 INFO]: [initial connection] /64.150.2.25:57160 is pinging the server with version 1.21
+[21:51:03 INFO]: [initial connection] /64.150.2.25:16368 is pinging the server with version 1.21
+[21:51:03 INFO]: [initial connection] /64.150.2.25:9848 is pinging the server with version 1.21
+[21:51:03 INFO]: [initial connection] /64.150.2.25:45360 is pinging the server with version 1.21
+[21:51:03 INFO]: [initial connection] /64.150.2.25:22143 is pinging the server with version 1.21
+[21:51:03 INFO]: [initial connection] /64.150.2.25:14682 is pinging the server with version 1.21
+[21:51:03 INFO]: [initial connection] /64.150.2.25:36950 is pinging the server with version 1.21
+[21:51:04 INFO]: [initial connection] /64.150.2.25:9180 is pinging the server with version 1.21
+[21:51:06 INFO]: [connected player] Semiboi (/64.150.2.25:54490) has connected
+[21:51:06 ERROR]: [connected player] Semiboi (/64.150.2.25:54490): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:51:06 INFO]: [connected player] Semiboi (/64.150.2.25:54490) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:51:08 INFO]: [connected player] Semiboi (/64.150.2.25:54266) has connected
+[21:51:08 ERROR]: [connected player] Semiboi (/64.150.2.25:54266): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:51:08 INFO]: [connected player] Semiboi (/64.150.2.25:54266) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:54:24 INFO]: [initial connection] /156.146.63.199:22486 is pinging the server with version Unknown
+[21:55:08 INFO]: [connected player] Semiboi (/64.150.2.25:54453) has connected
+[21:55:08 ERROR]: [connected player] Semiboi (/64.150.2.25:54453): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:55:08 INFO]: [connected player] Semiboi (/64.150.2.25:54453) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[21:56:37 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[22:08:46 INFO]: [initial connection] /45.135.194.8:42462 is pinging the server with version 1.8
+[22:17:40 INFO]: [initial connection] /156.253.227.141:57538 is pinging the server with version 1.20.2
+[22:23:42 INFO]: [initial connection] /156.146.63.199:31134 is pinging the server with version Unknown
+[22:26:26 INFO]: [initial connection] /45.135.194.8:52130 is pinging the server with version 1.8
+[22:32:54 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[22:37:37 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version 1.21
+[22:40:02 INFO]: [initial connection] /193.32.126.149:60822 is pinging the server with version 1.20.3
+[22:44:07 INFO]: [initial connection] /45.135.194.8:51034 is pinging the server with version 1.8
+[23:01:48 INFO]: [initial connection] /45.135.194.8:38636 is pinging the server with version 1.8
+[23:05:35 INFO]: [initial connection] /156.146.63.199:13524 is pinging the server with version Unknown
+[23:08:22 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[23:11:28 INFO]: [initial connection] /172.104.152.224:52326 is pinging the server with version Unknown
+[23:13:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[23:13:59 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[23:13:59 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[23:13:59 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[23:13:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[23:13:59 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[23:13:59 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[23:13:59 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.1[36;1m) is available![0;39m
+[23:13:59 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.1/SkinsRestorer.jar[0;39m
+[23:13:59 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[23:13:59 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[23:13:59 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[23:15:18 INFO]: [initial connection] /95.111.227.12:42726 is pinging the server with version 1.20.3
+[23:18:03 INFO]: [initial connection] /156.253.227.23:47338 is pinging the server with version 1.20.2
+[23:19:30 INFO]: [initial connection] /45.135.194.8:46970 is pinging the server with version 1.8
+[23:26:15 INFO]: [initial connection] /156.146.63.199:39272 is pinging the server with version Unknown
+[23:37:12 INFO]: [initial connection] /45.135.194.8:42000 is pinging the server with version 1.8
+[23:41:57 INFO]: [initial connection] /156.146.63.199:49726 is pinging the server with version 1.21
+[23:42:39 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[23:54:43 INFO]: [initial connection] /156.146.63.199:8276 is pinging the server with version Unknown
+[23:54:52 INFO]: [initial connection] /45.135.194.8:37408 is pinging the server with version 1.8
+[00:12:37 INFO]: [initial connection] /45.135.194.8:52850 is pinging the server with version 1.8
+[00:14:32 INFO]: [initial connection] /91.207.57.140:44326 is pinging the server with version 1.20.3
+[00:17:08 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[00:17:54 INFO]: [initial connection] /156.253.227.23:58702 is pinging the server with version 1.20.2
+[00:20:50 INFO]: Shutting down the proxy...
+[00:20:50 INFO]: Closing endpoint /0.0.0.0:25565
+[00:20:50 INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
+[00:20:50 INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
