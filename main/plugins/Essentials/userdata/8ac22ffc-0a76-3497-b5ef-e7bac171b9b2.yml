@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1744838489059
+  lastteleport: 1744925030121
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744838616433
-  login: 1744838237474
+  logout: 1744925253438
+  login: 1744924608581
 money: '0'
 last-account-name: Ath818
 lastlocation:
   world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
   world-name: world
-  x: -2575.1275131242564
-  y: 46.0
-  z: 45.66304326236935
-  yaw: 53.4483642578125
-  pitch: 23.09995460510254
+  x: -2334.9986601072333
+  y: 72.17675927506424
+  z: -357.6133787816422
+  yaw: -130.73585510253906
+  pitch: 0.4499894380569458
 logoutlocation:
   world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
   world-name: world
-  x: -2516.914146044302
-  y: 78.4
-  z: -8.975518653824249
-  yaw: -18.738012313842773
-  pitch: 13.16684341430664
+  x: -3053.0244805397583
+  y: 68.0
+  z: 525.0835815544706
+  yaw: -11.696502685546875
+  pitch: -7.205230236053467
 homes:
   home:
     world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd

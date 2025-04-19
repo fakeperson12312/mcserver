@@ -1,8 +1,148 @@
-[00:12:37] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /45.135.194.8:52850 is pinging the server with version 1.8
-[00:14:32] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /91.207.57.140:44326 is pinging the server with version 1.20.3
-[00:17:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
-[00:17:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /156.253.227.23:58702 is pinging the server with version 1.20.2
-[00:20:50] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[00:20:50] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
-[00:20:50] [EaglercraftXVelocity - Task Executor #21/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
-[00:20:50] [EaglercraftXVelocity - Task Executor #21/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[19:26:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[19:26:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[19:26:24] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[19:26:24] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[19:26:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[19:26:24] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[19:26:24] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[19:26:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
+[19:26:24] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[19:26:24] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[19:26:25] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[19:26:25] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[19:26:25] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[19:26:25] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[19:26:25] [EaglercraftXVelocity - Task Executor #0/WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[19:26:26] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[19:26:26] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.19s)!
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     |   SkinsRestorer  |
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Version: 15.4.4
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Commit: dc501c7
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     A new version (15.6.2) is available!
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.2/SkinsRestorer.jar
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:26:26] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:26:26] [EaglerXVelocity: Update Service Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[19:26:26] [EaglerXVelocity: Update Service Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[19:26:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] _tave (/107.138.62.191:51060) has connected
+[19:26:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] _tave -> main has connected
+[19:26:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51061 is pinging the server with version 1.21.2
+[19:26:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51065 is pinging the server with version 1.21.2
+[19:27:33] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51078 is pinging the server with version 1.21.2
+[19:29:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /146.70.134.184:35184 is pinging the server with version 1.20.3
+[19:30:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /45.135.194.8:58864 is pinging the server with version 1.8
+[19:30:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /155.248.209.22:61000 is pinging the server with version 1.8
+[19:30:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /155.248.209.22:61000 is pinging the server with version 1.8
+[19:30:56] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /156.146.63.199:11616 is pinging the server with version 1.21
+[19:31:01] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51142 is pinging the server with version 1.21.2
+[19:33:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51185 is pinging the server with version 1.21.2
+[19:34:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51195 is pinging the server with version 1.21.2
+[19:34:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] _tave (/107.138.62.191:51060) has disconnected
+[19:34:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] _tave -> main has disconnected
+[19:34:27] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51244 is pinging the server with version 1.21.2
+[19:34:37] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51278 is pinging the server with version 1.21.2
+[19:34:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] _tave (/107.138.62.191:51280) has connected
+[19:34:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] _tave -> main has connected
+[19:34:45] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51282 is pinging the server with version 1.21.2
+[19:35:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51286 is pinging the server with version 1.21.2
+[19:35:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51291 is pinging the server with version 1.21.2
+[19:36:21] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51307 is pinging the server with version 1.21.2
+[19:36:37] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51312 is pinging the server with version 1.21.2
+[19:36:53] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51316 is pinging the server with version 1.21.2
+[19:37:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51324 is pinging the server with version 1.21.2
+[19:37:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51328 is pinging the server with version 1.21.2
+[19:37:57] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51333 is pinging the server with version 1.21.2
+[19:38:13] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51337 is pinging the server with version 1.21.2
+[19:38:29] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51341 is pinging the server with version 1.21.2
+[19:38:45] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51345 is pinging the server with version 1.21.2
+[19:39:01] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51350 is pinging the server with version 1.21.2
+[19:39:17] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51355 is pinging the server with version 1.21.2
+[19:39:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51359 is pinging the server with version 1.21.2
+[19:39:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51363 is pinging the server with version 1.21.2
+[19:40:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51367 is pinging the server with version 1.21.2
+[19:40:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51371 is pinging the server with version 1.21.2
+[19:40:37] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51376 is pinging the server with version 1.21.2
+[19:40:53] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51380 is pinging the server with version 1.21.2
+[19:41:09] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51384 is pinging the server with version 1.21.2
+[19:41:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51388 is pinging the server with version 1.21.2
+[19:41:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51392 is pinging the server with version 1.21.2
+[19:41:57] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51397 is pinging the server with version 1.21.2
+[19:42:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51401 is pinging the server with version 1.21.2
+[19:42:20] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] _tave (/107.138.62.191:51280) has disconnected
+[19:42:20] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] _tave -> main has disconnected
+[19:42:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51424 is pinging the server with version 1.21.2
+[19:42:25] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51459 is pinging the server with version 1.21.2
+[19:42:27] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] iatepancakes (/107.138.62.191:51461) has connected
+[19:42:27] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iatepancakes -> main has connected
+[19:42:29] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51463 is pinging the server with version 1.21.2
+[19:42:37] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] iatepancakes (/107.138.62.191:51461) has disconnected
+[19:42:37] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iatepancakes -> main has disconnected
+[19:42:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51513 is pinging the server with version 1.21.2
+[19:42:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] _tave (/107.138.62.191:51517) has connected
+[19:42:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] _tave -> main has connected
+[19:43:01] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51521 is pinging the server with version 1.21.2
+[19:43:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51525 is pinging the server with version 1.21.2
+[19:43:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51530 is pinging the server with version 1.21.2
+[19:43:49] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51535 is pinging the server with version 1.21.2
+[19:44:05] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51540 is pinging the server with version 1.21.2
+[19:44:21] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51544 is pinging the server with version 1.21.2
+[19:44:37] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51548 is pinging the server with version 1.21.2
+[19:44:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51553 is pinging the server with version 1.21.2
+[19:45:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51557 is pinging the server with version 1.21.2
+[19:45:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51561 is pinging the server with version 1.21.2
+[19:45:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51565 is pinging the server with version 1.21.2
+[19:45:57] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51569 is pinging the server with version 1.21.2
+[19:46:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51574 is pinging the server with version 1.21.2
+[19:46:29] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51578 is pinging the server with version 1.21.2
+[19:46:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51582 is pinging the server with version 1.21.2
+[19:47:01] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51586 is pinging the server with version 1.21.2
+[19:47:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51590 is pinging the server with version 1.21.2
+[19:47:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51595 is pinging the server with version 1.21.2
+[19:47:49] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51599 is pinging the server with version 1.21.2
+[19:47:59] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /45.135.194.8:47758 is pinging the server with version 1.8
+[19:48:21] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51607 is pinging the server with version 1.21.2
+[19:48:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51617 is pinging the server with version 1.21.2
+[19:49:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51621 is pinging the server with version 1.21.2
+[19:49:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51625 is pinging the server with version 1.21.2
+[19:49:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51629 is pinging the server with version 1.21.2
+[19:49:57] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51633 is pinging the server with version 1.21.2
+[19:50:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51638 is pinging the server with version 1.21.2
+[19:50:29] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51642 is pinging the server with version 1.21.2
+[19:50:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51646 is pinging the server with version 1.21.2
+[19:51:01] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51650 is pinging the server with version 1.21.2
+[19:51:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51654 is pinging the server with version 1.21.2
+[19:51:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51659 is pinging the server with version 1.21.2
+[19:51:49] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51663 is pinging the server with version 1.21.2
+[19:52:05] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51667 is pinging the server with version 1.21.2
+[19:52:21] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51672 is pinging the server with version 1.21.2
+[19:52:37] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51676 is pinging the server with version 1.21.2
+[19:52:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] _tave (/107.138.62.191:51517) has disconnected
+[19:52:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] _tave -> main has disconnected
+[19:52:43] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51727 is pinging the server with version 1.21.2
+[19:52:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] iatepancakes (/107.138.62.191:51730) has connected
+[19:52:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iatepancakes -> main has connected
+[19:53:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51737 is pinging the server with version 1.21.2
+[19:53:25] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51741 is pinging the server with version 1.21.2
+[19:53:41] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51745 is pinging the server with version 1.21.2
+[19:53:57] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51750 is pinging the server with version 1.21.2
+[19:54:13] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51754 is pinging the server with version 1.21.2
+[19:54:29] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51759 is pinging the server with version 1.21.2
+[19:54:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51763 is pinging the server with version 1.21.2
+[19:55:01] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51767 is pinging the server with version 1.21.2
+[19:55:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51771 is pinging the server with version 1.21.2
+[19:55:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51775 is pinging the server with version 1.21.2
+[19:55:49] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51780 is pinging the server with version 1.21.2
+[19:55:54] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /156.146.63.199:15556 is pinging the server with version Unknown
+[19:56:05] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51784 is pinging the server with version 1.21.2
+[19:56:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51788 is pinging the server with version 1.21.2
+[19:56:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51792 is pinging the server with version 1.21.2
+[19:56:53] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51796 is pinging the server with version 1.21.2
+[19:57:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51801 is pinging the server with version 1.21.2
+[19:57:25] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51805 is pinging the server with version 1.21.2
+[19:57:41] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51809 is pinging the server with version 1.21.2
+[19:57:57] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51814 is pinging the server with version 1.21.2

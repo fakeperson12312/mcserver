@@ -1,0 +1,14 @@
+name: Sigma
+description: ''
+open: false
+pvp: false
+home: ''
+color: '6'
+chests: []
+players:
+- f435e6d7-a032-3164-a81a-10125e1f4cb2,OWNER
+- f3d50001-5a5f-381b-ae5d-981c0d9d0f1f,DEFAULT
+- e6dc84f2-fb3f-3adf-aec2-71b99da4947f,DEFAULT
+level: 1
+tag: ''
+score: 0
