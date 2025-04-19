@@ -146,3 +146,8 @@
 [19:57:25] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51805 is pinging the server with version 1.21.2
 [19:57:41] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51809 is pinging the server with version 1.21.2
 [19:57:57] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51814 is pinging the server with version 1.21.2
+[19:58:13] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51819 is pinging the server with version 1.21.2
+[19:58:29] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51824 is pinging the server with version 1.21.2
+[19:58:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.StatusSessionHandler]: [initial connection] /107.138.62.191:51837 is pinging the server with version 1.21.2
+[19:58:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] iatepancakes (/107.138.62.191:51730) has disconnected
+[19:58:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iatepancakes -> main has disconnected

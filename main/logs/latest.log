@@ -273,3 +273,42 @@ btw r u boating rn<--[HERE]
 [19:56:08] [Async Chat Thread - #9/INFO]: [Not Secure] <iatepancakes> uh dont ask
 [19:57:17] [Server thread/INFO]: [Not Secure] [Server] he already tried finding it
 [19:57:25] [Server thread/INFO]: [Not Secure] [Server] i already tped him to it and he didn't find it
+[19:57:58] [Async Chat Thread - #11/INFO]: [Not Secure] <iatepancakes> i found a villiage he was at and the trial chamber is right by it
+[19:58:08] [Async Chat Thread - #12/INFO]: [Not Secure] <iatepancakes> im gonna tell him to come here
+[19:58:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2780ms or 55 ticks behind
+[19:58:39] [Server thread/INFO]: [Not Secure] [Server] time to crash the server
+[19:58:49] [Async Chat Thread - #12/INFO]: [Not Secure] <iatepancakes> ?
+[19:58:49] [Server thread/INFO]: iatepancakes lost connection: Disconnected
+[19:58:54] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - 1.21.1-2329-803bf62 (MC: 1.21.1) ---
+[19:58:54] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[19:58:54] [Watchdog Thread/ERROR]: ------------------------------
+[19:58:54] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[19:58:54] [Watchdog Thread/ERROR]: ------------------------------
+[19:58:54] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:58:54] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
+[19:58:54] [Watchdog Thread/ERROR]: 	Stack:
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.advancements.AdvancementProgress.hasProgress(AdvancementProgress.java:76)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.lambda$asData$1(PlayerAdvancements.java:216)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements$$Lambda/0x0000007002d28400.accept(Unknown Source)
+[19:58:54] [Watchdog Thread/ERROR]: 		java.base@21.0.6/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.asData(PlayerAdvancements.java:215)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.save(PlayerAdvancements.java:167)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:584)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:631)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:591)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2186)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2166)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2153)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:919)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:268)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1868)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333)
+[19:58:54] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000007001c57980.run(Unknown Source)
+[19:58:54] [Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
+[19:58:54] [Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
+[19:58:54] [Watchdog Thread/ERROR]: ------------------------------
+[19:58:54] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[19:58:54] [Watchdog Thread/ERROR]: ------------------------------

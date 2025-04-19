@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745091757127
+  logout: 1745092729486
   login: 1745092365496
 money: '0'
 last-account-name: iatepancakes
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
   world-name: world
-  x: 1176.8671763149005
-  y: 100.0
-  z: -2134.5051859961927
-  yaw: 148.3168182373047
-  pitch: 14.421135902404785
+  x: 310.6199364175769
+  y: 64.0
+  z: -2642.073119819602
+  yaw: 129.22181701660156
+  pitch: 16.874841690063477
