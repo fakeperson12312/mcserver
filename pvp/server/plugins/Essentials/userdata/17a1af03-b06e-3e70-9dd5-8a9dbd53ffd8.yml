@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.58.166.29
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1744994826258
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1745100482664
+  login: 1745100446133
+  kits:
+    firework: 1745099999594
+money: '0'
+last-account-name: imasdf
+logoutlocation:
+  world: 53bb1000-4326-45bd-89c9-b2da5ab9a381
+  world-name: world
+  x: -22.69999998807907
+  y: -47.0
+  z: 22.69999998807907
+  yaw: -148.95004272460938
+  pitch: 12.300008773803711
+lastlocation:
+  world: 53bb1000-4326-45bd-89c9-b2da5ab9a381
+  world-name: world
+  x: 0.5
+  y: -47.0
+  z: 0.5
+  yaw: -52.95001220703125
+  pitch: 72.00000762939453

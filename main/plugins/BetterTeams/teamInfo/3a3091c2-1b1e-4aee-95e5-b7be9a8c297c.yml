@@ -1,0 +1,113 @@
+name: CIM
+description: ''
+open: false
+pvp: false
+home: ''
+color: '6'
+chests: []
+players:
+- f435e6d7-a032-3164-a81a-10125e1f4cb2,OWNER
+level: 1
+tag: ''
+score: 1
+echest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: GOLDEN_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:mending: 1
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: RAW_GOLD
+    amount: 14
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BOOK
+    amount: 5
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_BLOCK
+    amount: 48
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OAK_DOOR
+    amount: 5
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 35
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: GOLD_INGOT
+    amount: 9
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: EMERALD
+    amount: 6
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 138
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE
+    amount: 16
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 92
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OAK_SAPLING
+    amount: 7
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ROTTEN_FLESH
+    amount: 4
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIAMOND
+    amount: 36
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        minecraft:mending: 1
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ENDER_PEARL

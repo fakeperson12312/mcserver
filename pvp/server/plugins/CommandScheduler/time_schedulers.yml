@@ -1,0 +1,7 @@
+schedulers:
+  default: # Default scheduler (You can add as many as you want)
+    day: "MONDAY" # Day of the week (case insensitive)
+    time: "00:00:00" # Time of day (24 hour clock only)
+    randomizeCommands: false # When true, it will perform 1 random command instead of the whole list
+    commands: # List of commands you want executed
+    - say change this in the time_schedulers.yml

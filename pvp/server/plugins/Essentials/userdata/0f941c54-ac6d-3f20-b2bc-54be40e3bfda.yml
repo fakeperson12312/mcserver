@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 107.138.62.191
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1745093037953
+  login: 1745093029357
+money: '0'
+last-account-name: iatepancakes
+logoutlocation:
+  world: 53bb1000-4326-45bd-89c9-b2da5ab9a381
+  world-name: world
+  x: -16.948760370373
+  y: -21.694860344896657
+  z: -22.732170558930953
+  yaw: -58.483245849609375
+  pitch: 41.168094635009766
+lastlocation:
+  world: 53bb1000-4326-45bd-89c9-b2da5ab9a381
+  world-name: world
+  x: -2.2901739140585575
+  y: -31.0
+  z: -2.0952039169337944
+  yaw: -169.51284790039062
+  pitch: 79.94147491455078

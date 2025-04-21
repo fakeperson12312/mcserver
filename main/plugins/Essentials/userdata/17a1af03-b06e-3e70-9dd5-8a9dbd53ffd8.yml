@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745016200049
-  login: 1745016190801
+  logout: 1745112328935
+  login: 1745112298908
 money: '0'
 last-account-name: imasdf
 logoutlocation:
   world: e1749fc4-3cbc-46ae-b8a1-ccf5ad004f64
   world-name: world_nether
-  x: -326.06761680292897
+  x: -324.43661196163
   y: 53.0
-  z: -120.53264789621214
-  yaw: -83.95063018798828
-  pitch: 24.600025177001953
+  z: -120.36963564211611
+  yaw: 79.99945068359375
+  pitch: -7.649988651275635
 lastlocation:
   world: e1749fc4-3cbc-46ae-b8a1-ccf5ad004f64
   world-name: world_nether

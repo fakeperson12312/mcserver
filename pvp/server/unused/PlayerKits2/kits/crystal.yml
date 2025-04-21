@@ -1,0 +1,316 @@
+cooldown: 3600
+one_time: false
+auto_armor: true
+permission_required: false
+clear_inventory: false
+save_original_items: true
+allow_placeholders_on_original_items: false
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: RESPAWN_ANCHOR
+      amount: 64
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: GLOWSTONE
+      amount: 64
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:knockback: 1
+          minecraft:sharpness: 5
+          minecraft:unbreaking: 1
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: GOLDEN_APPLE
+      amount: 64
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: ENDER_PEARL
+      amount: 16
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: END_CRYSTAL
+      amount: 64
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: SHIELD
+        enchants:
+          minecraft:mending: 1
+          minecraft:unbreaking: 1
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: OBSIDIAN
+      amount: 64
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: ENDER_PEARL
+      amount: 16
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '17':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '18':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '19':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: ENDER_PEARL
+      amount: 16
+  '20':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '21':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '22':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '23':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '24':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '25':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '26':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '27':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+  '28':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: ENDER_PEARL
+      amount: 16
+  '29':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 5
+          minecraft:unbreaking: 1
+  '30':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: GLOWSTONE
+      amount: 64
+  '31':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: RESPAWN_ANCHOR
+      amount: 64
+  '32':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: END_CRYSTAL
+      amount: 64
+  '33':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: OBSIDIAN
+      amount: 64
+  '34':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+  '35':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+  '36':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+  '37':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:mending: 1
+          minecraft:protection: 4
+          minecraft:unbreaking: 1
+  '38':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 4
+          minecraft:mending: 1
+          minecraft:unbreaking: 1
+  '39':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:mending: 1
+          minecraft:protection: 4
+          minecraft:unbreaking: 1
+  '40':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:mending: 1
+          minecraft:protection: 4
+          minecraft:unbreaking: 1
+  '41':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+    offhand: true
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false
+display:
+  default:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&fThis is a description of the kit.'
+    - ''
+    - '&7Edit it on the &c%kit_name%.yml &7file'
+    - '&7or using &c/kit edit %kit_name%'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES

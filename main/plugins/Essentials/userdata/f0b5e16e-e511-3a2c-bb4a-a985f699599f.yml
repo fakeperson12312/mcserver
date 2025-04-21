@@ -11,28 +11,45 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1745091685640
+  lastteleport: 1745190397443
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745092358674
-  login: 1745091768126
+  logout: 1745191444390
+  login: 1745188255790
 money: '0'
 last-account-name: _tave
 logoutlocation:
   world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
   world-name: world
-  x: 1201.8839229953487
-  y: 70.0
-  z: -2824.6531628458397
-  yaw: 126.57373046875
-  pitch: 22.1419620513916
+  x: 520.9333032906616
+  y: 62.11076431274413
+  z: -2900.4309105445577
+  yaw: 123.12877655029297
+  pitch: 34.542633056640625
 lastlocation:
   world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
   world-name: world
-  x: 152.5
-  y: 72.0
-  z: -353.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 20.311210451585087
+  y: -3.0
+  z: -2686.699999988079
+  yaw: -96.1038818359375
+  pitch: 20.06483268737793
+homes:
+  base:
+    world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+    world-name: world
+    x: 327.51195615722395
+    y: 63.0
+    z: -2651.422029835811
+    yaw: -72.60675048828125
+    pitch: 20.423837661743164
+  trail:
+    world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
+    world-name: world
+    x: 72.74782469239805
+    y: -27.0
+    z: -2736.425939994828
+    yaw: 76.0445556640625
+    pitch: 31.59796905517578

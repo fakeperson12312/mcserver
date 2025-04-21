@@ -1,0 +1,7 @@
+#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
+#Tue Nov 05 13:21:54 CST 2024
+eula=TRUE
+# spawn is 128,-336
+# 119, -1771
+# 661, -1391
+/fill -23 -52 -23 21 -47 22 minecraft:sand

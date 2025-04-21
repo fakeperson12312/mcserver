@@ -1,0 +1,95 @@
+[2025/04/10 19:34:02]: §9          __             _       
+[2025/04/10 19:34:02]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/04/10 19:34:02]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/04/10 19:34:02]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/04/10 19:34:02]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/04/10 19:34:02]: §9                  |___/            
+[2025/04/10 19:34:02]: §9 By: www.nickuc.com - V 10.4.13
+[2025/04/10 19:34:02]: §9 
+[2025/04/10 19:34:03]: §3[nLogin] [DEBUG] All settings were loaded in 133 ms.
+[2025/04/10 19:34:03]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/04/10 19:34:03]: §3[nLogin] [DEBUG] All plugin messages were loaded in 104 ms (languageByClient=false).
+[2025/04/10 19:34:03]: §3[nLogin] [DEBUG] All proxy settings were loaded in 9 ms.
+[2025/04/10 19:34:03]: §3[nLogin] [DEBUG] Loading database...
+[2025/04/10 19:34:03]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/04/10 19:34:08]: 
+[2025/04/10 19:34:08]:  §bThank you so much for choosing nLogin! §4<3
+[2025/04/10 19:34:08]: 
+[2025/04/10 19:34:08]:  §4For your safety, please read the message below:
+[2025/04/10 19:34:08]:   §cNever download nLogin from unknown sources.
+[2025/04/10 19:34:08]:   §cA modified version may contain malicious software.
+[2025/04/10 19:34:08]: 
+[2025/04/10 19:34:08]:  §3Trusted sources:
+[2025/04/10 19:34:08]:   §bwww.nickuc.com
+[2025/04/10 19:34:08]:   §bwww.github.com/nickuc
+[2025/04/10 19:34:08]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/04/10 19:34:08]: 
+[2025/04/10 19:34:08]:  §3Official support channels:
+[2025/04/10 19:34:08]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/04/10 19:34:08]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/04/10 19:34:08]:   §bEmail: §fsupport@nickuc.com
+[2025/04/10 19:34:08]:   §bYouTube: §fyoutube.com/nickuc
+[2025/04/10 19:34:08]: 
+[2025/04/10 19:34:08]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/04/10 19:34:08]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/04/10 19:34:08]: 
+[2025/04/10 19:38:57]: §3[nLogin] [DEBUG] The Yuvrajxd (64.150.2.25) player entered an incorrect password
+[2025/04/10 19:39:03]: §3[nLogin] [DEBUG] The Yuvrajxd (64.150.2.25) player entered an incorrect password
+[2025/04/10 19:39:15]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:39:15.468, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:39:15]: [nLogin] The user Yuvrajxd has successfully logged in.
+[2025/04/10 19:39:59]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 19:39:59.657, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:39:59]: [nLogin] The user imasdf has successfully logged in.
+[2025/04/10 19:43:30]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Ath818', `unique_id` = 8ac22ffc0a763497b5efe7bac171b9b2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$fOOtdpkGnXes5crDeQN1nOZ7tLzgthMANA/x9eOkjw9bNnAmvQfuK', `last_ip` = '64.150.2.27', `creation_date` = 2024-11-06 01:48:17.712, `last_seen` = 2025-04-10 19:43:30.145, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:43:30]: [nLogin] The user Ath818 has successfully logged in.
+[2025/04/10 19:45:00]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:45:00.181, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_seen, settings] columns)
+[2025/04/10 19:45:41]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:45:41.028, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:45:41]: [nLogin] The user Yuvrajxd has successfully logged in.
+[2025/04/10 19:45:43]: [nLogin] Update was successfully queued, do not forcibly stop your server. (v10.4.13 6fbaac => v10.4.21 dc69be)
+[2025/04/10 19:45:43]: [nLogin] Successful plugin core shutdown (took 0.01s)
+[2025/04/10 19:45:43]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Ath818', `unique_id` = 8ac22ffc0a763497b5efe7bac171b9b2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$fOOtdpkGnXes5crDeQN1nOZ7tLzgthMANA/x9eOkjw9bNnAmvQfuK', `last_ip` = '64.150.2.27', `creation_date` = 2024-11-06 01:48:17.712, `last_seen` = 2025-04-10 19:45:43.004, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/04/10 19:45:43]: §4[nLogin] [ERROR] §cCould not update Yuvrajxd account's 1844100554 [write fail?]
+java.sql.SQLException: The database has been closed
+	at org.sqlite.core.NativeDB.throwex(NativeDB.java:500)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:132)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.nickuc.login.ηΨλιτφυξυβΠΓτγκ.b(:56)
+	at com.nickuc.login.φουρχπφλΠ.a(:118)
+	at com.nickuc.login.χοΨδξγεΣπ.a(:69)
+	at com.nickuc.login.σεθζθζτζ.a(:671)
+	at com.nickuc.login.σεθζθζτζ.a(:667)
+	at com.nickuc.login.ΠισλζρσΣκγηαιολ.a(:101)
+	at com.velocitypowered.proxy.scheduler.VelocityScheduler$VelocityTask.lambda$run$0(VelocityScheduler.java:285)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2025/04/10 19:45:43]: §4[nLogin] [ERROR] §cCould not update imasdf account's 170002505 [write fail?]
+java.sql.SQLException: The database has been closed
+	at org.sqlite.core.NativeDB.throwex(NativeDB.java:500)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:132)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.nickuc.login.ηΨλιτφυξυβΠΓτγκ.b(:56)
+	at com.nickuc.login.φουρχπφλΠ.a(:118)
+	at com.nickuc.login.χοΨδξγεΣπ.a(:69)
+	at com.nickuc.login.σεθζθζτζ.a(:671)
+	at com.nickuc.login.σεθζθζτζ.a(:667)
+	at com.nickuc.login.ΠισλζρσΣκγηαιολ.a(:101)
+	at com.velocitypowered.proxy.scheduler.VelocityScheduler$VelocityTask.lambda$run$0(VelocityScheduler.java:285)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2025/04/10 19:45:43]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'imasdf', `unique_id` = 17a1af03b06e3e709dd58a9dbd53ffd8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b.rIH5WUHODux2uRsn1rye4cfUezQDnDNI.tpgbO/D0CnXX15Jo8y', `last_ip` = '64.150.2.24', `creation_date` = 2025-04-09 20:58:55.053, `last_seen` = 2025-04-10 19:45:43.005, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 9" (applied to [last_seen, settings] columns)
+[2025/04/10 19:45:43]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:45:43.004, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_seen, settings] columns)

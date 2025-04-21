@@ -2465,3 +2465,401 @@ Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refus
 [00:20:50 INFO]: Closing endpoint /0.0.0.0:25565
 [00:20:50 INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
 [00:20:50 INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+2025-04-21T13:13:11.625228337Z main WARN Advanced terminal features are not available in this environment
+[13:13:12 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-08a42b37-b449)...
+[13:13:12 INFO]: Loading localizations...
+[13:13:12 INFO]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[13:13:12 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[13:13:13 INFO]: Loading plugins...
+[13:13:13 INFO]: Loaded plugin eaglerxvelocity 1.1.3 by lax1dude, ayunami2000
+[13:13:13 INFO]: Loaded plugin skinsrestorer 15.4.4 by knat, AlexProgrammerDE, Blackfire62, McLive
+[13:13:13 INFO]: Loaded 3 plugins
+[13:13:13 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[13:13:13 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[13:13:13 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[13:13:14 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[13:13:14 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[13:13:14 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[13:13:14 WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[13:13:15 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[13:13:15 INFO]: Done (4.04s)!
+[13:13:15 ERROR] [TerminalConsole]: Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+[13:13:15 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[13:13:15 INFO] [eaglerxvelocity]: Loaded certificate: /home/ubuntu/server/mc/proxy/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[13:13:16 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:13:16 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[13:13:16 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[13:13:16 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[13:13:16 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:13:16 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[13:13:16 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[13:13:16 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.2[36;1m) is available![0;39m
+[13:13:16 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.2/SkinsRestorer.jar[0;39m
+[13:13:16 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[13:13:16 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[13:13:16 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[13:15:22 INFO]: [initial connection] /155.248.209.22:61000 is pinging the server with version 1.8
+[13:16:27 INFO]: [initial connection] /141.98.255.148:49962 is pinging the server with version 1.20.3
+[13:17:57 INFO]: [initial connection] /45.135.194.8:42906 is pinging the server with version 1.8
+[13:18:29 WARN] [eaglerxvelocity]: Server icon is not a file: /home/ubuntu/server/mc/proxy/server-icon.png
+[13:18:30 INFO] [eaglerxvelocity]: [/64.150.15.14:14774]: Connected via websocket
+[13:18:30 INFO] [eaglerxvelocity]: [/64.150.15.14:14774]: Origin header is http://34.173.135.58
+[13:18:31 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:14774) has connected
+[13:18:31 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:18:31 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:18:31 ERROR]: [connected player] asdfasdfasdf1234 (/64.150.15.14:14774): disconnected while connecting to main: Unknown data in login hostname, did you forget to enable BungeeCord in spigot.yml?
+[13:18:31 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:14774) has disconnected: [38;2;255;85;85mUnable to connect to main: Unknown data in login hostname, did you forget to enable BungeeCord in spigot.yml?[0m
+[13:18:39 INFO] [eaglerxvelocity]: [/64.150.15.14:48797]: Connected via websocket
+[13:18:39 INFO] [eaglerxvelocity]: [/64.150.15.14:48797]: Origin header is http://34.173.135.58
+[13:18:39 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:48797) has connected
+[13:18:39 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:18:39 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:18:39 ERROR]: [connected player] asdfasdfasdf1234 (/64.150.15.14:48797): disconnected while connecting to main: Unknown data in login hostname, did you forget to enable BungeeCord in spigot.yml?
+[13:18:39 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:48797) has disconnected: [38;2;255;85;85mUnable to connect to main: Unknown data in login hostname, did you forget to enable BungeeCord in spigot.yml?[0m
+[13:19:07 INFO]: [initial connection] /156.253.227.23:57256 is pinging the server with version 1.20.2
+[13:20:01 INFO] [eaglerxvelocity]: [/64.150.15.14:26770]: Connected via websocket
+[13:20:01 INFO] [eaglerxvelocity]: [/64.150.15.14:26770]: Origin header is http://34.173.135.58
+[13:20:02 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:26770) has connected
+[13:20:02 ERROR]: [connected player] asdfasdfasdf1234 (/64.150.15.14:26770): unable to connect to server main
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-08a42b37-b449)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[13:20:02 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:26770) has disconnected: [38;2;255;85;85mUnable to connect you to main. Please try again later.[0m
+[13:20:16 INFO] [eaglerxvelocity]: [/64.150.15.14:8840]: Connected via websocket
+[13:20:16 INFO] [eaglerxvelocity]: [/64.150.15.14:8840]: Origin header is http://34.173.135.58
+[13:20:16 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:8840) has connected
+[13:20:16 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:20:53 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:8840): kicked from server main: Login timeout exceeded, you have been kicked from the server, please try again!
+[13:20:53 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:20:53 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:8840) has disconnected: [38;2;255;85;85mYou were kicked from main: [38;2;170;0;0mLogin timeout exceeded, you have been kicked from the server, please try again![0m
+[13:21:01 INFO] [eaglerxvelocity]: [/64.150.15.14:36911]: Connected via websocket
+[13:21:01 INFO] [eaglerxvelocity]: [/64.150.15.14:36911]: Origin header is http://34.173.135.58
+[13:21:01 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:36911) has connected
+[13:21:01 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:21:10 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:36911): kicked from server main: Wrong password!
+[13:21:10 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:21:10 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:36911) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[13:21:14 INFO] [eaglerxvelocity]: [/64.150.15.14:56200]: Connected via websocket
+[13:21:14 INFO] [eaglerxvelocity]: [/64.150.15.14:56200]: Origin header is http://34.173.135.58
+[13:21:16 INFO] [eaglerxvelocity]: [connected player] asdfasdfasdf1234 (/64.150.15.14:56200) has connected
+[13:21:16 INFO]: [server connection] asdfasdfasdf1234 -> main has connected
+[13:28:40 INFO]: [connected player] asdfasdfasdf1234 (/64.150.15.14:56200) has disconnected
+[13:28:40 INFO]: [server connection] asdfasdfasdf1234 -> main has disconnected
+[13:28:48 INFO]: [initial connection] /156.146.63.199:24894 is pinging the server with version 1.21
+[13:33:15 INFO]: [legacy connection] /205.210.31.58:60080 is pinging the server with version Legacy
+[13:36:13 INFO]: [initial connection] /45.135.194.8:42836 is pinging the server with version 1.8
+[13:40:04 INFO]: [initial connection] /45.135.194.65:51776 is pinging the server with version Unknown
+[13:51:26 INFO]: [initial connection] /45.135.194.65:44714 is pinging the server with version Unknown
+[13:54:21 INFO]: [initial connection] /45.135.194.8:57632 is pinging the server with version 1.8
+[13:58:02 INFO]: [initial connection] /156.146.63.199:47402 is pinging the server with version Unknown
+[13:58:16 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[14:06:23 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[14:08:16 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[14:12:33 INFO]: [initial connection] /45.135.194.8:32940 is pinging the server with version 1.8
+[14:19:12 INFO]: [initial connection] /156.253.227.141:49114 is pinging the server with version 1.20.2
+[14:30:45 INFO]: [initial connection] /45.135.194.8:44876 is pinging the server with version 1.8
+[14:33:57 INFO]: [initial connection] /156.146.63.199:45296 is pinging the server with version 1.21
+[14:40:32 INFO]: [initial connection] /95.111.227.12:55232 is pinging the server with version 1.20.3
+[14:48:24 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[14:48:56 INFO]: [initial connection] /45.135.194.8:55780 is pinging the server with version 1.8
+[14:50:14 INFO]: [initial connection] /156.146.63.199:23372 is pinging the server with version Unknown
+[14:50:40 INFO]: [initial connection] /146.70.225.149:52986 is pinging the server with version 1.20.3
+[15:07:07 INFO]: [initial connection] /45.135.194.8:53382 is pinging the server with version 1.8
+[15:09:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[15:09:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[15:09:15 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[15:09:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[15:09:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[15:09:15 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[15:09:15 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[15:09:15 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.2[36;1m) is available![0;39m
+[15:09:15 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.2/SkinsRestorer.jar[0;39m
+[15:09:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[15:09:15 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[15:09:15 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[15:18:57 INFO]: [initial connection] /156.253.227.23:41904 is pinging the server with version 1.20.2
+[15:21:03 INFO]: [initial connection] /156.146.63.199:47796 is pinging the server with version Unknown
+[15:21:07 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[15:25:15 INFO]: [initial connection] /45.135.194.8:43242 is pinging the server with version 1.8
+[15:30:59 INFO]: [initial connection] /156.146.63.199:15926 is pinging the server with version Unknown
+[15:43:23 INFO]: [initial connection] /45.135.194.8:43928 is pinging the server with version 1.8
+[15:59:32 INFO]: [initial connection] /146.70.134.154:39658 is pinging the server with version 1.20.3
+[16:00:53 INFO]: [initial connection] /156.146.63.199:51866 is pinging the server with version 1.21
+[16:01:31 INFO]: [initial connection] /45.135.194.8:58554 is pinging the server with version 1.8
+[16:12:17 INFO]: [initial connection] /156.146.63.199:55174 is pinging the server with version Unknown
+[16:19:07 INFO]: [initial connection] /156.253.227.23:49696 is pinging the server with version 1.20.2
+[16:19:40 INFO]: [initial connection] /45.135.194.8:39296 is pinging the server with version 1.8
+[16:24:02 INFO]: [initial connection] /155.248.209.22:61000 is pinging the server with version 1.8
+[16:26:20 INFO]: [initial connection] /156.146.63.199:18064 is pinging the server with version Unknown
+[16:37:48 INFO]: [initial connection] /45.135.194.8:45058 is pinging the server with version 1.8
+[16:50:05 INFO]: [initial connection] /95.111.227.12:36802 is pinging the server with version 1.20.3
+[16:51:01 INFO]: [initial connection] /156.146.63.199:26400 is pinging the server with version Unknown
+[16:55:55 INFO]: [initial connection] /45.135.194.8:58098 is pinging the server with version 1.8
+[17:01:21 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[17:05:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[17:05:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[17:05:15 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[17:05:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[17:05:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[17:05:15 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[17:05:15 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[17:05:15 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.2[36;1m) is available![0;39m
+[17:05:15 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.2/SkinsRestorer.jar[0;39m
+[17:05:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[17:05:15 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[17:05:15 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[17:14:05 INFO]: [initial connection] /45.135.194.8:49982 is pinging the server with version 1.8
+[17:19:01 INFO]: [initial connection] /156.253.227.23:56942 is pinging the server with version 1.20.2
+[17:22:44 INFO]: [initial connection] /156.146.63.199:42918 is pinging the server with version 1.21
+[17:32:14 INFO]: [initial connection] /45.135.194.8:54848 is pinging the server with version 1.8
+[17:33:29 INFO]: [legacy connection] /205.210.31.30:65026 is pinging the server with version Legacy
+[17:35:46 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[17:36:47 INFO]: [initial connection] /156.146.63.199:31788 is pinging the server with version Unknown
+[17:38:26 INFO]: [initial connection] /146.70.128.186:57034 is pinging the server with version 1.20.3
+[17:50:28 INFO]: [initial connection] /45.135.194.8:57042 is pinging the server with version 1.8
+[17:53:52 INFO]: [initial connection] /64.150.2.25:30025 is pinging the server with version 1.21
+[17:53:55 INFO]: [connected player] iatepancakes (/64.150.2.25:9566) has connected
+[17:53:55 INFO]: [server connection] iatepancakes -> main has connected
+[17:54:01 INFO]: [initial connection] /156.146.63.199:58202 is pinging the server with version Unknown
+[17:56:38 INFO]: [initial connection] /64.150.2.26:47485 is pinging the server with version 1.21
+[17:56:38 INFO]: [initial connection] /64.150.2.26:54457 is pinging the server with version 1.21
+[17:56:38 INFO]: [initial connection] /64.150.2.26:49924 is pinging the server with version 1.21
+[17:56:39 INFO]: [connected player] bruv1000000 (/64.150.2.26:31084) has connected
+[17:56:39 INFO]: [server connection] bruv1000000 -> main has connected
+[17:56:48 INFO]: [connected player] bruv1000000 (/64.150.2.26:31084): kicked from server main: Wrong password!
+[17:56:48 INFO]: [server connection] bruv1000000 -> main has disconnected
+[17:56:48 INFO]: [connected player] bruv1000000 (/64.150.2.26:31084) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[17:56:51 INFO]: [connected player] bruv1000000 (/64.150.2.26:38605) has connected
+[17:56:51 INFO]: [server connection] bruv1000000 -> main has connected
+[17:56:54 INFO]: [initial connection] /64.150.2.24:35522 is pinging the server with version 1.21
+[17:56:59 INFO]: [connected player] bruv1000000 (/64.150.2.26:38605): kicked from server main: Wrong password!
+[17:56:59 INFO]: [server connection] bruv1000000 -> main has disconnected
+[17:56:59 INFO]: [connected player] bruv1000000 (/64.150.2.26:38605) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[17:57:01 INFO]: [connected player] bruv1000000 (/64.150.2.26:31367) has connected
+[17:57:01 INFO]: [server connection] bruv1000000 -> main has connected
+[17:57:04 INFO]: [connected player] Iwontgrief (/64.150.2.24:46000) has connected
+[17:57:04 INFO]: [server connection] Iwontgrief -> main has connected
+[17:58:03 INFO]: [initial connection] /64.150.2.25:40709 is pinging the server with version 1.21
+[17:58:05 INFO]: [connected player] Yuvrajxd (/64.150.2.25:23204) has connected
+[17:58:06 INFO]: [server connection] Yuvrajxd -> main has connected
+[17:58:39 INFO]: [initial connection] /64.150.2.26:24422 is pinging the server with version 1.21
+[18:00:04 INFO]: [connected player] Semiboi (/64.150.2.26:38717) has connected
+[18:00:04 INFO]: [server connection] Semiboi -> main has connected
+[18:00:48 INFO]: [connected player] Semiboi (/64.150.2.26:38717): kicked from server main: An internal server connection error occurred.
+[18:00:48 INFO]: [server connection] Semiboi -> main has disconnected
+[18:00:48 INFO]: [connected player] Semiboi (/64.150.2.26:38717) has disconnected: [38;2;255;85;85mYou were kicked from main: An internal server connection error occurred.[0m
+[18:06:00 INFO]: [initial connection] /64.150.2.26:5115 is pinging the server with version 1.21
+[18:06:02 INFO]: [connected player] Semiboi (/64.150.2.26:27298) has connected
+[18:06:02 INFO]: [server connection] Semiboi -> main has connected
+[18:08:34 INFO]: [initial connection] /45.135.194.8:60798 is pinging the server with version 1.8
+[18:11:43 INFO]: [initial connection] /156.146.63.199:21680 is pinging the server with version Unknown
+[18:15:09 INFO]: [connected player] iatepancakes (/64.150.2.25:9566) has disconnected
+[18:15:09 INFO]: [server connection] iatepancakes -> main has disconnected
+[18:15:09 INFO]: [initial connection] /64.150.2.25:42802 is pinging the server with version 1.21
+[18:15:50 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[18:16:09 INFO]: [connected player] iatepancakes (/64.150.2.25:32876) has connected
+[18:16:09 INFO]: [server connection] iatepancakes -> main has connected
+[18:18:58 INFO]: [initial connection] /156.253.227.141:47102 is pinging the server with version 1.20.2
+[18:26:40 INFO]: [initial connection] /45.135.194.8:49330 is pinging the server with version 1.8
+[18:36:29 INFO]: [connected player] iatepancakes (/64.150.2.25:32876) has disconnected
+[18:36:29 INFO]: [server connection] iatepancakes -> main has disconnected
+[18:36:29 INFO]: [initial connection] /64.150.2.25:21198 is pinging the server with version 1.21
+[18:36:52 INFO]: [connected player] iatepancakes (/64.150.2.25:43008) has connected
+[18:36:52 INFO]: [server connection] iatepancakes -> main has connected
+[18:39:37 INFO]: [connected player] Iwontgrief (/64.150.2.24:46000) has disconnected
+[18:39:37 INFO]: [server connection] Iwontgrief -> main has disconnected
+[18:39:37 INFO]: [initial connection] /64.150.2.24:46529 is pinging the server with version 1.21
+[18:39:42 INFO]: [connected player] Yuvrajxd (/64.150.2.25:23204) has disconnected
+[18:39:42 INFO]: [server connection] Yuvrajxd -> main has disconnected
+[18:39:42 INFO]: [initial connection] /64.150.2.25:22098 is pinging the server with version 1.21
+[18:41:52 INFO]: [connected player] bruv1000000 (/64.150.2.26:31367) has disconnected
+[18:41:52 INFO]: [server connection] bruv1000000 -> main has disconnected
+[18:41:52 INFO]: [initial connection] /64.150.2.26:57555 is pinging the server with version 1.21
+[18:41:53 INFO]: [connected player] iatepancakes (/64.150.2.25:43008) has disconnected
+[18:41:53 INFO]: [server connection] iatepancakes -> main has disconnected
+[18:41:53 INFO]: [initial connection] /64.150.2.25:18284 is pinging the server with version 1.21
+[18:41:59 INFO]: [connected player] Semiboi (/64.150.2.26:27298) has disconnected
+[18:41:59 INFO]: [server connection] Semiboi -> main has disconnected
+[18:41:59 INFO]: [initial connection] /64.150.2.26:46532 is pinging the server with version 1.21
+[18:44:49 INFO]: [initial connection] /45.135.194.8:46242 is pinging the server with version 1.8
+[18:46:46 INFO]: [initial connection] /156.146.63.199:19326 is pinging the server with version 1.21
+[18:56:34 INFO]: [initial connection] /156.146.63.199:41062 is pinging the server with version Unknown
+[19:01:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[19:01:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[19:01:15 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[19:01:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[19:01:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[19:01:15 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[19:01:15 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[19:01:15 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.2[36;1m) is available![0;39m
+[19:01:15 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.2/SkinsRestorer.jar[0;39m
+[19:01:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[19:01:15 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[19:01:15 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[19:02:54 INFO]: [initial connection] /45.135.194.8:36988 is pinging the server with version 1.8
+[19:06:45 INFO]: [initial connection] /95.111.227.12:51484 is pinging the server with version 1.20.3
+[19:07:48 WARN] [eaglerxvelocity]: [Pre][/167.94.145.102:33622]: Exception Caught: io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[19:09:31 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[19:15:12 INFO]: [initial connection] /156.146.63.199:8192 is pinging the server with version Unknown
+[19:18:58 INFO]: [initial connection] /156.253.227.23:35818 is pinging the server with version 1.20.2
+[19:21:01 INFO]: [initial connection] /45.135.194.8:47916 is pinging the server with version 1.8
+[19:23:38 INFO]: [initial connection] /185.204.1.181:41142 is pinging the server with version 1.20.3
+[19:39:07 INFO]: [initial connection] /45.135.194.8:60978 is pinging the server with version 1.8
+[19:41:45 INFO]: [initial connection] /156.146.63.199:50428 is pinging the server with version Unknown
+[19:42:52 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[19:51:18 INFO]: [initial connection] /156.146.63.199:29454 is pinging the server with version 1.21
+[19:57:17 INFO]: [initial connection] /45.135.194.8:45748 is pinging the server with version 1.8
+[20:07:47 INFO]: [initial connection] /20.65.194.102:56824 is pinging the server with version 1.19.1
+[20:15:12 INFO]: [initial connection] /156.146.63.199:35144 is pinging the server with version Unknown
+[20:15:24 INFO]: [initial connection] /45.135.194.8:47460 is pinging the server with version 1.8
+[20:19:12 INFO]: [initial connection] /156.253.227.23:52352 is pinging the server with version 1.20.2
+[20:19:14 INFO]: [initial connection] /64.150.2.24:46547 is pinging the server with version 1.21
+[20:19:16 INFO]: [connected player] mundoispluh (/64.150.2.24:39707) has connected
+[20:19:16 INFO]: [server connection] mundoispluh -> main has connected
+[20:19:34 INFO]: [connected player] mundoispluh (/64.150.2.24:39707) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[20:19:34 ERROR]: [connected player] mundoispluh (/64.150.2.24:39707): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@74e3a2b8
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[20:19:34 INFO]: [server connection] mundoispluh -> main has disconnected
+[20:19:54 INFO]: [initial connection] /64.150.2.26:10761 is pinging the server with version 1.21
+[20:19:58 INFO]: [initial connection] /64.150.2.24:9394 is pinging the server with version 1.21
+[20:19:58 INFO]: [connected player] mundoispluh (/64.150.2.24:40250) has connected
+[20:19:58 INFO]: [server connection] mundoispluh -> main has connected
+[20:19:58 INFO]: [connected player] Semiboi (/64.150.2.26:28737) has connected
+[20:19:58 INFO]: [server connection] Semiboi -> main has connected
+[20:21:43 INFO]: [initial connection] /64.150.2.26:17258 is pinging the server with version 1.21
+[20:21:45 INFO]: [connected player] bruv1000000 (/64.150.2.26:8776) has connected
+[20:21:45 INFO]: [server connection] bruv1000000 -> main has connected
+[20:24:38 INFO]: [initial connection] /64.150.2.25:22192 is pinging the server with version 1.21
+[20:24:40 INFO]: [connected player] iatepancakes (/64.150.2.25:6475) has connected
+[20:24:40 INFO]: [server connection] iatepancakes -> main has connected
+[20:26:00 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[20:28:35 INFO]: [connected player] iatepancakes (/64.150.2.25:6475) has disconnected
+[20:28:35 INFO]: [server connection] iatepancakes -> main has disconnected
+[20:28:37 INFO]: [initial connection] /64.150.2.25:42777 is pinging the server with version 1.21
+[20:28:53 INFO]: [connected player] iatepancakes (/64.150.2.25:50728) has connected
+[20:28:53 INFO]: [server connection] iatepancakes -> main has connected
+[20:33:52 INFO]: [initial connection] /45.135.194.8:47296 is pinging the server with version 1.8
+[20:34:23 INFO]: [initial connection] /185.165.44.156:39062 is pinging the server with version 1.20.2
+[20:34:50 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[20:36:47 INFO]: [connected player] Semiboi (/64.150.2.26:28737) has disconnected
+[20:36:47 INFO]: [server connection] Semiboi -> main has disconnected
+[20:36:47 INFO]: [initial connection] /64.150.2.26:26783 is pinging the server with version 1.21
+[20:37:04 INFO]: [connected player] Semiboi (/64.150.2.26:21493) has connected
+[20:37:04 INFO]: [server connection] Semiboi -> main has connected
+[20:39:17 INFO]: [initial connection] /156.146.63.199:47800 is pinging the server with version Unknown
+[20:41:25 INFO]: [connected player] bruv1000000 (/64.150.2.26:8776) has disconnected
+[20:41:25 INFO]: [server connection] bruv1000000 -> main has disconnected
+[20:41:25 INFO]: [initial connection] /64.150.2.26:2084 is pinging the server with version 1.21
+[20:41:27 INFO]: [connected player] bruv1000000 (/64.150.2.26:58006) has connected
+[20:41:27 INFO]: [server connection] bruv1000000 -> main has connected
+[20:41:32 INFO]: [connected player] bruv1000000 (/64.150.2.26:58006): kicked from server main: Wrong password!
+[20:41:32 INFO]: [server connection] bruv1000000 -> main has disconnected
+[20:41:32 INFO]: [connected player] bruv1000000 (/64.150.2.26:58006) has disconnected: [38;2;255;85;85mYou were kicked from main: Wrong password![0m
+[20:41:34 INFO]: [connected player] bruv1000000 (/64.150.2.26:44048) has connected
+[20:41:34 INFO]: [server connection] bruv1000000 -> main has connected
+[20:47:08 INFO]: [connected player] iatepancakes (/64.150.2.25:50728) has disconnected
+[20:47:08 INFO]: [server connection] iatepancakes -> main has disconnected
+[20:47:08 INFO]: [initial connection] /64.150.2.25:43639 is pinging the server with version 1.21
+[20:47:24 INFO]: [connected player] iatepancakes (/64.150.2.25:45685) has connected
+[20:47:24 INFO]: [server connection] iatepancakes -> main has connected
+[20:51:13 INFO]: [legacy connection] /20.65.195.37:38072 is pinging the server with version Legacy
+[20:52:23 INFO]: [initial connection] /45.135.194.8:40984 is pinging the server with version 1.8
+[20:57:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:57:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:57:15 INFO] [skinsrestorer]: [32;1m    |   SkinsRestorer  |[0;39m
+[20:57:15 INFO] [skinsrestorer]: [32;1m    +==================+[0;39m
+[20:57:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:57:15 INFO] [skinsrestorer]: [36;1m    Version: [31;1m15.4.4[0;39m
+[20:57:15 INFO] [skinsrestorer]: [36;1m    Commit: [31;1mdc501c7[0;39m
+[20:57:15 INFO] [skinsrestorer]: [36;1m    A new version ([32;1m15.6.2[36;1m) is available![0;39m
+[20:57:15 INFO] [skinsrestorer]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.6.2/SkinsRestorer.jar[0;39m
+[20:57:15 INFO] [skinsrestorer]: [32;1m----------------------------------------------[0;39m
+[20:57:15 INFO] [skinsrestorer]: [34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[20:57:15 INFO] [skinsrestorer]: [34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[20:59:15 INFO]: [initial connection] /156.146.63.199:47396 is pinging the server with version 1.21
+[21:00:29 INFO]: [connected player] Semiboi (/64.150.2.26:21493) has disconnected
+[21:00:29 INFO]: [server connection] Semiboi -> main has disconnected
+[21:00:29 INFO]: [initial connection] /64.150.2.26:38177 is pinging the server with version 1.21
+[21:00:44 INFO]: [connected player] bruv1000000 (/64.150.2.26:44048) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:00:44 ERROR]: [connected player] bruv1000000 (/64.150.2.26:44048): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@25fad5d7
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:00:44 INFO]: [server connection] bruv1000000 -> main has disconnected
+[21:04:49 INFO]: [initial connection] /64.150.2.26:27178 is pinging the server with version 1.21
+[21:04:55 INFO]: [connected player] bruv1000000 (/64.150.2.26:23530) has connected
+[21:04:56 INFO]: [server connection] bruv1000000 -> main has connected
+[21:05:02 INFO]: [connected player] bruv1000000 (/64.150.2.26:23530) has disconnected
+[21:05:02 INFO]: [server connection] bruv1000000 -> main has disconnected
+[21:05:02 INFO]: [initial connection] /64.150.2.26:2421 is pinging the server with version 1.21
+[21:05:10 INFO]: [connected player] bruv1000000 (/64.150.2.26:53349) has connected
+[21:05:10 INFO]: [server connection] bruv1000000 -> main has connected
+[21:10:31 INFO]: [initial connection] /45.135.194.8:59134 is pinging the server with version 1.8
+[21:13:45 ERROR] [eaglerxvelocity]: Failed to download certificate: https://deev.is/eagler/backup.cert
+[21:13:45 ERROR] [eaglerxvelocity]: Reason: java.net.SocketTimeoutException: Read timed out
+[21:13:45 WARN] [eaglerxvelocity]: Deleting stale certificate: $dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[21:13:45 WARN] [eaglerxvelocity]: Certificate was deleted: $dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[21:15:38 INFO]: [connected player] iatepancakes (/64.150.2.25:45685) has disconnected
+[21:15:38 INFO]: [server connection] iatepancakes -> main has disconnected
+[21:15:38 INFO]: [initial connection] /64.150.2.25:46079 is pinging the server with version 1.21
+[21:17:10 INFO]: [initial connection] /95.111.227.12:42800 is pinging the server with version 1.20.3
+[21:17:26 INFO]: [initial connection] /156.146.63.199:14552 is pinging the server with version Unknown
+[21:17:50 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:18:28 INFO]: [initial connection] /64.150.2.25:55320 is pinging the server with version 1.21
+[21:18:31 INFO]: [connected player] iatepancakes (/64.150.2.25:25946) has connected
+[21:18:31 INFO]: [server connection] iatepancakes -> main has connected
+[21:19:17 INFO]: [initial connection] /156.253.227.23:50372 is pinging the server with version 1.20.2
+[21:20:07 INFO]: [initial connection] /64.150.2.24:2339 is pinging the server with version 1.21
+[21:20:07 INFO]: [connected player] bruv1000000 (/64.150.2.26:53349) has disconnected
+[21:20:07 INFO]: [server connection] bruv1000000 -> main has disconnected
+[21:20:07 INFO]: [initial connection] /64.150.2.26:6101 is pinging the server with version 1.21
+[21:20:09 INFO]: [connected player] Semiboi (/64.150.2.24:52609) has connected
+[21:20:09 INFO]: [server connection] Semiboi -> main has connected
+[21:28:40 INFO]: [initial connection] /45.135.194.8:37386 is pinging the server with version 1.8
+[21:40:24 INFO]: [initial connection] /146.70.196.21:56138 is pinging the server with version 1.20.3
+[21:41:51 INFO]: [connected player] iatepancakes (/64.150.2.25:25946) has disconnected
+[21:41:51 INFO]: [server connection] iatepancakes -> main has disconnected
+[21:41:51 INFO]: [initial connection] /64.150.2.25:15695 is pinging the server with version 1.21
+[21:42:01 INFO]: [connected player] mundoispluh (/64.150.2.24:40250) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:42:01 ERROR]: [connected player] mundoispluh (/64.150.2.24:40250): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@10bd048b
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:42:01 INFO]: [server connection] mundoispluh -> main has disconnected
+[21:42:03 INFO]: [connected player] Semiboi (/64.150.2.24:52609) has disconnected: [38;2;255;85;85mAn internal error occurred in your connection.[0m
+[21:42:03 ERROR]: [connected player] Semiboi (/64.150.2.24:52609): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@5f3a125f
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:42:03 INFO]: [server connection] Semiboi -> main has disconnected
+[21:42:33 INFO]: [initial connection] /156.146.63.199:18510 is pinging the server with version Unknown
+[21:46:52 INFO]: [initial connection] /45.135.194.8:57788 is pinging the server with version 1.8
+[21:52:24 INFO]: [initial connection] /51.15.34.47:61000 is pinging the server with version 1.8
+[21:59:49 INFO]: [initial connection] /156.146.63.199:9442 is pinging the server with version 1.21
+[22:02:34 INFO]: [initial connection] /156.253.227.23:52466 is pinging the server with version 1.20.2
+[22:05:02 INFO]: [initial connection] /45.135.194.8:57504 is pinging the server with version 1.8
+[22:13:44 INFO]: [initial connection] /156.146.63.199:23974 is pinging the server with version Unknown

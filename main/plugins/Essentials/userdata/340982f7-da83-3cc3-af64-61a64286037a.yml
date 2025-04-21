@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 64.150.2.24
+ip-address: 64.150.2.26
 afk: false
 socialspy: false
 npc: false
@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1744923878227
+  lastteleport: 1745268878065
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744925248687
-  login: 1744923834432
+  logout: 1745270407585
+  login: 1745269510978
 money: '0'
 last-account-name: bruv1000000
 lastlocation:
   world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
   world-name: world
-  x: -2576.300000011921
-  y: 59.0
-  z: 101.36770591932377
-  yaw: 90.9988021850586
-  pitch: -41.815185546875
+  x: 4056.808579163483
+  y: -20.0
+  z: -4254.487711267825
+  yaw: 95.3984375
+  pitch: 22.960922241210938
 homes:
   home:
     world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
@@ -40,8 +40,8 @@ homes:
 logoutlocation:
   world: 6f9b869c-989c-4b94-b4c5-95f2584c07cd
   world-name: world
-  x: -2996.6934901208856
-  y: 67.9375
-  z: 536.2616340970055
-  yaw: 34.90024185180664
-  pitch: 24.0848388671875
+  x: 376.24935925902264
+  y: -42.0
+  z: -991.9556307329625
+  yaw: -115.3475341796875
+  pitch: -1.4423998594284058

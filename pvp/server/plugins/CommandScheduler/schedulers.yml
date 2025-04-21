@@ -1,0 +1,53 @@
+schedulers:
+  default: # Default scheduler (You can add as many as you want)
+    delay: 0 # Delay for first schedule (in seconds)
+    interval: 1000 # In seconds
+    randomizeCommands: false # When true, it will perform 1 random command instead of the whole list
+    commands: # List of commands you want executed
+    - say resetting server
+    - fill -23 -52 -23 23 -47 23 minecraft:sand
+    - fill -23 -60 -23 23 -53 23 minecraft:stone
+    - fill -23 -64 -23 23 -61 23 minecraft:bedrock
+    - fill -25 -25 -25 25 100 25 minecraft:air
+    - fill -23 -52 -23 23 -47 23 minecraft:sand
+    - fill -23 -60 -23 23 -53 23 minecraft:stone
+    - fill -23 -64 -23 23 -61 23 minecraft:bedrock
+    - fill -25 101 -23 23 300 25 minecraft:air
+    - fill -23 -47 22 22 -39 -23 air
+    - execute as @a at @s run tp @s ~ 100 ~
+    - region flag -w world __global__ fall-damage deny
+    - region flag -w world __global__ use allow
+    - region flag -w world __global__ entity-item-frame-destroy allow
+    - region flag -w world __global__ tnt allow
+    - region flag -w world __global__ fire-spread allow
+    - region flag -w world __global__ lighter allow
+
+
+    - heal *
+    - kill *
+    - fill 24 -25 24 -24 -25 -24 air
+  stuff:
+    delay: 0 # Delay for first schedule (in seconds)
+    interval: 60 # In seconds
+    randomizeCommands: false # When true, it will perform 1 random command instead of the whole list
+    commands: # List of commands you want executed
+    - effect give @a minecraft:saturation 10000 1 true
+    - fill -25 -59 -25 -25 0 24 barrier
+    - fill 24 -59 -25 -25 0 -25 barrier
+    # - fill -24 -64 -24 -24 0 24 minecraft:obsidian
+    # - fill 24 -64 -24 -24 0 24 minecraft:obsidian
+    # - fill 24 -64 24 -24 0 24 minecraft:obsidian
+    # - fill -24 -64 -24 -24 0 -24 minecraft:obsidian
+    - fill -25 -59 24 -25 -25 -25 barrier
+    - fill 24 -59 -25 -25 -25 -25 barrier
+    - fill 24 -59 24 24 -25 -25 barrier
+    - fill 24 -59 24 -25 -25 24 barrier
+    - fill 23 -59 23 -24 -25 23 obsidian
+    - fill 23 -59 23 23 -25 -24 obsidian
+    - fill 23 -59 -24 -24 -25 -24 obsidian
+    - fill -24 -59 23 -24 -25 -24 obsidian
+    - fill 23 -60 23 -23 -59 23 bedrock
+    - fill 23 -60 23 23 -59 -23 bedrock
+    - fill 23 -60 -23 -23 -59 -23 bedrock
+    - fill -23 -60 23 -23 -59 -23 bedrock
+    - fill 24 -25 24 -24 -25 -24 air

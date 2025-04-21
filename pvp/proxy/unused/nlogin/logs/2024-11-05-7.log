@@ -1,0 +1,36 @@
+[2024/11/05 18:06:37]: §9          __             _       
+[2024/11/05 18:06:37]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/11/05 18:06:37]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/11/05 18:06:37]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/11/05 18:06:37]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/11/05 18:06:37]: §9                  |___/            
+[2024/11/05 18:06:37]: §9 By: www.nickuc.com - V 10.4.13 DEVELOPMENT
+[2024/11/05 18:06:37]: §9 
+[2024/11/05 18:06:38]: §3[nLogin] [DEBUG] All settings were loaded in 453 ms.
+[2024/11/05 18:06:38]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/11/05 18:06:38]: §3[nLogin] [DEBUG] All plugin messages were loaded in 181 ms (languageByClient=false).
+[2024/11/05 18:06:38]: §3[nLogin] [DEBUG] All proxy settings were loaded in 39 ms.
+[2024/11/05 18:06:38]: §3[nLogin] [DEBUG] Loading database...
+[2024/11/05 18:06:38]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/11/05 18:06:44]: 
+[2024/11/05 18:06:44]:  §bThank you so much for choosing nLogin! §4<3
+[2024/11/05 18:06:44]: 
+[2024/11/05 18:06:44]:  §4For your safety, please read the message below:
+[2024/11/05 18:06:44]:   §cNever download nLogin from unknown sources.
+[2024/11/05 18:06:44]:   §cA modified version may contain malicious software.
+[2024/11/05 18:06:44]: 
+[2024/11/05 18:06:44]:  §3Trusted sources:
+[2024/11/05 18:06:44]:   §bwww.nickuc.com
+[2024/11/05 18:06:44]:   §bwww.github.com/nickuc
+[2024/11/05 18:06:44]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2024/11/05 18:06:44]: 
+[2024/11/05 18:06:44]:  §3Official support channels:
+[2024/11/05 18:06:44]:   §bDiscord group: §fwww.nickuc.com/discord
+[2024/11/05 18:06:44]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2024/11/05 18:06:44]:   §bEmail: §fsupport@nickuc.com
+[2024/11/05 18:06:44]:   §bYouTube: §fyoutube.com/nickuc
+[2024/11/05 18:06:44]: 
+[2024/11/05 18:06:44]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2024/11/05 18:06:44]:  §eand click the "Setup plugin" button to configure your plugin.
+[2024/11/05 18:06:44]: 
+[2024/11/05 18:07:30]: [nLogin] Successful plugin core shutdown (took 0.03s)

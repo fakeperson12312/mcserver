@@ -1,0 +1,49 @@
+[2025/04/10 19:47:25]: §9          __             _       
+[2025/04/10 19:47:25]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/04/10 19:47:25]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/04/10 19:47:25]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/04/10 19:47:25]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/04/10 19:47:25]: §9                  |___/            
+[2025/04/10 19:47:25]: §9 By: www.nickuc.com - V 10.4.21
+[2025/04/10 19:47:25]: §9 
+[2025/04/10 19:47:25]: §3[nLogin] [DEBUG] All settings were loaded in 142 ms.
+[2025/04/10 19:47:25]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/04/10 19:47:25]: §3[nLogin] [DEBUG] All plugin messages were loaded in 53 ms (languageByClient=false).
+[2025/04/10 19:47:25]: §3[nLogin] [DEBUG] All proxy settings were loaded in 9 ms.
+[2025/04/10 19:47:25]: §3[nLogin] [DEBUG] Loading database...
+[2025/04/10 19:47:25]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/04/10 19:47:30]: 
+[2025/04/10 19:47:30]:  §bThank you so much for choosing nLogin! §4<3
+[2025/04/10 19:47:30]: 
+[2025/04/10 19:47:30]:  §4For your safety, please read the message below:
+[2025/04/10 19:47:30]:   §cNever download nLogin from unknown sources.
+[2025/04/10 19:47:30]:   §cA modified version may contain malicious software.
+[2025/04/10 19:47:30]: 
+[2025/04/10 19:47:30]:  §3Trusted sources:
+[2025/04/10 19:47:30]:   §bwww.nickuc.com
+[2025/04/10 19:47:30]:   §bwww.github.com/nickuc
+[2025/04/10 19:47:30]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/04/10 19:47:30]: 
+[2025/04/10 19:47:30]:  §3Official support channels:
+[2025/04/10 19:47:30]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/04/10 19:47:30]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/04/10 19:47:30]:   §bEmail: §fsupport@nickuc.com
+[2025/04/10 19:47:30]:   §bYouTube: §fyoutube.com/nickuc
+[2025/04/10 19:47:30]: 
+[2025/04/10 19:47:30]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/04/10 19:47:30]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/04/10 19:47:30]: 
+[2025/04/10 19:50:21]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:50:24]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:50:24.905, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/10 19:50:24]: [nLogin] The user Yuvrajxd has successfully logged in.
+[2025/04/10 19:51:00]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:51:10]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Yuvrajxd', `unique_id` = f435e6d7a0323164a81a10125e1f4cb2,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ND/Mw1m6MWJvoK.yk.V/.uUSa.FEgEhfBNDdhNY.KaS39WJLoFmbS', `last_ip` = '64.150.2.25', `creation_date` = 2024-11-06 14:29:53.137, `last_seen` = 2025-04-10 19:51:10.186, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"main","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 6" (applied to [last_seen, settings] columns)
+[2025/04/10 19:52:07]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:52:10]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:52:21]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:52:22]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:52:37]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:52:51]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:53:01]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:53:11]: §e[nLogin] [WARN] Could not decode plugin message packet from "main": missing secret
+[2025/04/10 19:54:23]: [nLogin] Successful plugin core shutdown (took 0.00s)
